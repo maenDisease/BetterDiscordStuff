@@ -1,0 +1,93 @@
+/*betterInvites*/
+/*invite top text*/
+.wrapper-35wsBm .colorStandard-2KCXvj{
+  position: relative;
+  z-index: 1;
+}
+/*banner*/
+.BetterInvites-guildBanner {
+  max-height: 173px;
+  margin: -94px -16px;  
+  top: 50px;
+  overflow: hidden;
+  border-radius: 8px 8px 0px 0px;
+  margin-bottom: 0% !important;
+}
+.BetterInvites-guildBanner img {
+  max-height: 173px !important;
+  border-radius: 8px 8px 0px 0px !important;
+  transform: scale(1);  
+  -webkit-transition: transform .15s ease-out;
+  transition: transform .15s ease-out;
+}
+.wrapper-35wsBm:hover .BetterInvites-guildBanner img {
+  transform: scale(1.05);
+  -webkit-transition: transform .15s ease-out;
+  transition: transform .15s ease-out;
+}
+/*guildIcon*/
+.iconSizeLarge-161qtT {
+  border: 6px solid var(--background-secondary-alt);
+  background-color: var(--background-secondary-alt);
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  -webkit-transition: border-radius .15s ease-out;
+  transition: border-radius .15s ease-out;
+}
+.wrapper-35wsBm:hover .iconSizeLarge-161qtT {
+  border-radius: 35px !important;
+  -webkit-transition: border-radius .1s ease-out;
+  transition: border-radius .15s ease-out;
+}
+/*join button*/
+.content-2U5lSY { position:relative; }
+.content-2U5lSY .button-3To2tQ{
+  font-weight: bold;
+  position:absolute;
+  left: -4px;
+  top:6px;
+  height: 80px;
+  width: 80px;
+  border-radius: 29px;
+  opacity:0%;
+  background-color: rgba(0, 0, 0, 0.5) ;
+  transition: opacity .15s ease-out;
+}
+.content-2U5lSY .button-3To2tQ:hover{
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  opacity: 100%;
+  transition: opacity .15s ease-out;
+}
+/*guildInfo*/
+.content-2U5lSY .inviteDestination-1fAcY7,
+.content-2U5lSY .guildDetail-1nRKNE {
+  position: relative;
+  top: 30px !important;
+}
+.content-2U5lSY .inviteDestinationExpired-2_1Ava,
+.content-2U5lSY .inviteDestinationExpired-2_1Ava + .guildDetail-1nRKNE,
+.content-2U5lSY .guildIconExpired-2Qcq05{
+  position: relative;
+  top: 6px !important;
+}
+.content-2U5lSY .statusCounts-2qk4EE {
+  font-weight: normal;
+  font-size: 12px;
+}
+.content-2U5lSY .statusOffline-37RKt7 {
+  background-color: var(--interactive-normal);
+}
+.content-2U5lSY .BetterInvites-iconWrapper img{
+  width: 18px;
+  height: 18px !important;
+}
+.content-2U5lSY .BetterInvites-iconWrapper{
+  height: 0px;
+  padding-top: 57px !important;
+}
+/*background*/
+.wrapper-35wsBm {
+  background: linear-gradient(0deg, var(--background-secondary-alt) 62px, var(--background-tertiary) 62px);
+  border-radius: 8px;
+}
