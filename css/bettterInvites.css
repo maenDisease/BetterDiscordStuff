@@ -1,11 +1,11 @@
 /*betterInvites*/
 /*background*/
-.wrapper-35wsBm {
+.wrapper-35wsBm, .wrapper-1HIH0j {
   background: linear-gradient(0deg, var(--background-secondary-alt) 62px, var(--background-tertiary) 62px);
   border-radius: 8px;
 }
 /*invite top text*/
-.wrapper-35wsBm .header-2BTCnc {
+.wrapper-35wsBm .header-2BTCnc, .wrapper-1HIH0j .header-3anOjb {
   position: relative;
   z-index: 1;
 }
@@ -25,14 +25,14 @@
   -webkit-transition: transform .2s ease-out;
   transition: transform .2s ease;
 }
-.wrapper-35wsBm:hover .BetterInvites-guildBanner img {
+.wrapper-35wsBm:hover .BetterInvites-guildBanner img, .wrapper-1HIH0j:hover .BetterInvites-guildBanner img {
   transform: scale(1.05);
   -webkit-transition: transform .2s ease-out;
   transition: transform .2s ease;
 }
 
 /*guildIcon*/
-.iconSizeLarge-161qtT {
+.iconSizeLarge-161qtT, .iconSizeLarge-_r2zCK {
   border: 6px solid var(--background-secondary-alt);
   background-color: var(--background-secondary-alt);
   width: 80px;
@@ -41,60 +41,69 @@
   -webkit-transition: border-radius .2s ease-out;
   transition: border-radius .2s ease-out;
 }
-.wrapper-35wsBm:hover .iconSizeLarge-161qtT {
+.wrapper-35wsBm:hover .iconSizeLarge-161qtT, .wrapper-1HIH0j:hover .iconSizeLarge-_r2zCK {
   border-radius: 35px;
-  -webkit-transition: border-radius .1s ease-out;
+  -webkit-transition: border-radius .2s ease-out;
   transition: border-radius .2s ease-out;
 }
 
 /*join button*/
-.content-2U5lSY { position:relative; }
-.content-2U5lSY .button-3To2tQ{
+.content-2U5lSY, .content-1r-J1r { position:relative; }
+.content-2U5lSY .button-3To2tQ, .wrapper-1HIH0j .button-2b4VEQ{
   font-weight: 700;
   position:absolute;
   left: -4px;
   top:6px;
   height: 80px;
   width: 80px;
-  border-radius: 29px;
-  opacity:0;
   background-color: rgba(0,0,0,0.5);
-  transition: opacity .2s ease-out;
+  border-radius: 40px;
+  opacity:0;
+  transition: opacity .2s ease-out, border-radius .2s ease-out;
 }
-.content-2U5lSY .button-3To2tQ:hover {
+.content-2U5lSY .button-3To2tQ:hover, .wrapper-1HIH0j .button-2b4VEQ:hover {
   background-color: rgba(0,0,0,0.5);
   opacity: 1;
-  transition: opacity .2s ease-out;
+  transition: opacity .2s ease-out, border-radius .2s ease-out;
 }
-.content-2U5lSY .buttonSize-DbrWhv .contents-18-Yxp {
+.content-2U5lSY:hover .button-3To2tQ, .wrapper-1HIH0j:hover .button-2b4VEQ {
+  border-radius: 29px;
+  transition: opacity .2s ease-out, border-radius .2s ease-out;
+}
+.content-2U5lSY .buttonSize-DbrWhv .contents-18-Yxp, .wrapper-1HIH0j .buttonSize-3QlBTl .contents-3ca1mk {
   text-overflow: unset;
   overflow: visible;
 }
 
 /*guildInfo*/
 .content-2U5lSY .inviteDestination-1fAcY7,
-.content-2U5lSY .guildDetail-1nRKNE {
+.content-2U5lSY .guildDetail-1nRKNE,
+.wrapper-1HIH0j .inviteDestination-1rM5rX,
+.wrapper-1HIH0j .guildDetail-3EJhW_ {
   position: relative;
   top: 30px;
 }
 .content-2U5lSY .inviteDestinationExpired-2_1Ava,
 .content-2U5lSY .inviteDestinationExpired-2_1Ava + .guildDetail-1nRKNE,
-.content-2U5lSY .guildIconExpired-2Qcq05 {
+.content-2U5lSY .guildIconExpired-2Qcq05,
+.wrapper-1HIH0j .inviteDestinationExpired-1n9a5a,
+.wrapper-1HIH0j .inviteDestinationExpired-1n9a5a + .guildDetail-3EJhW_,
+.wrapper-1HIH0j .guildIconExpired-2BFmZC {
   position: relative;
   top: 6px !important;
 }
-.content-2U5lSY .statusCounts-2qk4EE {
+.content-2U5lSY .statusCounts-2qk4EE, .wrapper-1HIH0j .statusCounts-3GLDH6 {
   font-weight: 400;
   font-size: 12px;
 }
-.content-2U5lSY .statusOffline-37RKt7 {
+.content-2U5lSY .statusOffline-37RKt7, .wrapper-1HIH0j .statusOffline-2R-ArP {
   background-color: var(--interactive-normal);
 }
-.content-2U5lSY .BetterInvites-iconWrapper img {
+.content-2U5lSY .BetterInvites-iconWrapper img, .wrapper-1HIH0j .BetterInvites-iconWrapper img {
   width: 18px;
   height: 18px !important;
 }
-.content-2U5lSY .BetterInvites-iconWrapper {
+.content-2U5lSY .BetterInvites-iconWrapper, .wrapper-1HIH0j .BetterInvites-iconWrapper {
   height: 0;
   padding-top: 57px;
 }
