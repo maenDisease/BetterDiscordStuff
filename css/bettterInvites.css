@@ -1,109 +1,180 @@
 /*betterInvites*/
-/*background*/
-.wrapper-35wsBm, .wrapper-1HIH0j {
-  background: linear-gradient(0deg, var(--background-secondary-alt) 62px, var(--background-tertiary) 62px);
-  border-radius: 8px;
+:root {
+  --bInvBannerHeight: 173px;/*default 173px, min: 90px*/
+  --bInvBannerZoom: 105%;/*default 1.05*/
+  --bInvGuildRadius: 50px;/*default 50px*/
+  --bInvGuildRadiusHover: 32px;/*default 32px*/
+  --bInvGuildHoverColor: rgba(0, 0, 0, 0.5);/*default rgba(0, 0, 0, 0.5*/
+  --bInvPrimaryColor: var(--background-secondary-alt);/*default var(--background-secondary-alt)*/
+  --bInvSecondaryColor: var(--background-tertiary);/*default var(--background-tertiary)*/
 }
-/*invite top text*/
-.wrapper-35wsBm .header-2BTCnc, .wrapper-1HIH0j .header-3anOjb {
+
+/*background*/
+.wrapper-1HIH0j {
+  background: linear-gradient(180deg, var(--bInvSecondaryColor) 87px, var(--bInvPrimaryColor) 62px);
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+  overflow: hidden;
+  min-height: 92px;
+}
+.content-1r-J1r {
   position: relative;
+  min-height: 89px;
   z-index: 1;
+}
+
+/*invite top text*/
+.wrapper-1HIH0j .header-3anOjb {
+  position: relative;
+  z-index: 2;
 }
 
 /*banner*/
 .BetterInvites-guildBanner {
-  max-height: 173px;
-  margin: -94px -16px;  
-  top: 50px;
+  max-height: var(--bInvBannerHeight);
+  margin: -87px 0;
+  top: 43px;
+  right: 16px;
   overflow: hidden;
   border-radius: 8px 8px 0 0;
   margin-bottom: 0 !important;
+  width: 432px;
 }
 .BetterInvites-guildBanner img {
-  max-height: 173px !important;
+  max-height: var(--bInvBannerHeight) !important;
   border-radius: 8px 8px 0 0 !important;
-  -webkit-transition: transform .2s ease-out;
+  -webkit-transition: transform .2s ease;
   transition: transform .2s ease;
 }
-.wrapper-35wsBm:hover .BetterInvites-guildBanner img, .wrapper-1HIH0j:hover .BetterInvites-guildBanner img {
-  transform: scale(1.05);
+.wrapper-1HIH0j:hover .BetterInvites-guildBanner img {
+  transform: scale(var(--bInvBannerZoom));
   -webkit-transition: transform .2s ease-out;
-  transition: transform .2s ease;
+  transition: transform .2s ease-out;
 }
 
 /*guildIcon*/
-.iconSizeLarge-161qtT, .iconSizeLarge-_r2zCK {
-  border: 6px solid var(--background-secondary-alt);
-  background-color: var(--background-secondary-alt);
+.guildIcon-3ZfRfI {
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0 0 0 6px var(--bInvPrimaryColor);
+  background-color: var(--bInvPrimaryColor);
   width: 80px;
   height: 80px;
   border-radius: 50px;
-  -webkit-transition: border-radius .2s ease-out;
-  transition: border-radius .2s ease-out;
+  -webkit-transition: border-radius .2s ease;
+  transition: border-radius .2s ease-in;
 }
-.wrapper-35wsBm:hover .iconSizeLarge-161qtT, .wrapper-1HIH0j:hover .iconSizeLarge-_r2zCK {
-  border-radius: 35px;
+.wrapper-1HIH0j:hover .guildIcon-3ZfRfI {
+  border-radius: var(--bInvGuildRadiusHover);
   -webkit-transition: border-radius .2s ease-out;
   transition: border-radius .2s ease-out;
 }
 
 /*join button*/
-.content-2U5lSY, .content-1r-J1r { position:relative; }
-.content-2U5lSY .button-3To2tQ, .wrapper-1HIH0j .button-2b4VEQ{
-  font-weight: 700;
-  position:absolute;
-  left: -4px;
-  top:6px;
-  height: 80px;
+.BetterInvites-guildJoinButton {
+  position: relative !important;
+  margin-top: 0 !important;
+  z-index: 1;
   width: 80px;
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 40px;
-  opacity:0;
-  transition: opacity .2s ease-out, border-radius .2s ease-out;
 }
-.content-2U5lSY .button-3To2tQ:hover, .wrapper-1HIH0j .button-2b4VEQ:hover {
-  background-color: rgba(0,0,0,0.5);
-  opacity: 1;
-  transition: opacity .2s ease-out, border-radius .2s ease-out;
-}
-.content-2U5lSY:hover .button-3To2tQ, .wrapper-1HIH0j:hover .button-2b4VEQ {
-  border-radius: 29px;
-  transition: opacity .2s ease-out, border-radius .2s ease-out;
-}
-.content-2U5lSY .buttonSize-DbrWhv .contents-18-Yxp, .wrapper-1HIH0j .buttonSize-3QlBTl .contents-3ca1mk {
+.wrapper-1HIH0j .buttonSize-3QlBTl .contents-3ca1mk {
+  position: relative;
   text-overflow: unset;
   overflow: visible;
 }
+.BetterInvites-guildJoinButton .lookFilled-yCfaCM.colorGreen-3y-Z79,
+.wrapper-1HIH0j .button-2b4VEQ {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  height: 80px;
+  font-weight: 700;
+  opacity: 0;
+  background-color: var(--bInvGuildHoverColor) !important;
+  border-radius: var(--bInvGuildRadius);
+  transition: opacity .2s ease-out, border-radius .2s ease-in;
+}
+/*button hover*/
+.BetterInvites-guildJoinButton:hover .lookFilled-yCfaCM.colorGreen-3y-Z79,
+.wrapper-1HIH0j .button-2b4VEQ:hover {
+  background-color: var(--bInvGuildHoverColor);
+  opacity: 1 !important;
+  transition: opacity .2s ease-out, border-radius .2s ease-out;
+}
+.wrapper-1HIH0j:hover .button-2b4VEQ {
+  border-radius: var(--bInvGuildRadiusHover);
+  transition: opacity .2s ease-out, border-radius .2s ease-out;
+}
 
 /*guildInfo*/
-.content-2U5lSY .inviteDestination-1fAcY7,
-.content-2U5lSY .guildDetail-1nRKNE,
-.wrapper-1HIH0j .inviteDestination-1rM5rX,
-.wrapper-1HIH0j .guildDetail-3EJhW_ {
+.wrapper-1HIH0j .guildInfo-UCKhrV {
   position: relative;
-  top: 30px;
+  bottom: 0;
+  justify-content: flex-end;
 }
-.content-2U5lSY .inviteDestinationExpired-2_1Ava,
-.content-2U5lSY .inviteDestinationExpired-2_1Ava + .guildDetail-1nRKNE,
-.content-2U5lSY .guildIconExpired-2Qcq05,
-.wrapper-1HIH0j .inviteDestinationExpired-1n9a5a,
-.wrapper-1HIH0j .inviteDestinationExpired-1n9a5a + .guildDetail-3EJhW_,
-.wrapper-1HIH0j .guildIconExpired-2BFmZC {
-  position: relative;
-  top: 6px !important;
+.wrapper-1HIH0j .guildInfo-UCKhrV>* {
+  padding-left: 108px;
 }
-.content-2U5lSY .statusCounts-2qk4EE, .wrapper-1HIH0j .statusCounts-3GLDH6 {
+.wrapper-1HIH0j .statusCounts-3GLDH6 {
   font-weight: 400;
   font-size: 12px;
 }
-.content-2U5lSY .statusOffline-37RKt7, .wrapper-1HIH0j .statusOffline-2R-ArP {
+.wrapper-1HIH0j .statusOffline-2R-ArP {
   background-color: var(--interactive-normal);
 }
-.content-2U5lSY .BetterInvites-iconWrapper img, .wrapper-1HIH0j .BetterInvites-iconWrapper img {
+.wrapper-1HIH0j .BetterInvites-iconWrapper img {
   width: 18px;
   height: 18px !important;
 }
-.content-2U5lSY .BetterInvites-iconWrapper, .wrapper-1HIH0j .BetterInvites-iconWrapper {
+.wrapper-1HIH0j .BetterInvites-iconWrapper {
+  position: absolute;
+  bottom: 39px;
+  right: 0;
   height: 0;
-  padding-top: 57px;
+}
+
+/*description*/
+.BetterInvites-guildDescription {
+  margin: 16px 0 0 0 !important;
+  color: var(--header-secondary);
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+  width: 400px;
+}
+
+/*expired invite*/
+.wrapper-1HIH0j .inviteDestinationExpired-1n9a5a,
+.wrapper-1HIH0j .inviteDestinationExpired-1n9a5a+.guildDetail-3EJhW_ {
+  position: relative;
+  right: 97px;
+}
+.guildIconExpired-2BFmZC {
+  position: relative;
+  top: 6px !important;
+  background-size: 110%;
+}
+
+/*custom banners*/
+.guildIcon-3ZfRfI::after {
+  display: block;
+  position: relative;
+  content: "";
+  z-index: -1;
+  right: 16px;
+  bottom: calc(var(--bInvBannerHeight) - 34px);
+  width: 432px;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  background-position: center !important;
+  -webkit-transition: background-size .2s ease;
+  transition: background-size .2s ease;
+  height: var(--bInvBannerHeight);
+}
+.wrapper-1HIH0j:hover .guildIcon-3ZfRfI::after {
+  background-size: var(--bInvBannerZoom) !important;
+  -webkit-transition: background-size .2s ease-out;
+  transition: background-size .2s ease-out;
 }
