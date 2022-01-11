@@ -1,4 +1,6 @@
 /*betterInvites*/
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bInvCustomBanners.css");
+
 :root {
   --bInvBannerHeight: 173px;/*default 173px, min: 90px*/
   --bInvBannerZoom: 105%;/*default 1.05*/
