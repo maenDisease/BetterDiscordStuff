@@ -1,0 +1,8 @@
+.guildIcon-3ZfRfI[style*="901774051318591508"]+.guildInfo-UCKhrV,
+.guildIcon-3ZfRfI[style*="280806472928198656"]+.guildInfo-UCKhrV,
+.guildIcon-3ZfRfI[style*="679501581661896774"]+.guildInfo-UCKhrV {
+    height: calc(2px + var(--bInvBannerHeight));
+}
+
+.guildIcon-3ZfRfI[style*='280806472928198656']::after{background:url("https://i.imgur.com/aWhYoEO.png");}
+.guildIcon-3ZfRfI[style*='679501581661896774']::after{background:url("https://i.imgur.com/Zh5iJpw.png");}
