@@ -1,14 +1,16 @@
-/*betterInvites*/
+/*custom banners*/
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bInvCustomBanners.css");
 
+/*betterInvites*/
+
 :root {
-  --bInvBannerHeight: 173px;/*default 173px, min: 90px*/
-  --bInvBannerZoom: 105%;/*default 1.05*/
-  --bInvGuildRadius: 50px;/*default 50px*/
-  --bInvGuildRadiusHover: 32px;/*default 32px*/
-  --bInvGuildHoverColor: rgba(0, 0, 0, 0.5);/*default rgba(0, 0, 0, 0.5*/
-  --bInvPrimaryColor: var(--background-secondary-alt);/*default var(--background-secondary-alt)*/
-  --bInvSecondaryColor: var(--background-tertiary);/*default var(--background-tertiary)*/
+  --bInvBannerHeight: 173px; /*min: 90px*/
+  --bInvBannerZoom: 105%;
+  --bInvGuildRadius: 50px;
+  --bInvGuildRadiusHover: 32px;
+  --bInvGuildHoverColor: rgba(0, 0, 0, 0.5);
+  --bInvPrimaryColor: var(--background-secondary-alt);
+  --bInvSecondaryColor: var(--background-tertiary);
 }
 
 /*background*/
@@ -19,7 +21,8 @@
   overflow: hidden;
   min-height: 92px;
 }
-.content-1r-J1r {
+
+.wrapper-1HIH0j .content-1r-J1r {
   position: relative;
   min-height: 89px;
   z-index: 1;
@@ -42,12 +45,14 @@
   margin-bottom: 0 !important;
   width: 432px;
 }
+
 .BetterInvites-guildBanner img {
   max-height: var(--bInvBannerHeight) !important;
   border-radius: 8px 8px 0 0 !important;
   -webkit-transition: transform .2s ease;
   transition: transform .2s ease;
 }
+
 .wrapper-1HIH0j:hover .BetterInvites-guildBanner img {
   transform: scale(var(--bInvBannerZoom));
   -webkit-transition: transform .2s ease-out;
@@ -57,88 +62,60 @@
 /*guildIcon*/
 .guildIcon-3ZfRfI {
   position: absolute;
-  bottom: 0;
+  top: 0;
   box-shadow: 0 0 0 6px var(--bInvPrimaryColor);
   background-color: var(--bInvPrimaryColor);
   width: 80px;
   height: 80px;
-  border-radius: 50px;
+  border-radius: var(--bInvGuildRadius);
   -webkit-transition: border-radius .2s ease;
   transition: border-radius .2s ease-in;
 }
+
 .wrapper-1HIH0j:hover .guildIcon-3ZfRfI {
   border-radius: var(--bInvGuildRadiusHover);
   -webkit-transition: border-radius .2s ease-out;
   transition: border-radius .2s ease-out;
 }
 
-/*join button*/
-.BetterInvites-guildJoinButton {
-  position: relative !important;
-  margin-top: 0 !important;
-  z-index: 1;
-  width: 80px;
-}
-.wrapper-1HIH0j .buttonSize-3QlBTl .contents-3ca1mk {
-  position: relative;
-  text-overflow: unset;
-  overflow: visible;
-}
-.BetterInvites-guildJoinButton .lookFilled-yCfaCM.colorGreen-3y-Z79,
-.wrapper-1HIH0j .button-2b4VEQ {
-  position: absolute;
-  margin: 0;
-  left: 0;
-  bottom: 0;
-  width: 80px;
-  height: 80px;
-  font-weight: 700;
-  opacity: 0;
-  background-color: var(--bInvGuildHoverColor) !important;
-  border-radius: var(--bInvGuildRadius);
-  transition: opacity .2s ease-out, border-radius .2s ease-in;
-}
-/*button hover*/
-.BetterInvites-guildJoinButton:hover .lookFilled-yCfaCM.colorGreen-3y-Z79,
-.wrapper-1HIH0j .button-2b4VEQ:hover {
-  background-color: var(--bInvGuildHoverColor);
-  opacity: 1 !important;
-  transition: opacity .2s ease-out, border-radius .2s ease-out;
-}
-.wrapper-1HIH0j:hover .button-2b4VEQ {
-  border-radius: var(--bInvGuildRadiusHover);
-  transition: opacity .2s ease-out, border-radius .2s ease-out;
-}
-
 /*guildInfo*/
 .wrapper-1HIH0j .guildInfo-UCKhrV {
-  position: relative;
-  bottom: 0;
-  justify-content: flex-end;
+  justify-content: initial;
+  transform: translate(0, 50px);
 }
+
 .wrapper-1HIH0j .guildInfo-UCKhrV>* {
   padding-left: 108px;
 }
+
 .wrapper-1HIH0j .statusCounts-3GLDH6 {
   font-weight: 400;
   font-size: 12px;
 }
+
 .wrapper-1HIH0j .statusOffline-2R-ArP {
   background-color: var(--interactive-normal);
 }
+
+/*additional details*/
 .wrapper-1HIH0j .BetterInvites-iconWrapper img {
   width: 18px;
   height: 18px !important;
 }
+
 .wrapper-1HIH0j .BetterInvites-iconWrapper {
-  position: absolute;
-  bottom: 39px;
-  right: 0;
-  height: 0;
+  position: relative;
+  top: 50px;
+  height: 18px;
 }
 
 /*description*/
 .BetterInvites-guildDescription {
+  padding: 0;
+  padding-top: 40px;
+}
+
+.BetterInvites-guildDescription .markup-eYLPri {
   margin: 16px 0 0 0 !important;
   color: var(--header-secondary);
   font-size: 14px;
@@ -147,12 +124,46 @@
   width: 400px;
 }
 
+/*join button*/
+.wrapper-1HIH0j .buttonSize-3QlBTl .contents-3ca1mk {
+  position: relative;
+  text-overflow: unset;
+  overflow: visible;
+}
+
+.wrapper-1HIH0j .button-2b4VEQ {
+  position: absolute;
+  margin: 0 !important;
+  left: 0;
+  top: 0;
+  width: 80px !important;
+  height: 80px;
+  font-weight: 700;
+  opacity: 0;
+  background-color: var(--bInvGuildHoverColor) !important;
+  border-radius: var(--bInvGuildRadius);
+  transition: opacity .2s ease-out, border-radius .2s ease-in;
+}
+
+.BetterInvites-guildJoinButton:hover .lookFilled-yCfaCM.colorGreen-3y-Z79,
+.wrapper-1HIH0j .button-2b4VEQ:hover {
+  background-color: var(--bInvGuildHoverColor);
+  opacity: 1 !important;
+  transition: opacity .2s ease-out, border-radius .2s ease-out;
+}
+
+.wrapper-1HIH0j:hover .button-2b4VEQ {
+  border-radius: var(--bInvGuildRadiusHover);
+  transition: opacity .2s ease-out, border-radius .2s ease-out;
+}
+
 /*expired invite*/
 .wrapper-1HIH0j .inviteDestinationExpired-1n9a5a,
 .wrapper-1HIH0j .inviteDestinationExpired-1n9a5a+.guildDetail-3EJhW_ {
   position: relative;
   right: 97px;
 }
+
 .guildIconExpired-2BFmZC {
   position: relative;
   top: 6px !important;
@@ -165,8 +176,8 @@
   position: relative;
   content: "";
   z-index: -1;
+  bottom: calc(var(--bInvBannerHeight) - 43px);
   right: 16px;
-  bottom: calc(var(--bInvBannerHeight) - 34px);
   width: 432px;
   background-repeat: no-repeat !important;
   background-size: 100% !important;
@@ -175,8 +186,10 @@
   transition: background-size .2s ease;
   height: var(--bInvBannerHeight);
 }
+
 .wrapper-1HIH0j:hover .guildIcon-3ZfRfI::after {
   background-size: var(--bInvBannerZoom) !important;
   -webkit-transition: background-size .2s ease-out;
   transition: background-size .2s ease-out;
 }
+:root {--bInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;}
