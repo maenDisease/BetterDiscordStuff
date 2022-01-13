@@ -85,6 +85,10 @@
   transform: translate(0, 50px);
 }
 
+.wrapper-1HIH0j .channelName-2GMEH5, .wrapper-1HIH0j .guildName-3G4jq- {
+  width:0;
+}
+
 .wrapper-1HIH0j .guildInfo-UCKhrV>* {
   padding-left: 108px;
 }
