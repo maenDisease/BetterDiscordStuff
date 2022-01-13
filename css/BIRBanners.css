@@ -1,3 +1,8 @@
+.guildIcon-3ZfRfI[style*='410787888507256842'],
+.guildIcon-3ZfRfI[style*='410787888507256842']~*{margin:var(--bInvM6)!important;}
+.guildIcon-3ZfRfI[style*='410787888507256842']::after {
+background: url(https://mwittrien.github.io/BetterDiscordAddons/Library/_res/BDFDB.banner.png);}
+
 .guildIcon-3ZfRfI[style*='894309668816560128'],
 .guildIcon-3ZfRfI[style*='894309668816560128']~*{margin:var(--bInvM6)!important;}
 .guildIcon-3ZfRfI[style*='894309668816560128']::after {
