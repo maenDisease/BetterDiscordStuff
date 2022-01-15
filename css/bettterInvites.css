@@ -18,7 +18,7 @@
 .wrapper-1HIH0j {
   background: linear-gradient(180deg, var(--bInvSecondaryColor) 87px, var(--bInvPrimaryColor) 62px);
   border-radius: 8px;
-  padding: 16px 16px 16px 16px;
+  padding: 16px;
   overflow: hidden;
   min-height: 92px;
 }
@@ -83,9 +83,6 @@
 .wrapper-1HIH0j .guildInfo-UCKhrV {
   justify-content: initial;
   transform: translate(0, 50px);
-}
-
-.wrapper-1HIH0j .channelName-2GMEH5, .wrapper-1HIH0j .guildName-3G4jq- {
   width:0;
 }
 
@@ -116,8 +113,8 @@
 
 /*description*/
 .BetterInvites-guildDescription {
-  padding: 0;
-  padding-top: 40px;
+  padding: 40px 0 0 0;
+  width: 400px;
 }
 
 .BetterInvites-guildDescription .markup-eYLPri {
@@ -126,7 +123,6 @@
   font-size: 14px;
   line-height: 18px;
   position: relative;
-  width: 400px;
 }
 
 /*join button*/
@@ -166,6 +162,7 @@
 .wrapper-1HIH0j .inviteDestinationExpired-1n9a5a+.guildDetail-3EJhW_ {
   position: relative;
   right: 97px;
+  overflow: visible;
 }
 
 .guildIconExpired-2BFmZC {
