@@ -1,0 +1,64 @@
+.ChannelDms-channelpopout-popout {
+    color: var(--header-primary) !important;
+    border-radius: 8px;
+    resize: horizontal;
+    overflow: hidden;
+    direction: rtl
+}
+
+.ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed {
+    width: 100px !important
+}
+
+.ChannelDms-channelpopout-channelIcon,
+.ChannelDms-channelpopout-headerStatus {
+    margin: 0 8px !important
+}
+
+.ChannelDms-channelpopout-headerName {
+    font-size: 16px !important;
+    font-family: var(--font-display)
+}
+
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg,
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>.grid-1aWVsE>.imageWrapper-oMkQl4,
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>.imageWrapper-oMkQl4 {
+    height: auto !important;
+    width: unset !important
+}
+
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>.grid-1aWVsE>.imageWrapper-oMkQl4 img,
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>.imageWrapper-oMkQl4 img,
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>img:not(.embedGalleryImageElement-2VNYIN) {
+    position: relative;
+    height: auto !important;
+    width: unset !important;
+    max-width: 100%
+}
+
+.ChannelDms-channelpopout-collapseButton {
+    left: 10px !important;
+    top: 2px !important;
+    opacity: 0
+}
+
+.ChannelDms-channelpopout-collapseButton:hover,
+.ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed .ChannelDms-channelpopout-collapseButton {
+    opacity: 1
+}
+
+.ChannelDms-channelpopout-popout>* {
+    direction: ltr
+}
+
+.ChannelDms-channelpopout-removeButton {
+    top: 0 !important;
+    right: 0 !important;
+    opacity: 0
+}
+
+.ChannelDms-channelpopout-popout .button-1yVL_7 {
+    border-radius: 0;
+    width: 100%;
+    height: 36px
+}
