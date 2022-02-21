@@ -3,7 +3,24 @@
     border-radius: 8px;
     resize: horizontal;
     overflow: hidden;
+    height: fit-content !important;
     direction: rtl
+}
+
+.ChannelDms-channelpopout-popout>* {
+    direction: ltr
+}
+
+.ChannelDms-channelpopout-content {
+    min-height: 106px;
+    height: 600px;
+    max-height: 600px;
+    resize: vertical;
+    overflow: hidden
+}
+
+.ChannelDms-channelpopout-content>section {
+    height: calc(100% - 39px) !important
 }
 
 .ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed {
@@ -45,10 +62,6 @@
 .ChannelDms-channelpopout-collapseButton:hover,
 .ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed .ChannelDms-channelpopout-collapseButton {
     opacity: 1
-}
-
-.ChannelDms-channelpopout-popout>* {
-    direction: ltr
 }
 
 .ChannelDms-channelpopout-removeButton {
