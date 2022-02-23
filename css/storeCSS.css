@@ -1,0 +1,224 @@
+[aria-label="css-snippets (channel)"] .divider-IqmEqJ {
+    display: none
+}
+
+[aria-label="css-snippets (channel)"] .scrollerInner-2PPAp2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(328px, 328px));
+    column-width: 328px !important;
+    grid-gap: 16px;
+    padding-left: 16px
+}
+
+[aria-label="css-snippets (channel)"] .messageListItem-ZZ7v6g {
+    background: var(--background-secondary-alt);
+    border-radius: 8px;
+    max-width: 328px;
+    min-height: 375px;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transition: box-shadow .2s ease-out, transform .2s ease-out, background .2s ease-out, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out
+}
+
+[aria-label="css-snippets (channel)"] .messageListItem-ZZ7v6g:focus,
+[aria-label="css-snippets (channel)"] .messageListItem-ZZ7v6g:hover {
+    background: var(--background-tertiary);
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    box-shadow: var(--elevation-high);
+    -webkit-box-shadow: var(--elevation-high)
+}
+
+[aria-label="css-snippets (channel)"] .imageDetails-1t6Zms {
+    display: none
+}
+
+[aria-label="css-snippets (channel)"] .container-2sjPya>* {
+    align-self: center;
+    margin: 0 auto
+}
+
+[aria-label="css-snippets (channel)"] .imageWrapper-oMkQl4[style*="height: 300px;"] {
+    transform: translateY(-60px) scale(.6)
+}
+
+[aria-label="css-snippets (channel)"] .embedWrapper-1MtIDg {
+    height: auto !important;
+    width: unset !important
+}
+
+[aria-label="css-snippets (channel)"] .imageWrapper-oMkQl4 img {
+    position: relative;
+    height: auto !important;
+    width: unset !important;
+    max-width: 100%
+}
+
+[aria-label="css-snippets (channel)"] .message-2CShn3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri {
+    color: var(--header-secondary);
+    font-size: 14px;
+    width: calc(328px - 32px)
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri code:active>* {
+    display: block
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri>strong:first-child {
+    color: var(--header-primary);
+    font-weight: 600;
+    font-size: 16px
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri>.inline:first-child {
+    color: var(--header-primary) !important;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--font-primary);
+    margin: 0;
+    padding: 0;
+    background: 0 0
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri pre {
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    order: 1 !important
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri pre::after {
+    position: absolute;
+    height: 24px;
+    width: 59px;
+    content: 'Select';
+    margin-top: 9px;
+    right: -4px;
+    font-size: 14px;
+    pointer-events: none;
+    font-weight: 600;
+    font-family: var(--font-primary);
+    color: var(--interactive-normal)
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri pre code {
+    height: 24px;
+    width: 59px;
+    font-size: 12px;
+    -webkit-user-select: all;
+    user-select: all;
+    cursor: pointer
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri pre code::-webkit-scrollbar {
+    display: none
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri pre code>* {
+    opacity: 0
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri pre code:active>* {
+    opacity: 1
+}
+
+[aria-label="css-snippets (channel)"] .markup-eYLPri pre code:active {
+    max-height: 332px;
+    height: fit-content;
+    width: 280px;
+    font-size: 12px;
+    opacity: 1
+}
+
+[aria-label="css-snippets (channel)"] .container-2sjPya {
+    order: -1 !important;
+    width: 328px;
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 32px;
+    padding: 0;
+    position: absolute
+}
+
+[aria-label="css-snippets (channel)"] .messageListItem-ZZ7v6g .avatar-2e8lTP {
+    transform: translateY(-55px);
+    border-radius: 12px;
+    box-shadow: 0 0 0 4px var(--background-secondary-alt)
+}
+
+[aria-label="css-snippets (channel)"] .messageListItem-ZZ7v6g:focus .avatar-2e8lTP,
+[aria-label="css-snippets (channel)"] .messageListItem-ZZ7v6g:hover .avatar-2e8lTP {
+    box-shadow: 0 0 0 4px var(--background-tertiary)
+}
+
+[aria-label="css-snippets (channel)"] .header-2jRmjb {
+    z-index: 0;
+    position: absolute;
+    bottom: 16px;
+    left: 12px
+}
+
+[aria-label="css-snippets (channel)"] .headerText-2z4IhQ {
+    display: none
+}
+
+[aria-label="css-snippets (channel)"] .altText-sAs-Ao {
+    position: fixed;
+    top: 0;
+    right: 16px
+}
+
+[aria-label="css-snippets (channel)"] .messageContent-2t3eCI>.timestamp-p1Df1m {
+    position: fixed;
+    bottom: 4px;
+    left: 16px
+}
+
+[aria-label="css-snippets (channel)"] .contents-2MsGLg {
+    width: 100%;
+    padding: calc(180px + 27px) 16px 32px !important;
+    overflow: hidden;
+    background: 0 0
+}
+
+[aria-label="css-snippets (channel)"] .contents-2MsGLg::after {
+    display: block;
+    position: absolute;
+    content: '';
+    z-index: -1;
+    height: 180px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 8px 8px 0 0;
+    background: url(https://betterdiscord.app/resources/ui/content_thumbnail.svg) no-repeat center/40%, var(--background-tertiary)
+}
+
+[aria-label="css-snippets (channel)"] .message-2CShn3.selected-2LX7Jy,
+[aria-label="css-snippets (channel)"] .message-2CShn3:hover {
+    background: 0 0 !important
+}
+
+[aria-label="css-snippets (channel)"] .embed-hKpSrO img,
+[aria-label="css-snippets (channel)"] .embed-hKpSrO video,
+[aria-label="css-snippets (channel)"] .embedMedia-1mdWSP {
+    display: block;
+    border-radius: 8px 8px 0 0
+}
+
+[aria-label="css-snippets (channel)"] .repliedMessage-3Z6XBG {
+    position: absolute;
+    left: 53px;
+    top: -20px;
+    width: 270px
+}
