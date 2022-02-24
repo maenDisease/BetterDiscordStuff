@@ -15,6 +15,7 @@
     border-radius: 8px;
     max-width: 328px;
     min-height: 375px;
+    overflow: hidden;
     transform: translateY(0);
     -webkit-transform: translateY(0);
     transition: box-shadow .2s ease-out, transform .2s ease-out, background .2s ease-out, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out
@@ -180,8 +181,8 @@
     box-shadow: 0 0 0 4px var(--background-secondary-alt)
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g:focus .avatar-2e8lTP,
-.chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g:hover .avatar-2e8lTP {
+#app-mount .chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g:focus .avatar-2e8lTP,
+#app-mount .chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g:hover .avatar-2e8lTP {
     box-shadow: 0 0 0 4px var(--background-tertiary)
 }
 
@@ -232,7 +233,6 @@
     width: 100%;
     top: 0;
     right: 0;
-    border-radius: 8px 8px 0 0;
     background: url(https://betterdiscord.app/resources/ui/content_thumbnail.svg) no-repeat center/40%, var(--background-tertiary)
 }
 
@@ -241,16 +241,13 @@
     background: 0 0 !important
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .embed-hKpSrO img,
-.chatContent-3KubbW[aria-label^=css-snippets] .embed-hKpSrO video,
-.chatContent-3KubbW[aria-label^=css-snippets] .embedMedia-1mdWSP {
-    display: block;
-    border-radius: 8px 8px 0 0
-}
-
 .chatContent-3KubbW[aria-label^=css-snippets] .repliedMessage-3Z6XBG {
     position: absolute;
-    left: 53px;
-    top: -20px;
+    left: 16px;
+    top: 4px;
     width: 270px
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .repliedMessage-3Z6XBG::before {
+    display:none
 }
