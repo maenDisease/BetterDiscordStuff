@@ -43,20 +43,25 @@
 }
 
 .chatContent-3KubbW[aria-label^=css-snippets] .container-2sjPya>* {
-    align-self: center
-}
-
-.chatContent-3KubbW[aria-label^=css-snippets] .imageClickable-A5lRqS, 
-.chatContent-3KubbW[aria-label^=css-snippets] .imageWrapper-oMkQl4 {
-    display: grid;
-    place-items: center
+    align-self: center;
+    margin: 0 auto
 }
 
 .chatContent-3KubbW[aria-label^=css-snippets] .imageWrapper-oMkQl4[style*="height: 300px;"] {
     transform: translateY(-60px) scale(.6)
 }
 
-/* TODO */
+.chatContent-3KubbW[aria-label^=css-snippets] .embedWrapper-1MtIDg {
+    height: auto !important;
+    width: unset !important
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .imageWrapper-oMkQl4 img {
+    position: relative;
+    height: auto !important;
+    width: unset !important;
+    max-width: 100%
+}
 
 .chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 {
     margin: 0 !important;
