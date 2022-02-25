@@ -47,6 +47,11 @@
     margin: 0 auto
 }
 
+.chatContent-3KubbW[aria-label^=css-snippets] .imageWrapper-oMkQl4 {
+    display: grid;
+    place-items: center
+}
+
 .chatContent-3KubbW[aria-label^=css-snippets] .imageWrapper-oMkQl4[style*="height: 300px;"] {
     transform: translateY(-60px) scale(.6)
 }
