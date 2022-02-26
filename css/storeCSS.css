@@ -42,14 +42,15 @@
     display: none
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .container-2sjPya>* {
-    align-self: center;
-    margin: 0 auto
+.chatContent-3KubbW[aria-label^=css-snippets] .embed-hKpSrO {
+    display: grid;
+    align-self: center
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .imageWrapper-oMkQl4 {
-    display: grid;
-    place-items: center
+.chatContent-3KubbW[aria-label^=css-snippets] .embed-hKpSrO img,
+.chatContent-3KubbW[aria-label^=css-snippets] .embed-hKpSrO video,
+.chatContent-3KubbW[aria-label^=css-snippets] .wrapper-1FP9YQ {
+    margin: 0 auto
 }
 
 .chatContent-3KubbW[aria-label^=css-snippets] .imageWrapper-oMkQl4[style*="height: 300px;"] {
