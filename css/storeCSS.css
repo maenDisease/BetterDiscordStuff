@@ -128,23 +128,9 @@
     padding: 2px .5em .5em .5em !important
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre::after {
-    position: absolute;
-    height: 24px;
-    width: 59px;
-    content: 'Select';
-    margin-top: 9px;
-    right: -4px;
-    font-size: 14px;
-    pointer-events: none;
-    font-weight: 600;
-    font-family: var(--font-primary);
-    color: var(--interactive-normal)
-}
-
 .chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code {
     height: 24px;
-    width: 59px;
+    width: 100%;
     font-size: 12px;
     -webkit-user-select: all;
     user-select: all;
@@ -154,10 +140,6 @@
 .chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code .bd-codeblock-language,
 .chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code::-webkit-scrollbar {
     display: none
-}
-
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code>* {
-    opacity: 0
 }
 
 .chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code:active>* {
