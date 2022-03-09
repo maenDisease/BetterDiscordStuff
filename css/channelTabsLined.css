@@ -1,0 +1,163 @@
+.platform-osx .wrapper-1_HaEi {
+    margin-top: 0;
+}
+.platform-osx .sidebar-1tnWFu {
+    border-radius: 8px 0 0;
+    overflow: hidden;
+}
+
+.platform-osx .channelTabs-tabContainer {
+    padding: 7px 72px 3px 72px;
+}
+
+.channelTabs-tabContainer {
+    --channelTab-height: 22px;
+    --channelTab-width: 224px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 3px 8px;
+    -webkit-app-region: drag;
+
+    /* remove */
+    position: unset !important;
+    min-height: unset !important;
+    background: unset !important;
+}
+
+.channelTabs-tabContainer>* {
+    -webkit-app-region: no-drag;
+}
+
+#channelTabs-settingsMenu {
+    width: 20px !important;
+    height: 100% !important;
+}
+
+.channelTabs-tab {
+    display:flex !important;
+    align-items: center;
+    flex: 0 1 var(--channelTab-width);
+    min-width: 0;
+    height: var(--channelTab-height) !important;
+    border-radius: 4px;
+
+    /* remove */
+    position: unset !important;
+    width: unset !important;
+    margin: unset !important;
+    margin-left: unset !important;
+    padding: unset !important;
+    background: unset !important;
+    color: unset !important;
+    border: unset !important;
+    font-size: unset !important;
+}
+
+.channelTabs-tab.channelTabs-selected {
+    background: var(--background-modifier-selected) !important;
+
+    /* remove */
+    color: unset !important;
+}
+
+.channelTabs-tab:not(.channelTabs-selected):hover {
+    background: var(--background-modifier-hover) !important;
+}
+
+.channelTabs-tab>div:first-child {
+    display:flex;
+    width: calc(100% - 14px);
+    align-items: center;
+}
+.channelTabs-tab>div {
+    /* remove */
+    margin-right: unset !important;
+}
+
+.channelTabs-tabIcon.channelTabs-onlineIcon {
+    border: var(--channelTabs-tabStatusBorderThickness) solid rgb(67, 181, 129);
+}
+
+.channelTabs-tabIcon.channelTabs-noneIcon {
+    border: unset !important;
+}
+
+.channelTabs-tabIcon {
+    border-radius: 50% !important;
+    height: 20px !important;
+    margin: 0 6px;
+
+    /* remove */
+    display: unset !important;
+    position: unset !important;
+}
+
+.channelTabs-tabName {
+    margin: 0 6px 0 0 !important;
+    font-size: 12px;
+    color: var(--interactive-normal);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    /* remove */
+    display: unset !important;
+    position: unset !important;
+    width: unset !important;
+    height: unset !important;
+    top: unset !important;
+    left: unset !important;
+    bottom: unset !important;
+    right: unset !important;
+}
+
+.channelTabs-selected .channelTabs-tabName {
+    color: var(--interactive-active);
+}
+
+.channelTabs-TypingContainer {
+    order: 1;
+}
+
+.channelTabs-closeTab {
+    position: relative !important;
+    width: 14px !important;
+    height: 14px !important;
+    font-size: 14px !important;
+    line-height: 12px !important;
+    right: 6px !important;
+    text-align: center;
+    border-radius: 50% !important;
+    color: var(--interactive-normal) !important;
+    cursor: pointer;
+
+    /* remove */
+    display: unset !important;
+    background: unset !important;
+    top: unset !important;
+}
+
+.channelTabs-newTab {
+    width: 18px !important;
+    height: 18px !important;
+    margin: 0 0 0 6px !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--interactive-normal) !important;
+    
+    /* remove */
+    background: unset !important;
+    display: unset !important;
+    position: unset !important;
+    padding: unset !important;
+    bottom: unset !important;
+}
+
+.channelTabs-closeTab:hover,
+.channelTabs-newTab:hover {
+    background: var(--background-modifier-selected) !important;
+    color: var(--interactive-hover) !important;
+}
