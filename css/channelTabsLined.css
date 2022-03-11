@@ -1,3 +1,33 @@
+:root {
+    --channelTab-height: 22px;
+    --channelTab-width: 224px;
+}
+
+.platform-win .titleBar-1it3bQ {
+    position: absolute;
+    right: 0;
+    height: calc(var(--channelTab-height) + 10px);
+    z-index: unset;
+    -webkit-app-region: unset;
+    padding: unset;
+    background: unset;
+    box-shadow: unset;
+}
+
+.platform-win .withFrame-2dL45i {
+    margin-top: unset;
+}
+
+.winButton-3UMjdg {
+    top: unset !important;
+    height: calc(var(--channelTab-height) + 10px);
+    z-index: 9999;
+}
+
+.platform-win .wordmark-2u86JB {
+    display: none;
+}
+
 .platform-osx .wrapper-1_HaEi {
     margin-top: 0;
 }
@@ -7,20 +37,23 @@
     overflow: hidden;
 }
 
-#channelTabs-container {
-    --channelTab-height: 22px;
-    --channelTab-width: 224px;
+.platform-osx #channelTabs-container>#channelTabs-settingsMenu+div,
+.platform-osx #channelTabs-container>:first-child:not(#channelTabs-settingsMenu) {
+    padding: 7px 72px 3px 0;
+    margin-left: 72px;
 }
 
-.platform-osx #channelTabs-container>:nth-child(2) {
-    padding: 7px 72px 3px 72px;
+html:not(.platform-osx) #channelTabs-container>#channelTabs-settingsMenu+div,
+html:not(.platform-osx) #channelTabs-container>:first-child:not(#channelTabs-settingsMenu) {
+    padding: 7px 72px 3px 8px;
+    margin-right: 84px;
 }
 
 .channelTabs-tabContainer,
 .channelTabs-favContainer {
     display: flex;
     align-items: center;
-    padding: 0 0 3px 8px;
+    padding: 0 8px 3px 8px;
     -webkit-app-region: drag;
 
     /* remove */
@@ -39,9 +72,15 @@
     margin: 0 6px 0 0 !important;
 }
 
+.platform-osx #channelTabs-settingsMenu {
+    display: none;
+}
+
 #channelTabs-settingsMenu {
     width: 20px !important;
-    height: 100% !important;
+    height: calc(var(--channelTab-height) + 10px) !important;
+    margin-right: 84px;
+    z-index: 9999 !important;
 }
 
 .channelTabs-tab,
@@ -164,9 +203,10 @@
 }
 
 .channelTabs-newTab {
+    flex-shrink: 0;
     width: 18px !important;
     height: 18px !important;
-    margin: 0 0 0 6px !important;
+    margin: 0 6px 0 6px !important;
     font-size: 18px !important;
     font-weight: 700 !important;
     text-align: center;
