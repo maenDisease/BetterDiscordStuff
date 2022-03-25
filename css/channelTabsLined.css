@@ -1,6 +1,7 @@
 :root {
     --channelTab-height: 22px;
     --channelTab-width: 224px;
+    --channelTab-fav-height: 22px;
 }
 
 .platform-win .titleBar-1it3bQ {
@@ -83,12 +84,33 @@ html:not(.platform-osx) #channelTabs-container>:first-child:not(#channelTabs-set
     z-index: 9999 !important;
 }
 
+.channelTabs-tab {
+    height: var(--channelTab-height) !important;
+}
+.channelTabs-fav {
+    height: var(--channelTab-fav-height) !important;
+}
+
+.channelTabs-noFavNotice {
+    color: var(--text-muted);
+    font-size: 14px !important;
+    position: unset !important;
+    padding: 2px !important;
+}
+
+.channelTabs-favGroupBtn {
+    display: flex !important;
+    align-items: center;
+    min-width: 0;
+    border-radius: 4px;
+    font-size: 12px !important;
+}
+
 .channelTabs-tab,
 .channelTabs-fav {
     display: flex !important;
     align-items: center;
     min-width: 0;
-    height: var(--channelTab-height) !important;
     border-radius: 4px;
 
     /* remove */
