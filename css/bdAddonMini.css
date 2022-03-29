@@ -74,18 +74,18 @@
 }
 
 .bd-addon-list .bd-footer .bd-link:hover {
-    color: var(--context-icon-focused);
+    color: white;
 }
 
 /* controls */
 
 .bd-addon-list .bd-controls>.bd-addon-button,
 .bd-addon-list .bd-controls>.bd-addon-button:first-of-type {
-    border-radius: var(--context-button-radius);
+    border-radius: 4px;
 }
 
 .bd-addon-list .bd-controls>.bd-button:last-of-type {
-    border-radius: var(--danger-background-radius);
+    border-radius: 4px;
 }
 
 .bd-addon-list .bd-button:not(:hover) {
@@ -97,20 +97,20 @@
 }
 
 .bd-addon-list .bd-controls>.bd-addon-button:hover svg {
-    fill: var(--context-icon-focused);
+    fill: white;
 }
 
 .bd-addon-list .bd-addon-button.bd-button-danger:hover {
-    background: var(--danger-background-hover);
+    background: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 }
 
 .bd-addon-list .bd-addon-button.bd-button-danger svg {
-    fill: var(--danger-icon-normal);
+    fill: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
     transform: scale(1.2);
 }
 
 .bd-addon-list .bd-addon-button.bd-button-danger:hover svg {
-    fill: var(--danger-text-focused);
+    fill: white;
 }
 
 /* description */
