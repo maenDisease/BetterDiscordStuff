@@ -26,7 +26,7 @@
 
 .bd-addon-list .bd-title {
     margin-left: 32px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .bd-addon-list .bd-title .bd-meta {
