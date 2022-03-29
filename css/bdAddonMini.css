@@ -1,83 +1,116 @@
-.bd-addon-list:not(.bd-grid-view) .bd-addon-card {
+.bd-addon-list.bd-grid-view {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.bd-addon-list .bd-addon-card {
+    position: relative;
     margin-bottom: 8px;
     background: 0 0;
+    align-items: flex-start;
+    overflow: visible;
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-addon-header {
+.bd-addon-list .bd-addon-header {
     background: 0 0;
     padding-left: 0;
+    justify-content: start;
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-addon-card>:not(.bd-addon-header),
-.bd-addon-list:not(.bd-grid-view) .bd-icon {
+.bd-addon-list .bd-addon-card:hover .bd-addon-header {
+    max-width: calc(100% - 112px);
+}
+
+.bd-addon-list .bd-addon-card>:not(.bd-addon-header),
+.bd-addon-list .bd-icon,
+.bd-addon-list .bd-footer .bd-addon-button {
     display: none
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-title>*,
-.bd-addon-list:not(.bd-grid-view) .bd-footer>* {
-    z-index: 1;
+.bd-addon-list .bd-title {
+    margin-left: 32px;
+    z-index: 2;
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-title {
-    flex: unset;
-    z-index: 2;
-    margin-left: calc(56px + 16px);
+.bd-addon-list .bd-title .bd-meta {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 /* footer */
 
-.bd-addon-list:not(.bd-grid-view) .bd-addon-card:hover .bd-footer {
-    display: flex;
+.bd-addon-list .bd-addon-card .bd-footer {
     position: absolute;
-    margin-top: 3px;
-    right: 40px;
+    padding: 0 16px 0 8px;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    overflow: visible;
+    justify-content: flex-end;
+}
+.bd-addon-list .bd-footer>* {
+    z-index: 3;
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-links {
-    padding-right: 16px;
+.bd-addon-list .bd-addon-card:hover .bd-controls {
+    display: flex;
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-footer .bd-link {
+.bd-addon-list .bd-addon-card:hover .bd-controls .bd-addon-button {
+    display: flex;
+}
+
+.bd-addon-list .bd-footer .bd-links {
+    top: 53px;
+    position: absolute;
+    left: 8px;
+}
+
+.bd-addon-list.bd-grid-view .bd-footer .bd-links {
+    top: 63px;
+}
+
+.bd-addon-list .bd-footer .bd-link {
     color: var(--interactive-normal);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-footer .bd-link:hover {
+.bd-addon-list .bd-footer .bd-link:hover {
     color: var(--context-icon-focused);
 }
 
 /* controls */
 
-.bd-addon-list:not(.bd-grid-view) .bd-controls>.bd-addon-button,
-.bd-addon-list:not(.bd-grid-view) .bd-controls>.bd-addon-button:first-of-type {
+.bd-addon-list .bd-controls>.bd-addon-button,
+.bd-addon-list .bd-controls>.bd-addon-button:first-of-type {
     border-radius: var(--context-button-radius);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-controls>.bd-button:last-of-type {
+.bd-addon-list .bd-controls>.bd-button:last-of-type {
     border-radius: var(--danger-background-radius);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-button:not(:hover) {
+.bd-addon-list .bd-button:not(:hover) {
     background: 0 0;
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-controls>.bd-addon-button svg {
+.bd-addon-list .bd-controls>.bd-addon-button svg {
     fill: var(--interactive-normal);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-controls>.bd-addon-button:hover svg {
+.bd-addon-list .bd-controls>.bd-addon-button:hover svg {
     fill: var(--context-icon-focused);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-addon-button.bd-button-danger:hover {
+.bd-addon-list .bd-addon-button.bd-button-danger:hover {
     background: var(--danger-background-hover);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-addon-button.bd-button-danger svg {
+.bd-addon-list .bd-addon-button.bd-button-danger svg {
     fill: var(--danger-icon-normal);
     transform: scale(1.2);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-addon-button.bd-button-danger:hover svg {
+.bd-addon-list .bd-addon-button.bd-button-danger:hover svg {
     fill: var(--danger-text-focused);
 }
 
@@ -89,71 +122,93 @@
     }
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-addon-card:hover .bd-description-wrap {
+.bd-addon-list .bd-addon-card:hover .bd-description-wrap,
+.bd-addon-list .bd-addon-card:hover .bd-footer .bd-links .bd-addon-button {
     display: flex;
     visibility: hidden;
     animation: bdDescriptionVisibility 0s 1s forwards;
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-description-wrap {
+.bd-addon-list .bd-description-wrap {
     position: absolute;
     flex: unset;
     padding: unset;
-    margin: 54px 0 0 -4px;
+    margin: 48px 0 0 -4px;
     max-width: 300px;
-    z-index: 1002;
+    z-index: 3;
     background-color: var(--background-floating);
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
     border-radius: 5px;
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-description {
+.bd-addon-list.bd-grid-view .bd-description-wrap {
+    margin-top: 58px;
+}
+
+.bd-addon-list .bd-description {
     margin-bottom: unset;
-    padding: 8px 12px;
+    padding: calc(8px + 26px) 12px 8px 12px;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
 }
 
-/* switch */
-
-.bd-addon-list:not(.bd-grid-view) .bd-switch {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    background: var(--background-secondary);
-    width: calc(100% - 96px + 16px);
-    height: 50px;
-    border-radius: 5px;
-    order: -1;
+.bd-addon-list.bd-grid-view .bd-description {
+    padding-top: calc(8px + 26px);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-switch .bd-switch-body {
+/* switch */
+
+.bd-addon-list .bd-switch {
+    order: -1;
+    position: static;
+}
+
+.bd-addon-list .bd-switch input {
+    top: 0;
+}
+
+.bd-addon-list .bd-switch .bd-switch-body {
     pointer-events: none;
-    z-index: 2;
+    z-index: 1;
     transform: translateX(16px);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-switch:hover:not(.bd-switch-checked) {
+.bd-addon-list .bd-switch.bd-switch-checked::after,
+.bd-addon-list .bd-switch:not(.bd-switch-checked)::after,
+.bd-addon-list .bd-switch:not(.bd-switch-checked)::before {
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* checked */
+.bd-addon-list .bd-switch.bd-switch-checked::after {
+    background: var(--background-tertiary);
+}
+
+/* not checked */
+.bd-addon-list .bd-addon-card .bd-switch:not(.bd-switch-checked)::after {
+    background: var(--background-secondary);
+}
+
+/* not checked hover */
+.bd-addon-list .bd-addon-card:hover .bd-switch:not(.bd-switch-checked)::after {
     background: var(--background-modifier-hover);
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-switch:not(.bd-switch-checked)::after {
-    content: '';
-    position: absolute;
-    pointer-events: none;
-    z-index: 2;
-    height: 100%;
-    width: 100%;
+/* not checked hover dim */
+.bd-addon-list .bd-addon-card .bd-switch:not(.bd-switch-checked)::before {
+    z-index: 1;
     background: var(--background-secondary);
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
-.bd-addon-list:not(.bd-grid-view) .bd-switch:hover:not(.bd-switch-checked)::after {
+.bd-addon-list .bd-addon-card:hover .bd-switch:not(.bd-switch-checked)::before {
     display: none;
-}
-
-.bd-addon-list:not(.bd-grid-view) .bd-switch.bd-switch-checked {
-    background: var(--background-tertiary);
 }
