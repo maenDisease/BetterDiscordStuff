@@ -6,14 +6,12 @@
     position: relative;
     margin-bottom: 8px;
     background: 0 0;
-    align-items: flex-start;
     overflow: visible;
 }
 
 .bd-addon-list .bd-addon-header {
     background: 0 0;
     padding-left: 0;
-    justify-content: start;
 }
 
 .bd-addon-list .bd-addon-card:hover .bd-addon-header {
@@ -48,6 +46,7 @@
     overflow: visible;
     justify-content: flex-end;
 }
+
 .bd-addon-list .bd-footer>* {
     z-index: 3;
 }
