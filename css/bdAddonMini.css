@@ -1,3 +1,9 @@
+:root {
+    --bdAddonMini-bg-checked: var(--background-tertiary);
+    --bdAddonMini-bg-unchecked: var(--background-secondary);
+    --bdAddonMini-bg-unchecked-hover: var(--background-modifier-hover);
+}
+
 .bd-addon-list.bd-grid-view {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
@@ -188,23 +194,23 @@
 
 /* checked */
 .bd-addon-list .bd-switch.bd-switch-checked::after {
-    background: var(--background-tertiary);
+    background: var(--bdAddonMini-bg-checked);
 }
 
 /* not checked */
 .bd-addon-list .bd-addon-card .bd-switch:not(.bd-switch-checked)::after {
-    background: var(--background-secondary);
+    background: var(--bdAddonMini-bg-unchecked);
 }
 
 /* not checked hover */
 .bd-addon-list .bd-addon-card:hover .bd-switch:not(.bd-switch-checked)::after {
-    background: var(--background-modifier-hover);
+    background: var(--bdAddonMini-bg-unchecked-hover);
 }
 
 /* not checked hover dim */
 .bd-addon-list .bd-addon-card .bd-switch:not(.bd-switch-checked)::before {
     z-index: 1;
-    background: var(--background-secondary);
+    background: var(--bdAddonMini-bg-unchecked);
     opacity: 0.4;
 }
 
