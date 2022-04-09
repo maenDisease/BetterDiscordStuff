@@ -121,17 +121,33 @@
 
 /* description */
 
+.bd-addon-list .bd-addon-card .bd-description-wrap {
+    transform: scale(1);
+    transition: transform .2s;
+    transition-delay: 2s;
+}
+
 @keyframes bdDescriptionVisibility {
     to {
         visibility: visible;
     }
 }
 
+@keyframes tooltipBottom {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .bd-addon-list .bd-addon-card:hover .bd-description-wrap,
 .bd-addon-list .bd-addon-card:hover .bd-footer .bd-links .bd-addon-button {
     display: flex;
+    opacity: 0;
+    transform: scale(.9);
+    transform-origin: top center;
+    animation: tooltipBottom 0.1s 1s forwards, bdDescriptionVisibility 0s 1s forwards;
     visibility: hidden;
-    animation: bdDescriptionVisibility 0s 1s forwards;
 }
 
 .bd-addon-list .bd-description-wrap {
