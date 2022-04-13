@@ -36,3 +36,32 @@
 ';
 
 }
+
+/* in Settings */
+#app-mount #WhoReacted-card:hover::before {
+    height: unset;
+    white-space: pre-wrap;
+}
+#app-mount #WhoReacted-card::before {
+    padding: 8px;
+    height: 18px;
+    margin: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 5px;
+    font-weight: 500;
+    word-break: break-word;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    z-index: 1002;
+    pointer-events: none;
+    background: var(--info-warning-background);
+    border: 1px solid var(--info-warning-foreground);
+    color: var(--info-warning-text);
+    content: '\
+Crashes when loading reactions.\a
+Marmota: "I’m aware that WhoReacted is crashing Discord. I’ll release a fix until Saturday so please be patient and everything will be solved."\a
+';
+
+}
