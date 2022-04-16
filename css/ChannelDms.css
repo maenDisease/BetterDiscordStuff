@@ -78,3 +78,23 @@
     width: 100%;
     height: 36px
 }
+
+/* username */
+.ChannelDms-channelpopout-popout .cozy-VmLDNB .contents-2MsGLg .header-2jRmjb {
+    display: flex;
+}
+
+.ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ {
+    min-width: 0;
+    white-space: nowrap;
+}
+
+.ChannelDms-channelpopout-popout .cozy-VmLDNB .username-h_Y3Us {
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.ChannelDms-channelpopout-popout .cozy-VmLDNB .timestampInline-_lS3aK {
+    white-space: nowrap;
+    margin-top: 1px;
+}
