@@ -244,3 +244,7 @@
 .chatContent-3KubbW[aria-label^=css-snippets] .repliedMessage-3Z6XBG::before {
     display:none
 }
+
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3>.buttonContainer-1502pf>.container-2gUZhU {
+    top: 8px;
+}
