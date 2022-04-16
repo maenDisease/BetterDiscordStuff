@@ -32,7 +32,7 @@
     border: 1px solid var(--info-warning-foreground);
     color: var(--info-warning-text);
     content: '\
-[2022-04-13 19:31:EST] 0 ongoing plugin issues.\a
+[2022-04-16 02:29:EST] [GuildProfile] Crashes from opening the guild profile. This can be kept enabled until an update.\a
 ';
 
 }
