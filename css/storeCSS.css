@@ -83,7 +83,7 @@
     height: 100%
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri {
     color: var(--header-secondary);
     font-size: 14px;
     width: calc(328px - 32px);
@@ -91,21 +91,21 @@
     margin-left: 0 !important
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri code:active>* {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri code:active>* {
     display: block
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri>strong:first-child {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri>strong:first-child {
     color: var(--header-primary);
     font-weight: 600;
     font-size: 16px
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri>strong:first-child>u {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri>strong:first-child>u {
     text-decoration: none
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri>.inline:first-child {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri>.inline:first-child {
     color: var(--header-primary) !important;
     font-weight: 600;
     font-size: 16px;
@@ -115,7 +115,7 @@
     background: 0 0
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri pre {
     z-index: 1;
     display: flex;
     justify-content: flex-end;
@@ -128,7 +128,7 @@
     padding: 2px .5em .5em .5em !important
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri pre code {
     height: 24px;
     width: 100%;
     font-size: 12px;
@@ -137,16 +137,16 @@
     cursor: pointer
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code .bd-codeblock-language,
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code::-webkit-scrollbar {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri pre code .bd-codeblock-language,
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri pre code::-webkit-scrollbar {
     display: none
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code:active>* {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri pre code:active>* {
     opacity: 1
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code:active {
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 .markup-eYLPri pre code:active {
     max-height: 332px;
     height: fit-content;
     width: 280px;
