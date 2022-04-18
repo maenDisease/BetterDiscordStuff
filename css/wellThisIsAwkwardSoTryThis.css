@@ -24,8 +24,8 @@
     color: var(--info-positive-text);
     content: '\
 [2022-04-04] [UnreadCountBadges] Fixed in version 1.3.0\a
-[2022-04-13] [WhoReacted] Fixed in version 1.2.4\a
-[2022-04-17] [GuildProfile] Fixed in version 1.5.6\a
+[2022-04-13] [WhoReacted] Reaction load. Fixed in version 1.2.4\a
+[2022-04-17] [GuildProfile] Clicking server profile menu. Fixed in version 1.5.6\a
 ';
 
 }
