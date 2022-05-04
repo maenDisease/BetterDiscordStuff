@@ -87,14 +87,20 @@
 .ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ {
     min-width: 0;
     white-space: nowrap;
+    display:flex;
 }
 
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .username-h_Y3Us {
+.ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ .username-h_Y3Us {
     display: block;
     text-overflow: ellipsis;
+    flex: 1 1;
 }
 
 .ChannelDms-channelpopout-popout .cozy-VmLDNB .timestampInline-_lS3aK {
     white-space: nowrap;
+    margin-top: 1px;
+}
+
+.ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ .PI-indicatorContainer {
     margin-top: 1px;
 }
