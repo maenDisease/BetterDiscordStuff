@@ -39,13 +39,15 @@ Custom guild icon, name, banner, and category icons for the favorites feature. D
 ```
 <p align="center"><img height="300" align="center" src="https://i.imgur.com/V2MpSe3.png"></p>
 
-### QOL improvements for ChannelDms plugin
+### ChannelDms Adjustments
+Probably somewhat nice styling, resizable popout, auto resize images, click header to close.
 ```css
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
 ```
 <p align="center"><img height="300" align="center" src="https://user-images.githubusercontent.com/90428263/168667568-be05fcaf-d1ea-43e0-be38-3bdb4e35323b.gif"></p>
 
 ### Redesigned invites
+Changes the appearance of the invite embed.
 ```css
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 ```
