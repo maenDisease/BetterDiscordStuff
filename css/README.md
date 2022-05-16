@@ -19,7 +19,7 @@ For any channels named `#css-snippets`, redesigns the channel to match the Bette
 ```css
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/storeCSS.css);
 ```
-<p align="center"><img height="300" align="center" src="https://user-images.githubusercontent.com/90428263/168666925-45c0971c-1860-4406-a43a-47d6729c1cb0.gif"></p>
+<p align="center"><img height="300" align="center" src="https://user-images.githubusercontent.com/90428263/168669913-bb4b6727-08b8-437d-b2f2-4ec57539c38a.gif"></p>
 
 ### Boosted Favorites
 Custom guild icon, name, banner, and category icons for the favorites feature. Duplicate each group for additional categories (Up to 10), then replace both numbers. Favorites experiment required.
