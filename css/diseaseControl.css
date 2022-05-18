@@ -39,7 +39,7 @@
 a:where(
 [href="https://discord.gg/plugin"],
 )::after {
-    content:'Float: THIS SERVER IS MALICIOUS';
+    content:'css: THIS SERVER IS MALICIOUS';
     display: inline-flex;
     vertical-align: top;
     padding: 0 4px;
