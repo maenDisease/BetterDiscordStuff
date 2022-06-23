@@ -44,6 +44,7 @@
     color: var(--info-warning-text);
     content: '\
 [2022-05-25] [AvatarsEverywhere] Crash when loading server. Remove from plugins folder.\a
+[2022-06-14] [ShowSessions] Crash when attempting to use specific command phrases. Disable plugin or do not use the command phrases.\a
 ';
 
 }
