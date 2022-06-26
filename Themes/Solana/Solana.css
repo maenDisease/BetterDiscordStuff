@@ -1,7 +1,7 @@
 /* user config */
 :root {
     /* background image */
-    --background-image: url(https://i.imgur.com/aLi469Y.jpg);
+    --background-image: url(https://i.imgur.com/wDB9XWK.png);
     --background-image-position: center;
     --background-image-size: cover;
     --background-image-blur: 0;
@@ -1587,7 +1587,7 @@ code {
     box-shadow: var(--box-shadow-outer-1);
 }
 
-.searchHeaderTabList-3CZMQB.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+#app-mount .searchHeaderTabList-3CZMQB.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
     background-color: var(--button-selected-background);
     border-top-color: rgba(255, 255, 255, 0.2);
     box-shadow: var(--box-shadow-outer-1);
@@ -4965,6 +4965,10 @@ bd-body #floating-editor-window.floating-window {
 }
 
 /* Channeldms */
+.ChannelDms-channelmembers-wrap {
+    width: 240px;
+}
+
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
     background: var(--background-secondary) !important;
     margin: 10px 0;
@@ -5030,6 +5034,10 @@ bd-body #floating-editor-window.floating-window {
     box-shadow: var(--box-shadow-border);
 }
 
+#app-mount .channelTabs-tab.channelTabs-selected {
+    background: var(--brand-experiment);
+}
+
 /* Userdetails */
 #app-mount .UserDetails-dates-container svg {
     fill: var(--interactive-normal);
@@ -5048,11 +5056,6 @@ bd-body #floating-editor-window.floating-window {
 #app-mount .UserDetails-connections-header {
     font-weight: 600;
     text-transform: capitalize;
-}
-
-/* Channeltabs */
-#app-mount .channelTabs-tab.channelTabs-selected {
-    background: var(--brand-experiment);
 }
 
 /* Bettersyntax */

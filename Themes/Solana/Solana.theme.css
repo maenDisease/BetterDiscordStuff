@@ -24,7 +24,7 @@
 
 :root {
     /* background image */
-    --background-image: url(https://i.imgur.com/aLi469Y.jpg);
+    --background-image: url(https://i.imgur.com/wDB9XWK.png);
     --background-image-position: center;
     --background-image-size: cover;
     --background-image-blur: 0;
@@ -53,6 +53,7 @@
 
     /* font */
     --custom-font-display: "";
+    --custom-font-regular: "";
     --custom-font-primary: "";
     --custom-font-code: "";
 
