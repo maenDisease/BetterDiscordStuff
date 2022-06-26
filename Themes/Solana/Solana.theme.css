@@ -8,23 +8,21 @@
  * @invite BpwYF5UyHu
 */
 
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css);
-
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css);
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
-
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
 
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css);
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+
 @import url(https://fonts.cdnfonts.com/css/sf-pro-display);
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap);
 
-/* user config */
 :root {
-
     /* background image */
     --background-image: url(https://i.imgur.com/aLi469Y.jpg);
     --background-image-position: center;
@@ -38,6 +36,7 @@
     --accent-hue: 213;
     --accent-saturation: 100%;
     --accent-brightness: 50%;
+    --background-accent-hue: 213;
     --window-accent-tint-strength: 5%;
 
     /* floating */
