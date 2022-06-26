@@ -30,6 +30,7 @@
 
     /* font */
     --custom-font-display: "";
+    --custom-font-regular: "";
     --custom-font-primary: "";
     --custom-font-code: "";
 
@@ -76,8 +77,8 @@
     --status-grey: hsl(240, 2%, 57%);
 
     --modal-background: var(--background-secondary);
-    --font-display: var(--custom-font-display), "SF Pro Display", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
-    --font-regular: var(--custom-font-primary), "SF Pro Text", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
+    --font-display: var(--custom-font-display), BlinkMacSystemFont, "SF Pro Display", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
+    --font-regular: var(--custom-font-regular), BlinkMacSystemFont, "SF Pro Text", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
     --font-primary: var(--custom-font-primary), 'Whitney', "Helvetica Neue", 'Helvetica', 'Arial', sans-serif;
     --font-code: var(--custom-font-code), Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 
@@ -164,7 +165,7 @@
     --background-secondary-l: 94%;
     --background-tertiary-l: 96%;
     --background-accent-l: 98%;
-    --background-floating-l: 95%;
+    --background-floating-l: 97%;
 
     --background-primary-border-l: 87%;
     --background-secondary-border-l: 90%;
