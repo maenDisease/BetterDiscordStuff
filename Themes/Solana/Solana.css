@@ -104,19 +104,24 @@
     --background-accent-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-accent-l), var(--window-transparency));
 
     --background-primary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-primary-border-l));
+    --background-primary-border-color-a: hsla(var(--background-accent-hue), 4%, var(--background-primary-border-l), var(--window-transparency));
     --background-secondary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-secondary-border-l));
+    --background-secondary-border-color-a: hsl(var(--background-accent-hue), 4%, var(--background-secondary-border-l), var(--window-transparency));
     --background-tertiary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-tertiary-border-l));
     --background-tertiary-border-color-a: hsla(var(--background-accent-hue), 4%, var(--background-tertiary-border-l), var(--window-transparency));
     --background-floating-border-color: hsl(var(--background-accent-hue), 4%, var(--background-floating-border-l));
 
     --background-primary-border: 1px solid var(--background-primary-border-color);
+    --background-primary-border-a: 1px solid var(--background-primary-border-color-a);
     --background-secondary-border: 1px solid var(--background-secondary-border-color);
+    --background-secondary-border-a: 1px solid var(--background-secondary-border-color-a);
     --background-tertiary-border: 1px solid var(--background-tertiary-border-color);
     --background-tertiary-border-a: 1px solid var(--background-tertiary-border-color-a);
     --background-floating-border: 1px solid var(--background-floating-border-color);
 
     --background-primary-box-shadow-border: 0 0 0 1px var(--background-primary-border-color);
     --background-secondary-box-shadow-border: 0 0 0 1px var(--background-secondary-border-color);
+    --background-secondary-box-shadow-border-a: 0 0 0 1px var(--background-secondary-border-color-a);
     --background-tertiary-box-shadow-border: 0 0 0 1px var(--background-tertiary-border-color);
 
     --background-tertiary-border-variable-width-a: calc(var(--window-margin-px) * 0.01) solid var(--background-tertiary-border-color-a);
@@ -443,11 +448,17 @@ body::after {
 
 .scroller-3X7KbA {
     contain: unset;
-    background-color: var(--background-modifier-selected);
+    border-radius: 1.1rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    background-color: var(--background-modifier-selected);
     border-top: var(--background-modifier-accent-border);
     border-right: var(--background-modifier-accent-border);
-    border-radius: 1.1rem;
+}
+
+.theme-light {
+    background-color: var(--background-floating-40a);
+    border-top: var(--background-primary-border);
+    border-right: var(--background-primary-border);
 }
 
 .listItem-3SmSlK,
@@ -1412,11 +1423,11 @@ code {
 .form-3gdLxP {
     padding-top: 20px;
     margin-top: 0;
-    border-top: var(--background-secondary-border);
+    border-top: var(--background-secondary-border-a);
 }
 
 .scrollableContainer-15eg7h {
-    box-shadow: var(--background-secondary-box-shadow-border);
+    box-shadow: var(--background-secondary-box-shadow-border-a);
 }
 
 .scrollableContainer-15eg7h:focus-within {
@@ -1835,7 +1846,7 @@ code {
     height: fit-content;
     background-color: var(--background-floating-80a);
     border-radius: 10px;
-    border: var(--background-primary-border);
+    border: var(--background-floating-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
     padding: 16px;
