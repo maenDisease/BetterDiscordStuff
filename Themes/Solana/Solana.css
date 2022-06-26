@@ -2127,10 +2127,9 @@ code {
 }
 
 .topPill-3DJJNV {
-    border: var(--background-primary-border);
+    border: var(--background-primary-border-a);
     border-radius: 8px;
-    box-shadow: var(--btn-pill-inner-shadow);
-    background: none;
+    background: var(--background-secondary-a);
 }
 
 .topPill-3DJJNV .item-3XjbnG {
@@ -3169,7 +3168,6 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     margin: 0 auto;
     border: var(--background-secondary-border);
     border-radius: 8px;
-    box-shadow: var(--btn-pill-inner-shadow);
     background: var(--background-secondary);
     width: fit-content;
 }
@@ -3639,7 +3637,6 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     height: 32px;
     border: var(--background-secondary-border);
     border-radius: 8px;
-    box-shadow: var(--btn-pill-inner-shadow);
     background: var(--background-secondary);
     transform: translateY(12px);
     z-index: 1;
@@ -4259,6 +4256,11 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     padding-right: unset;
 }
 
+.messagesPopoutWrap-3zryHW .topPill-3DJJNV {
+    border: var(--background-primary-border-a);
+    background: var(--background-primary-a);
+}
+
 .messageGroupWrapper-1jf_7C {
     position: relative;
     background: var(--background-secondary);
@@ -4859,10 +4861,9 @@ bd-body #floating-editor-window.floating-window {
 
 .bd-addon-views {
     padding: 1px;
-    border: var(--background-secondary-border);
+    border: var(--background-secondary-border-a);
     border-radius: 8px;
-    box-shadow: var(--btn-pill-inner-shadow);
-    background: none;
+    background: var(--background-secondary-a);
 }
 
 .bd-addon-views .bd-view-button {
@@ -4981,7 +4982,7 @@ bd-body #floating-editor-window.floating-window {
 }
 
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
-    background: var(--background-secondary) !important;
+    background: var(--background-primary-a) !important;
     margin: 10px 0;
     padding: 0 !important;
     display: flex;
@@ -5011,10 +5012,9 @@ bd-body #floating-editor-window.floating-window {
 }
 
 .ChannelDms-channelmembers-wrap .topPill-3DJJNV {
-    border: var(--background-secondary-border);
+    border: var(--background-primary-border-a);
     border-radius: 8px;
     width: fit-content;
-    box-shadow: var(--btn-pill-inner-shadow);
 }
 
 .ChannelDms-channelpopout-popout {
