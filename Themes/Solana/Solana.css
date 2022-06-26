@@ -3989,6 +3989,20 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     display: none;
 }
 
+.menu-1QACrS .button-1zW0-r {
+    width: 26px;
+    height: 26px;
+    padding: 4px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.menu-1QACrS .button-1zW0-r:hover, .keyboard-mode .button-1zW0-r.focused-H4w81f {
+    border: var(--background-primary-border);
+    background-color: var(--background-modifier-hover);
+}
+
 /* 14.2. Userpopout */
 .userPopout-2j1gM4 {
     border: var(--background-floating-border);
