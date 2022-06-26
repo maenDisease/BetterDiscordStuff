@@ -4639,12 +4639,12 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 /* 15.9. Tooltips */
 #app-mount .tooltip-14MtrL {
-    border: var(--background-primary-border);
+    border: var(--background-floating-border);
     border-radius: 6px;
 }
 
 #app-mount .tooltipPointer-3L49xb {
-    filter: drop-shadow(0 0 0 var(--background-primary-border-color));
+    filter: drop-shadow(0 0 0 var(--background-floating-border-color));
 }
 
 /* 16. BDsupport */
