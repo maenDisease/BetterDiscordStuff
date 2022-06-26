@@ -13,6 +13,7 @@
     --accent-hue: 213;
     --accent-saturation: 100%;
     --accent-brightness: 50%;
+    --background-accent-hue: 213;
     --window-accent-tint-strength: 5%;
 
     /* floating */
@@ -80,31 +81,31 @@
     --font-primary: var(--custom-font-primary), 'Whitney', "Helvetica Neue", 'Helvetica', 'Arial', sans-serif;
     --font-code: var(--custom-font-code), Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 
-    --background-floating: hsl(0, 0%, var(--background-floating-l));
-    --background-floating-40a: hsla(0, 0%, var(--background-floating-l), calc(1.4 - var(--enable-floating-transparency)));
-    --background-floating-60a: hsla(0, 0%, var(--background-floating-l), calc(1.6 - var(--enable-floating-transparency)));
-    --background-floating-80a: hsla(0, 0%, var(--background-floating-l), calc(1.8 - var(--enable-floating-transparency)));
-    --background-floating-90a: hsla(0, 0%, var(--background-floating-l), calc(1.9 - var(--enable-floating-transparency)));
+    --background-floating: hsl(var(--background-accent-hue), 5%, var(--background-floating-l));
+    --background-floating-40a: hsla(var(--background-accent-hue), 5%, var(--background-floating-l), calc(1.4 - var(--enable-floating-transparency)));
+    --background-floating-60a: hsla(var(--background-accent-hue), 5%, var(--background-floating-l), calc(1.6 - var(--enable-floating-transparency)));
+    --background-floating-80a: hsla(var(--background-accent-hue), 5%, var(--background-floating-l), calc(1.8 - var(--enable-floating-transparency)));
+    --background-floating-90a: hsla(var(--background-accent-hue), 5%, var(--background-floating-l), calc(1.9 - var(--enable-floating-transparency)));
 
-    --background-primary: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), 1);
-    --background-primary-a: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), var(--window-transparency));
+    --background-primary: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), 1);
+    --background-primary-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), var(--window-transparency));
 
-    --background-secondary: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-secondary-l), 1);
-    --background-secondary-a: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-secondary-l), var(--window-transparency));
-    --background-secondary-80a: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-secondary-l), 0.8);
+    --background-secondary: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-secondary-l), 1);
+    --background-secondary-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-secondary-l), var(--window-transparency));
+    --background-secondary-80a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-secondary-l), 0.8);
 
-    --background-tertiary: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 1);
-    --background-tertiary-a: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), var(--window-transparency));
-    --background-tertiary-80a: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 0.8);
-    --background-tertiary-90a: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 0.9);
+    --background-tertiary: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 1);
+    --background-tertiary-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), var(--window-transparency));
+    --background-tertiary-80a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 0.8);
+    --background-tertiary-90a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 0.9);
 
-    --background-accent: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-accent-l), 1);
-    --background-accent-a: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-accent-l), var(--window-transparency));
+    --background-accent: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-accent-l), 1);
+    --background-accent-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-accent-l), var(--window-transparency));
 
-    --background-primary-border-color: hsl(var(--accent-hue), 4%, var(--background-primary-border-l));
-    --background-secondary-border-color: hsl(var(--accent-hue), 4%, var(--background-secondary-border-l));
-    --background-tertiary-border-color: hsl(var(--accent-hue), 4%, var(--background-tertiary-border-l));
-    --background-tertiary-border-color-a: hsla(var(--accent-hue), 4%, var(--background-tertiary-border-l), var(--window-transparency));
+    --background-primary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-primary-border-l));
+    --background-secondary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-secondary-border-l));
+    --background-tertiary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-tertiary-border-l));
+    --background-tertiary-border-color-a: hsla(var(--background-accent-hue), 4%, var(--background-tertiary-border-l), var(--window-transparency));
 
     --background-primary-border: 1px solid var(--background-primary-border-color);
     --background-secondary-border: 1px solid var(--background-secondary-border-color);
@@ -119,7 +120,7 @@
 }
 
 .theme-dark {
-    --background-tertiary-border-variable-divider-a: 1px solid hsla(var(--accent-hue), 4%, calc(min(1, var(--window-margin)) * var(--background-tertiary-border-l)), var(--window-transparency));
+    --background-tertiary-border-variable-divider-a: 1px solid hsla(var(--background-accent-hue), 4%, calc(min(1, var(--window-margin)) * var(--background-tertiary-border-l)), var(--window-transparency));
     --background-primary-l: 19%;
     --background-secondary-l: 16%;
     --background-tertiary-l: 14%;
@@ -130,29 +131,29 @@
     --background-secondary-border-l: 22%;
     --background-tertiary-border-l: 32%;
 
-    --header-primary: hsl(var(--accent-hue), 2%, 92%);
+    --header-primary: hsl(var(--background-accent-hue), 2%, 92%);
 
     --scroller-color: hsl(0, 0%, 42%);
-    --button-selected-background: hsl(var(--accent-hue), 2%, 38%);
-    --text-muted: hsl(var(--accent-hue), 1%, 41%);
+    --button-selected-background: hsl(var(--background-accent-hue), 2%, 38%);
+    --text-muted: hsl(var(--background-accent-hue), 1%, 41%);
 
-    --background-modifier-hover: hsla(var(--accent-hue), 13%, 48%, 0.16);
-    --background-modifier-active: hsla(var(--accent-hue), 13%, 48%, 0.2);
-    --background-modifier-selected: hsla(var(--accent-hue), 5%, 48%, 0.3);
-    --background-modifier-accent: hsla(var(--accent-hue), 10%, 48%, 0.34);
+    --background-modifier-hover: hsla(var(--background-accent-hue), 13%, 48%, 0.16);
+    --background-modifier-active: hsla(var(--background-accent-hue), 13%, 48%, 0.2);
+    --background-modifier-selected: hsla(var(--background-accent-hue), 5%, 48%, 0.3);
+    --background-modifier-accent: hsla(var(--background-accent-hue), 10%, 48%, 0.34);
 
     --elevation-low:
-        0 1px 0 hsl(var(--accent-hue), 6%, 0%, 0.8),
-        0 2px 0 hsl(var(--accent-hue), 6%, 0%, 0.1);
+        0 1px 0 hsl(var(--background-accent-hue), 6%, 0%, 0.8),
+        0 2px 0 hsl(var(--background-accent-hue), 6%, 0%, 0.1);
     --elevation-low-a:
-        0 1px 0 hsl(var(--accent-hue), 6%, 0%, calc(0.8* var(--window-transparency))),
-        0 2px 0 hsl(var(--accent-hue), 6%, 0%, calc(0.1* var(--window-transparency)));
-    --elevation-stroke: 0 0 0 1px hsla(var(--accent-hue), 6%, 2%, 0.7);
+        0 1px 0 hsl(var(--background-accent-hue), 6%, 0%, calc(0.8* var(--window-transparency))),
+        0 2px 0 hsl(var(--background-accent-hue), 6%, 0%, calc(0.1* var(--window-transparency)));
+    --elevation-stroke: 0 0 0 1px hsla(var(--background-accent-hue), 6%, 2%, 0.7);
 
-    --interactive-normal: hsl(var(--accent-hue), 3%, 72%);
-    --interactive-hover: hsl(var(--accent-hue), 3%, 87%);
-    --interactive-active: hsl(var(--accent-hue), 3%, 95%);
-    --interactive-muted: hsla(var(--accent-hue), 1%, 70%, 0.3);
+    --interactive-normal: hsl(var(--background-accent-hue), 3%, 72%);
+    --interactive-hover: hsl(var(--background-accent-hue), 3%, 87%);
+    --interactive-active: hsl(var(--background-accent-hue), 3%, 95%);
+    --interactive-muted: hsla(var(--background-accent-hue), 1%, 70%, 0.3);
 }
 
 .theme-light {
@@ -171,21 +172,21 @@
     --scroller-color: hsl(0, 0%, 77%);
     --button-selected-background: #fff;
 
-    --background-modifier-hover: hsla(var(--accent-hue), 13%, 84%, 0.25);
-    --background-modifier-active: hsla(var(--accent-hue), 13%, 84%, 0.35);
-    --background-modifier-selected: hsla(var(--accent-hue), 13%, 84%, 0.35);
-    --background-modifier-accent: hsla(var(--accent-hue), 10%, 72%, 0.34);
+    --background-modifier-hover: hsla(var(--background-accent-hue), 13%, 84%, 0.25);
+    --background-modifier-active: hsla(var(--background-accent-hue), 13%, 84%, 0.35);
+    --background-modifier-selected: hsla(var(--background-accent-hue), 13%, 84%, 0.35);
+    --background-modifier-accent: hsla(var(--background-accent-hue), 10%, 72%, 0.34);
 
     --elevation-low:
-        0 1px 0 hsl(var(--accent-hue), 6%, 80%, 0.8),
-        0 2px 0 hsl(var(--accent-hue), 6%, 80%, 0.15);
+        0 1px 0 hsl(var(--background-accent-hue), 6%, 80%, 0.8),
+        0 2px 0 hsl(var(--background-accent-hue), 6%, 80%, 0.15);
     --elevation-low-a:
-        0 1px 0 hsl(var(--accent-hue), 6%, 80%, calc(0.8 * var(--window-transparency))),
-        0 2px 0 hsl(var(--accent-hue), 6%, 80%, calc(0.15 * var(--window-transparency)));
+        0 1px 0 hsl(var(--background-accent-hue), 6%, 80%, calc(0.8 * var(--window-transparency))),
+        0 2px 0 hsl(var(--background-accent-hue), 6%, 80%, calc(0.15 * var(--window-transparency)));
 
-    --interactive-normal: hsl(var(--accent-hue), 10%, 45%);
-    --interactive-hover: hsl(var(--accent-hue), 10%, 40%);
-    --interactive-active: hsl(var(--accent-hue), 10%, 34%);
+    --interactive-normal: hsl(var(--background-accent-hue), 10%, 45%);
+    --interactive-hover: hsl(var(--background-accent-hue), 10%, 40%);
+    --interactive-active: hsl(var(--background-accent-hue), 10%, 34%);
     --interactive-muted: hsla(0, 0%, 45%, 0.45);
 }
 
@@ -371,7 +372,7 @@ body::before {
 
 body::after {
     backdrop-filter: blur(var(--background-image-blur-calc));
-    background: hsla(var(--accent-hue), 100%, 50%, var(--background-hue-shift-strength));
+    background: hsla(var(--background-accent-hue), 100%, 50%, var(--background-hue-shift-strength));
     mix-blend-mode: hue;
     will-change: opacity;
 }
@@ -502,12 +503,12 @@ body::after {
 }
 
 .sidebar-1tnWFu {
-    --background-modifier-hover: hsla(var(--accent-hue), 13%, 48%, 0.16);
-    --background-modifier-active: hsla(var(--accent-hue), 13%, 48%, 0.2);
-    --background-modifier-selected: hsla(var(--accent-hue), 5%, 48%, 0.3);
-    --background-modifier-accent: hsla(var(--accent-hue), 10%, 48%, 0.34);
+    --background-modifier-hover: hsla(var(--background-accent-hue), 13%, 48%, 0.16);
+    --background-modifier-active: hsla(var(--background-accent-hue), 13%, 48%, 0.2);
+    --background-modifier-selected: hsla(var(--background-accent-hue), 5%, 48%, 0.3);
+    --background-modifier-accent: hsla(var(--background-accent-hue), 10%, 48%, 0.34);
     --channel-icon: var(--brand-experiment);
-    --elevation-low: 0 1px 0 hsl(var(--accent-hue), 6%, 0%, 0.8), 0 2px 0 hsl(var(--accent-hue), 6%, 0%, 0.1);
+    --elevation-low: 0 1px 0 hsl(var(--background-accent-hue), 6%, 0%, 0.8), 0 2px 0 hsl(var(--accent-hue), 6%, 0%, 0.1);
 }
 
 .name-28HaxV {
@@ -1728,7 +1729,7 @@ code {
 }
 
 .theme-light .callContainer-HtHELf {
-    background: hsla(var(--accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), var(--window-transparency));
+    background: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), var(--window-transparency));
 }
 
 .wrapper-1gVUIN.minimum-fXpVNc .callContainer-HtHELf {
@@ -2293,10 +2294,10 @@ html:not(.app-focused) .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInn
 }
 
 .sidebar-nqHbhN {
-    --background-modifier-hover: hsla(var(--accent-hue), 13%, 48%, 0.16);
-    --background-modifier-active: hsla(var(--accent-hue), 13%, 48%, 0.2);
-    --background-modifier-selected: hsla(var(--accent-hue), 5%, 48%, 0.3);
-    --background-modifier-accent: hsla(var(--accent-hue), 10%, 48%, 0.34);
+    --background-modifier-hover: hsla(var(--background-accent-hue), 13%, 48%, 0.16);
+    --background-modifier-active: hsla(var(--background-accent-hue), 13%, 48%, 0.2);
+    --background-modifier-selected: hsla(var(--background-accent-hue), 5%, 48%, 0.3);
+    --background-modifier-accent: hsla(var(--background-accent-hue), 10%, 48%, 0.34);
 }
 
 .sidebar-nqHbhN .header-2Kx1US {
