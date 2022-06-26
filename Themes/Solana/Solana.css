@@ -2288,6 +2288,13 @@ html:not(.app-focused) .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInn
 }
 
 /* 11. Usersettings */
+#user-settings-cog-Nitro_Server_Boost,
+#user-settings-cog-Subscriptions,
+#user-settings-cog-Library_Inventory,
+#user-settings-cog-Billing {
+  display: none;
+}
+
 .layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
 .layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
     pointer-events: auto !important;
