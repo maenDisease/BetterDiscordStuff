@@ -2074,6 +2074,25 @@ code {
     background-color: transparent;
 }
 
+#app-mount .nowPlayingColumn-1eCBCN .outer-2JOHae.active-1W_Gl9,
+#app-mount .nowPlayingColumn-1eCBCN .outer-2JOHae.interactive-2zD88a:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.nowPlayingColumn-1eCBCN .wrapper-2RrXDg {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+}
+
+#app-mount .nowPlayingColumn-1eCBCN .inset-SbsSFp {
+    border: var(--background-primary-border);
+    background-color: var(--background-secondary);
+}
+
+.nowPlayingColumn-1eCBCN .section-3G9aLW {
+    background-color: var(--background-secondary);
+}
+
 .scroller-hE2gWq {
     border-left: none;
 }
