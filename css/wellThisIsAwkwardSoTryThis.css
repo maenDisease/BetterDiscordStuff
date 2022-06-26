@@ -32,6 +32,7 @@
 [2022-05-11] [PronounDB] Crash when clicking username of user that has pronouns. Fixed in 1.3.0\a
 [2022-05-11] [ShowSessions] Crash when clicking ShowSessions button to open modal. Fixed in 1.2.2\a
 [2022-05-11] [BetterBannedUsers] Crash when clicking bans button in server settings. Fixed in 1.3.1\a
+[2022-06-26] [ShowSessions] v1.3.1 - Fixed crashing when typing something in chat.\a
 ';
 
 }
@@ -44,7 +45,6 @@
     color: var(--info-warning-text);
     content: '\
 [2022-05-25] [AvatarsEverywhere] Crash when loading server. Remove from plugins folder.\a
-[2022-06-14] [ShowSessions] Crash when attempting to use specific command phrases. Disable plugin or do not use the command phrases.\a
 ';
 
 }
