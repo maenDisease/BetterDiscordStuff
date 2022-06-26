@@ -4643,7 +4643,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-radius: 6px;
 }
 
-#app-mount .theme-dark .tooltipPointer-3L49xb {
+html.theme-dark #app-mount .tooltipPointer-3L49xb {
     filter: drop-shadow(0 0 0 hsl(var(--background-accent-hue), 4%, calc(var(--background-floating-border-l) * 2.25)));
 }
 
