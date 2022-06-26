@@ -4349,6 +4349,12 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     height: 52px;
 }
 
+.browser-mnQ1T7.container-18GwIk .sectionHeader-QsOv68 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
 .browser-mnQ1T7.container-18GwIk .header-3_zmOb .searchBox-3IjAC1.container-2oNtJn {
     background-color: transparent;
     box-shadow: var(--background-primary-box-shadow-border);
