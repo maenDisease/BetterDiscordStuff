@@ -1,0 +1,62 @@
+/**
+ * @name Solana
+ * @version 0.9.9
+ * @author Disease#3749
+ * @authorId 678469587444170762
+ * @description macOS with barely any customization.
+ * @source https://github.com/maenDisease/BetterDiscordStuff
+ * @invite BpwYF5UyHu
+*/
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css);
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
+
+@import url(https://fonts.cdnfonts.com/css/sf-pro-display);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap);
+
+/* user config */
+:root {
+
+    /* background image */
+    --background-image: url(https://i.imgur.com/aLi469Y.jpg);
+    --background-image-position: center;
+    --background-image-size: cover;
+    --background-image-blur: 0;
+    --background-overlay-lightness: initial;
+    --background-overlay-opacity: 0.8;
+    --background-hue-shift-strength: 100%;
+
+    /* color control */
+    --accent-hue: 213;
+    --accent-saturation: 100%;
+    --accent-brightness: 50%;
+    --window-accent-tint-strength: 5%;
+
+    /* floating */
+    --background-floating-blur: 20px;
+    --enable-floating-transparency: 1;
+
+    /* window */
+    --window-margin: 24;
+    --window-transparency: 100%;
+    --window-border-radius: 10px;
+    --window-blur: 0;
+    --window-color-hue: initial;
+    --window-color-lightness: initial;
+
+    /* font */
+    --custom-font-display: "";
+    --custom-font-primary: "";
+    --custom-font-code: "";
+
+    /* other */
+    --enable-blur: 1;
+}
