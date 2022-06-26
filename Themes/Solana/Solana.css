@@ -81,11 +81,11 @@
     --font-primary: var(--custom-font-primary), 'Whitney', "Helvetica Neue", 'Helvetica', 'Arial', sans-serif;
     --font-code: var(--custom-font-code), Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 
-    --background-floating: hsl(var(--background-accent-hue), 5%, var(--background-floating-l));
-    --background-floating-40a: hsla(var(--background-accent-hue), 5%, var(--background-floating-l), calc(1.4 - var(--enable-floating-transparency)));
-    --background-floating-60a: hsla(var(--background-accent-hue), 5%, var(--background-floating-l), calc(1.6 - var(--enable-floating-transparency)));
-    --background-floating-80a: hsla(var(--background-accent-hue), 5%, var(--background-floating-l), calc(1.8 - var(--enable-floating-transparency)));
-    --background-floating-90a: hsla(var(--background-accent-hue), 5%, var(--background-floating-l), calc(1.9 - var(--enable-floating-transparency)));
+    --background-floating: hsl(var(--background-accent-hue), 4%, var(--background-floating-l));
+    --background-floating-40a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc(1.4 - var(--enable-floating-transparency)));
+    --background-floating-60a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc(1.6 - var(--enable-floating-transparency)));
+    --background-floating-80a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc(1.8 - var(--enable-floating-transparency)));
+    --background-floating-90a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc(1.9 - var(--enable-floating-transparency)));
 
     --background-primary: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), 1);
     --background-primary-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), var(--window-transparency));
@@ -106,11 +106,13 @@
     --background-secondary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-secondary-border-l));
     --background-tertiary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-tertiary-border-l));
     --background-tertiary-border-color-a: hsla(var(--background-accent-hue), 4%, var(--background-tertiary-border-l), var(--window-transparency));
+    --background-floating-border-color: hsl(var(--background-accent-hue), 4%, var(--background-floating-border-l));
 
     --background-primary-border: 1px solid var(--background-primary-border-color);
     --background-secondary-border: 1px solid var(--background-secondary-border-color);
     --background-tertiary-border: 1px solid var(--background-tertiary-border-color);
     --background-tertiary-border-a: 1px solid var(--background-tertiary-border-color-a);
+    --background-floating-border: 1px solid var(--background-floating-border-color);
 
     --background-primary-box-shadow-border: 0 0 0 1px var(--background-primary-border-color);
     --background-secondary-box-shadow-border: 0 0 0 1px var(--background-secondary-border-color);
@@ -130,6 +132,7 @@
     --background-primary-border-l: 26%;
     --background-secondary-border-l: 22%;
     --background-tertiary-border-l: 32%;
+    --background-floating-border-l: 37%;
 
     --header-primary: hsl(var(--background-accent-hue), 2%, 92%);
 
@@ -166,6 +169,7 @@
     --background-primary-border-l: 87%;
     --background-secondary-border-l: 90%;
     --background-tertiary-border-l: 58%;
+    --background-floating-border-l: 95%;
 
     --header-primary: hsl(0, 0%, 30%);
 
@@ -1668,7 +1672,7 @@ code {
     border-radius: 0 var(--window-border-radius-calc) var(--window-border-radius-calc) 0;
     overflow: hidden;
     background: var(--background-floating-60a);
-    border-left: var(--background-modifier-accent-border);
+    border-left: var(--background-floating-border);
 }
 
 .container-3XgAHv.floating-3M3WeH::before {
@@ -3767,7 +3771,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 #app-mount .perksModal-CLcR1c .perk-19D_HN {
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
     background-color: var(--background-floating-80a);
 }
 
@@ -3888,7 +3892,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 .menu-1QACrS {
     background-color: var(--background-floating-80a);
     border-radius: 8px;
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
@@ -3932,7 +3936,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 /* 14.2. Userpopout */
 .userPopout-2j1gM4 {
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
     background-color: var(--background-floating);
@@ -4010,7 +4014,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
     backdrop-filter: blur(var(--background-floating-blur-calc));
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
@@ -4021,7 +4025,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 .drawerSizingWrapper-1txdWG>.contentWrapper-3vHNP2 {
     background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
     padding-top: 8px;
 }
 
@@ -4313,7 +4317,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 /* 14.5. Searchpopout */
 #app-mount .elevationBorderHigh-3drnJX {
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
     background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
@@ -4451,7 +4455,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 /* 14.6. Colorpicker */
 #app-mount .colorPickerCustom-1swUKF {
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
     background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
@@ -4465,7 +4469,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-radius: 8px;
     background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
 }
 
 .didRender-2SiRlm>.container-2O1UgZ {
@@ -4506,7 +4510,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 .popoutContainer-2wbmiM {
     background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
 }
 
 .popoutContainer-2wbmiM .guildSection-2Zyzy8 {
@@ -4518,7 +4522,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-radius: 8px;
     background-color: var(--background-floating);
     backdrop-filter: blur(var(--background-floating-blur-calc));
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
@@ -4527,7 +4531,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-radius: 8px;
     background-color: var(--background-floating);
     backdrop-filter: blur(var(--background-floating-blur-calc));
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
@@ -4539,7 +4543,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-radius: 8px;
     background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
 }
 
 .translate-PeW1wK>.container-1ILvLB {
@@ -4551,7 +4555,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-radius: 8px;
     background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
-    border: var(--background-modifier-accent-border);
+    border: var(--background-floating-border);
 }
 
 /* 14.16. Phone-emailvalidation */
