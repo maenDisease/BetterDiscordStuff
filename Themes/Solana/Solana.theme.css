@@ -42,11 +42,9 @@
     /* window */
     --window-margin: 24;
     --window-accent-tint-strength: 5%;
-    --window-transparency: 100%;
+    --window-opacity: 100%;
     --window-blur: 0;
     --window-border-radius: 10px;
-    --window-color-hue: initial;
-    --window-color-lightness: initial;
 
     /* floating */
     --background-floating-blur: 20px;
