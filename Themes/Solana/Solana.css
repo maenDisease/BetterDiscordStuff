@@ -2598,7 +2598,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     background-color: var(--button-selected-background);
 }
 
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.button-1EGGcP):hover {
     background-color: var(--brand-experiment-440);
 }
 
