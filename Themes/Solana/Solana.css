@@ -1,32 +1,36 @@
 /* user config */
 :root {
+    /* color control */
+    --accent-hue: 213;
+    --accent-saturation: 100%;
+    --accent-brightness: 50%;
+    --background-accent-hue: 213;
+
     /* background image */
     --background-image: initial;
     --background-image-position: center;
     --background-image-size: cover;
     --background-image-blur: 0;
     --background-overlay-lightness: initial;
-    --background-overlay-opacity: 0.8;
+    --background-overlay-opacity: 80%;
     --background-hue-shift-strength: 100%;
 
-    /* color control */
-    --accent-hue: 213;
-    --accent-saturation: 100%;
-    --accent-brightness: 50%;
-    --background-accent-hue: 213;
+    /* window */
+    --window-margin: 24;
     --window-accent-tint-strength: 5%;
+    --window-transparency: 100%;
+    --window-blur: 0;
+    --window-border-radius: 10px;
+    --window-color-hue: initial;
+    --window-color-lightness: initial;
 
     /* floating */
     --background-floating-blur: 20px;
     --enable-floating-transparency: 1;
 
-    /* window */
-    --window-margin: 24;
-    --window-transparency: 100%;
-    --window-border-radius: 10px;
-    --window-blur: 0;
-    --window-color-hue: initial;
-    --window-color-lightness: initial;
+    /* home icons */
+    --home-icon: initial;
+    --favorites-icon: initial;
 
     /* font */
     --custom-font-display: "";
@@ -36,10 +40,6 @@
 
     /* other */
     --enable-blur: 1;
-
-    /* home icons */
-    --home-icon: initial;
-    --favorites-icon: initial;
 }
 
 :root {
