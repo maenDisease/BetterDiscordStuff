@@ -816,9 +816,9 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 }
 
 .group-1_ptLP.flex-3BkGQD {
-    border: var(--background-primary-border);
+    border: var(--background-secondary-border);
     border-radius: 8px;
-    box-shadow: var(--btn-pill-inner-shadow);
+    background-color: var(--background-tertiary);
 }
 
 .item-2OyinQ.selectorButtonSelected-3cQUnj {
@@ -826,7 +826,19 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 }
 
 .selectorButton-3fWZ0_:not(.selectorButtonSelected-3cQUnj, .selectorButtonPremiumRequired-IZXhgV):hover {
-    background-color: var(--brand-experiment-30a);
+    background-color: var(--background-modifier-hover);
+}
+
+.selectorButton-3fWZ0_:not(.selectorButtonSelected-3cQUnj, .selectorButtonPremiumRequired-IZXhgV):active {
+    background-color: var(--background-modifier-active);
+}
+
+.selectorButton-3fWZ0_:not(.selectorButtonSelected-3cQUnj, .selectorButtonPremiumRequired-IZXhgV) {
+    background: transparent;
+}
+
+.selectorButton-3fWZ0_.selectorButtonPremiumRequired-IZXhgV {
+    background: transparent;
 }
 
 .qualitySettingsContainer-2LjkfM {
@@ -845,9 +857,9 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 }
 
 .root-g14mjS.fullscreenOnMobile-ixj0e3 .container-2zEtSe.segmentControl-3edJKN {
-    border: var(--background-primary-border);
+    border: var(--background-secondary-border);
+    background-color: var(--background-tertiary);
     border-radius: 8px;
-    box-shadow: var(--btn-pill-inner-shadow);
     width: fit-content;
     padding: 0;
     margin: 0 auto;
@@ -858,6 +870,16 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
     margin: 1px;
     padding: 2px 8px;
     border: 1px solid transparent;
+}
+
+.root-g14mjS.fullscreenOnMobile-ixj0e3 .item-LN5zvA.segmentControlOption-3MnJdT:not(.selected-2xa993):hover {
+    color: var(--interactive-hover);
+    background-color: var(--background-modifier-hover)
+}
+
+.root-g14mjS.fullscreenOnMobile-ixj0e3 .item-LN5zvA.segmentControlOption-3MnJdT:not(.selected-2xa993):active {
+    color: var(--interactive-active);
+    background-color: var(--background-modifier-active)
 }
 
 .root-g14mjS.fullscreenOnMobile-ixj0e3 .item-LN5zvA.segmentControlOption-3MnJdT.selected-2xa993 {
@@ -1622,8 +1644,7 @@ code {
 .searchHeaderTabList-3CZMQB {
     border: var(--background-primary-border);
     border-radius: 8px;
-    box-shadow: var(--btn-pill-inner-shadow);
-    background: none;
+    background-color: var(--background-primary);
 }
 
 .searchHeaderTabList-3CZMQB.side-2ur1Qk .item-3XjbnG {
@@ -4769,7 +4790,7 @@ html.theme-dark #app-mount .tooltipPointer-3L49xb {
     overflow: hidden;
 }
 
-bd-body #floating-editor-window.floating-window {
+bd-body .floating-window {
     z-index: 9999;
     border-radius: 10px;
     border: var(--background-tertiary-border);
@@ -5196,6 +5217,88 @@ bd-body #floating-editor-window.floating-window {
     border: var(--background-primary-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
+}
+
+/* Spotifycontrols */
+.wrapper-3Hk9OB:not(:empty) + .container-6sXIoE {
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+}
+
+.wrapper-3Hk9OB + .container-6sXIoE {
+    border: var(--background-tertiary-border);
+    border-radius: 12px;
+    background-color: var(--background-floating-40a);
+    margin-bottom: 0;
+}
+
+.wrapper-3Hk9OB:not(:nth-last-child(2)) {
+    border-radius: 0 0 12px 12px;
+    border-top: none;
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU:not(:nth-last-child(3)) {
+    border-radius: 0;
+    border-top: none;
+}
+
+.container-6sXIoE:not(.maximized-vv2Wr0) .details-ntX2k5 + .flex-2S1XBF .button-12Fmur.enabled-9OeuTA:first-child {
+    display:none;
+}
+
+.theme-dark .container-6sXIoE.maximized-vv2Wr0 .cover-SwJ-ck[name="QuestionMark_Activity"] {
+    background: url(https://i.imgur.com/kHch9q7.png) center/cover no-repeat, var(--background-modifier-hover);
+}
+
+.theme-dark .container-6sXIoE:not(.maximized-vv2Wr0) .cover-SwJ-ck[name="QuestionMark_Activity"] {
+    background: url(https://i.imgur.com/UZ3LzIp.png) center/cover no-repeat, var(--background-modifier-hover);
+}
+
+.theme-light .container-6sXIoE.maximized-vv2Wr0 .cover-SwJ-ck[name="QuestionMark_Activity"] {
+    background: url(https://i.imgur.com/or0m0Uz.png) center/cover no-repeat, var(--background-modifier-hover);
+}
+
+.theme-light .container-6sXIoE:not(.maximized-vv2Wr0) .cover-SwJ-ck[name="QuestionMark_Activity"] {
+    background: url(https://i.imgur.com/zlyhZel.png) center/cover no-repeat, var(--background-modifier-hover);
+}
+
+.cover-SwJ-ck[name="QuestionMark_Activity"] g {
+    display:none;
+}
+
+.container-6sXIoE.maximized-vv2Wr0 .coverWrapper-YAplwJ {
+    width: calc(100% - 4px);
+    margin-top: 8px;
+    border-radius: 6px;
+    border: var(--background-modifier-accent-border);
+}
+
+.activityButton-5Fs4Aa {
+    right: calc(32px + 4px + 4px);
+}
+
+.container-6sXIoE.maximized-vv2Wr0 .maximizer-RVu85p {
+    top: unset;
+    height: 20px;
+}
+
+.activityButton-5Fs4Aa,
+.maximizer-RVu85p {
+    background-color: transparent;
+    color: var(--interactive-normal);
+    bottom: 4px;
+    height: 20px;
+    pointer-events: all;
+}
+
+.activityButton-5Fs4Aa:hover,
+.maximizer-RVu85p:hover {
+    color: var(--interactive-hover);
+}
+
+.activityButton-5Fs4Aa:active,
+.maximizer-RVu85p:active {
+    color: var(--interactive-active);
 }
 
 /* BDFDB */
