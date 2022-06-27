@@ -1316,7 +1316,7 @@ code {
 }
 
 /* 6.2.2. Embeds */
-.imageWrapper-oMkQl4 {
+.imageWrapper-oMkQl4:not([style^="width: 48px; height: "]) {
     border-radius: 8px;
     box-shadow: var(--box-shadow-outer-2);
 }
