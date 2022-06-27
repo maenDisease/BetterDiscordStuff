@@ -4,8 +4,9 @@
  * @author Disease#3749
  * @authorId 678469587444170762
  * @description macOS with barely any customization.
- * @source https://github.com/maenDisease/BetterDiscordStuff
- * @invite BpwYF5UyHu
+ * @source https://github.com/maenDisease/BetterDiscordStuff/tree/main/Themes/Solana
+ * @invite BShu37e4jg
+ * @website https://maendisease.github.io/
 */
 
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
@@ -24,7 +25,7 @@
 
 :root {
     /* background image */
-    --background-image: url(https://i.imgur.com/wDB9XWK.png);
+    --background-image: initial;
     --background-image-position: center;
     --background-image-size: cover;
     --background-image-blur: 0;
@@ -60,7 +61,7 @@
     /* other */
     --enable-blur: 1;
 
-    /* guild icons */
-    /* --home-icon: url(https://i.imgur.com/OFCbYk0.png); */
-    /* --favorites-icon: url(https://i.imgur.com/OFCbYk0.png); */
+    /* home icons */
+    --home-icon: initial;
+    --favorites-icon: initial;
 }
