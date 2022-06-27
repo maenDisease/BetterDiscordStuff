@@ -2207,11 +2207,6 @@ code {
     background-color: var(--button-selected-background);
 }
 
-.topPill-3DJJNV .themed-2-lozF:not(.selected-g-kMVV).item-3XjbnG:hover:not(.disabled-1nofHP),
-.topPill-3DJJNV .themed-2-lozF:not(.selected-g-kMVV).item-3XjbnG:active:not(.disabled-1nofHP) {
-    background-color: transparent;
-}
-
 .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG:active:not(.disabled-1nofHP) {
     background-color: var(--button-selected-background);
 }
@@ -2391,7 +2386,7 @@ html:not(.app-focused) .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInn
 }
 
 .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nofHP),
-.selected-g-kMVV.item-3XjbnG:not(.disabled-1nofHP):hover {
+.sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nofHP):hover {
     color: var(--text-normal);
 }
 
