@@ -5,6 +5,7 @@
     --accent-saturation: 100%;
     --accent-brightness: 50%;
     --background-accent-hue: 213;
+    --text-link-hue: 212;
 
     /* background image */
     --background-image: initial;
@@ -150,6 +151,7 @@
     --scroller-color: hsl(0, 0%, 42%);
     --button-selected-background: hsl(var(--background-accent-hue), 2%, 38%);
     --text-muted: hsl(var(--background-accent-hue), 1%, 41%);
+    --text-link: hsl(calc(var(--text-link-hue) - 15),calc(var(--saturation-factor, 1)*100%),47.8%);
 
     --background-modifier-hover: hsla(var(--background-accent-hue), 13%, 48%, 0.16);
     --background-modifier-active: hsla(var(--background-accent-hue), 13%, 48%, 0.2);
@@ -186,6 +188,7 @@
 
     --scroller-color: hsl(0, 0%, 77%);
     --button-selected-background: #fff;
+    --text-link: hsl(var(--text-link-hue),calc(var(--saturation-factor, 1)*100%),43.9%);
 
     --background-modifier-hover: hsla(var(--background-accent-hue), 13%, 84%, 0.25);
     --background-modifier-active: hsla(var(--background-accent-hue), 13%, 84%, 0.35);
@@ -387,7 +390,7 @@ body::before {
 
 body::after {
     backdrop-filter: blur(var(--background-image-blur-calc));
-    background: hsla(var(--background-accent-hue), 100%, 50%, var(--background-image, var(--background-hue-shift-strength)));
+    background: hsla(var(--background-accent-hue), calc(var(--saturation-factor) * 100%), 50%, var(--background-image, var(--background-hue-shift-strength)));
     mix-blend-mode: hue;
     will-change: opacity;
 }
@@ -482,6 +485,10 @@ body::after {
 .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {
     background-color: var(--background-modifier-accent);
     box-shadow: var(--box-shadow-outer-2);
+}
+
+.theme-light .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {
+    background-color: var(--background-floating-40a);
 }
 
 .expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
@@ -3658,6 +3665,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     font-size: 14px;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .root-g14mjS.fullscreenOnMobile-ixj0e3>.header-1zd7se .modalTitle-2rlE_E {
