@@ -1,7 +1,7 @@
 /* user config */
 :root {
     /* background image */
-    --background-image: url(https://i.imgur.com/wDB9XWK.png);
+    --background-image: initial;
     --background-image-position: center;
     --background-image-size: cover;
     --background-image-blur: 0;
@@ -37,12 +37,13 @@
     /* other */
     --enable-blur: 1;
 
-    /* guild icons */
-    /* --home-icon: url(https://i.imgur.com/OFCbYk0.png); */
-    /* --favorites-icon: url(https://i.imgur.com/OFCbYk0.png); */
+    /* home icons */
+    --home-icon: initial;
+    --favorites-icon: initial;
 }
 
 :root {
+    --background-image-calc: var(--background-image, url(https://i.imgur.com/wDB9XWK.png));
     --background-image-blur-calc: calc(var(--background-image-blur) * var(--enable-blur));
     --background-floating-blur-calc: calc(var(--background-floating-blur) * var(--enable-blur));
     --window-margin-px: calc(var(--window-margin) * 1px);
@@ -381,12 +382,12 @@ body::after {
 }
 
 body::before {
-    background: var(--background-image) var(--background-image-position)/var(--background-image-size);
+    background: var(--background-image-calc) var(--background-image-position)/var(--background-image-size);
 }
 
 body::after {
     backdrop-filter: blur(var(--background-image-blur-calc));
-    background: hsla(var(--background-accent-hue), 100%, 50%, var(--background-hue-shift-strength));
+    background: hsla(var(--background-accent-hue), 100%, 50%, var(--background-image, var(--background-hue-shift-strength)));
     mix-blend-mode: hue;
     will-change: opacity;
 }
