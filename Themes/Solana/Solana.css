@@ -459,7 +459,7 @@ body::after {
     border-right: var(--background-modifier-accent-border);
 }
 
-.theme-light {
+.theme-light .scroller-3X7KbA {
     background-color: var(--background-floating-40a);
     border-top: var(--background-primary-border);
     border-right: var(--background-primary-border);
@@ -3251,6 +3251,14 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-bottom-color: transparent;
 }
 
+.top-K_jibn .brand-3g5E0C:not(.selected-g-kMVV).item-3XjbnG:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.top-K_jibn .brand-3g5E0C:not(.selected-g-kMVV).item-3XjbnG:active {
+    background-color: var(--background-modifier-active);
+}
+
 .permissionsWrapper-34gbP6>.permissionsForm-xrzuUy {
     border-radius: 8px;
     background-color: var(--background-secondary);
@@ -3681,10 +3689,18 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     justify-content: center;
 }
 
-.root-8LYsGj.fullscreenOnMobile-ixj0e3 .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
-.root-8LYsGj.fullscreenOnMobile-ixj0e3 .top-K_jibn .themed-2-lozF.item-3XjbnG:active,
-.root-8LYsGj.fullscreenOnMobile-ixj0e3 .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
+.root-8LYsGj.fullscreenOnMobile-ixj0e3 .top-K_jibn .item-3XjbnG.selected-g-kMVV.themed-2-lozF,
+.root-8LYsGj.fullscreenOnMobile-ixj0e3 .top-K_jibn .item-3XjbnG.themed-2-lozF:active,
+.root-8LYsGj.fullscreenOnMobile-ixj0e3 .top-K_jibn .item-3XjbnG.themed-2-lozF:hover {
     border-bottom-color: transparent;
+}
+
+.root-8LYsGj.fullscreenOnMobile-ixj0e3 .top-K_jibn .item-3XjbnG:not(.selected-g-kMVV).themed-2-lozF:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.root-8LYsGj.fullscreenOnMobile-ixj0e3 .top-K_jibn .item-3XjbnG:not(.selected-g-kMVV).themed-2-lozF:active {
+    background-color: var(--background-modifier-active);
 }
 
 .root-8LYsGj.fullscreenOnMobile-ixj0e3 .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG {
@@ -3697,7 +3713,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     height: 32px;
     border: var(--background-secondary-border);
     border-radius: 8px;
-    background: var(--background-secondary);
+    background: var(--background-tertiary);
     transform: translateY(12px);
     z-index: 1;
 }
@@ -5067,6 +5083,7 @@ bd-body #floating-editor-window.floating-window {
     padding: 0 !important;
     display: flex;
     align-self: center;
+    border-bottom: var(--background-primary-border-a) !important;
 }
 
 .ChannelDms-channelmembers-wrap .searchBar-3TnChZ .searchBarComponent-3N7dCG {
