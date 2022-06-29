@@ -3134,6 +3134,15 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     margin-top: 0;
 }
 
+.addGamePopout-2SKNIV.elevationBorderHigh-3drnJX {
+    border-radius: 8px;
+}
+
+#app-mount .didRender-2SiRlm .addGamePopout-2SKNIV.elevationBorderHigh-3drnJX {
+    background-color: var(--background-floating);
+    animation: floatingtranstion 0.5s 0.2s forwards;
+}
+
 .option-1QI4c9 {
     border-radius: 7px;
     opacity: 1;
