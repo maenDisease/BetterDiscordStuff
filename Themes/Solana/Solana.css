@@ -2530,6 +2530,10 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     display: block;
 }
 
+.appAvatar-2htirv {
+    border-radius: 8px;
+}
+
 .card-16VQ8C {
     border-radius: 8px;
     background-color: var(--background-secondary);
