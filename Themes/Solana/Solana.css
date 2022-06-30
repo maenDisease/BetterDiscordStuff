@@ -811,6 +811,16 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
     border-top: none;
 }
 
+.panel-2ZFCRb.activityPanel-9icbyU + .wrapper-3Hk9OB:empty + .container-6sXIoE.withTimeline-824fT_ {
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU + .wrapper-3Hk9OB:empty + .container-6sXIoE.withTimeline-824fT_ + .container-YkUktl {
+    border-top: var(--background-tertiary-border);
+}
+
 .panels-3wFtMD .button-12Fmur:hover {
     border-radius: 5px;
     border: var(--background-tertiary-border);
