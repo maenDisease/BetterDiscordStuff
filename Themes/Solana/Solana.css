@@ -4752,6 +4752,11 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border: var(--background-floating-border);
 }
 
+.didRender-2SiRlm .popoutContainer-2wbmiM {
+    background-color: var(--background-floating);
+    animation: floatingtranstion 0.5s 0.2s forwards;
+}
+
 .popoutContainer-2wbmiM .guildSection-2Zyzy8 {
     background-color: transparent;
 }
