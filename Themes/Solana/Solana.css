@@ -2700,6 +2700,15 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     box-shadow: var(--btn-outer-shadow);
 }
 
+.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.button-1EGGcP) {
+    border: 1px solid transparent;
+    border-top: 1px solid var(--brand-experiment-460);
+}
+
+.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.button-1EGGcP):hover {
+    border-top: 1px solid var(--brand-experiment);
+}
+
 .button-f2h6uQ.lookOutlined-3yKVGo {
     border-radius: 6px;
 }
