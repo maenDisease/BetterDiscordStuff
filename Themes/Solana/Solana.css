@@ -1309,7 +1309,7 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 .reaction-3vwAF2.reactionMe-1PwQAc {
     background: var(--button-brand-gradient);
     border: 1px solid transparent;
-    border-top-color: rgba(255, 255, 255, 0.2);
+    border-top-color: var(--brand-experiment-460);
 }
 
 #app-mount .reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
@@ -2045,7 +2045,7 @@ code {
 .reaction-102jx9.reactionMe-2zhiyZ {
     background: var(--button-brand-gradient);
     border: 1px solid transparent;
-    border-top-color: rgba(255, 255, 255, 0.2);
+    border-top-color: var(--brand-experiment-460);
 }
 
 .authorContainer-3m1uzW .text-md-normal-304U3g {
