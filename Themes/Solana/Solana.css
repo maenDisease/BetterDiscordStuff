@@ -2409,6 +2409,18 @@ html:not(.app-focused) .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInn
 }
 
 /* 11. Usersettings */
+.contentRegion-3HkfJJ {
+    max-width: 800px;
+}
+
+.sidebarRegion-1VBisG {
+    max-width: 248px;
+}
+
+.standardSidebarView-E9Pc3j {
+    justify-content: center;
+}
+
 #user-settings-cog-Nitro_Server_Boost,
 #user-settings-cog-Subscriptions,
 #user-settings-cog-Library_Inventory,
