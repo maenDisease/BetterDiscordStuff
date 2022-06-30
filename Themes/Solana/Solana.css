@@ -2440,12 +2440,13 @@ html:not(.app-focused) .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInn
     border-left: var(--background-tertiary-border-variable-divider-a);
     border-top: var(--background-tertiary-border-variable-width-a);
     border-bottom: var(--background-tertiary-border-variable-width-a);
-    border-right: var(--background-tertiary-border-variable-width-a);
+    border-right: var(--background-tertiary-border-variable-divider-a);
     backdrop-filter: blur(var(--window-blur));
 }
 
 .theme-light .contentRegion-3HkfJJ {
     border-left: var(--background-tertiary-border-a);
+    border-right: var(--background-tertiary-border-a);
 }
 
 .sidebar-nqHbhN {
