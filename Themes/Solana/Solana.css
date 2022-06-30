@@ -5073,6 +5073,8 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 #app-mount .tooltip-14MtrL {
     border: var(--background-floating-border);
     border-radius: 6px;
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
 
 html.theme-dark #app-mount .tooltipPointer-3L49xb {
