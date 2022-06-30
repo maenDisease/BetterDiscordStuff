@@ -4792,9 +4792,10 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 .noiseCancellationPopout-2-e5Xz {
     border-radius: 8px;
-    background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
     border: var(--background-floating-border);
+    background-color: var(--background-floating);
+    animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
 /* 14.16. Phone-emailvalidation */
