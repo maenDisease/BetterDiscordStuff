@@ -786,7 +786,7 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
     border: var(--background-modifier-accent-border);
 }
 
-/* .panel-2ZFCRb.activityPanel-9icbyU {
+.panel-2ZFCRb.activityPanel-9icbyU {
     border-bottom: none;
     background-color: var(--background-floating-40a);
     border-radius: 12px 12px 0 0;
@@ -809,7 +809,7 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 .panel-2ZFCRb.activityPanel-9icbyU+.wrapper-3Hk9OB:not(:empty) {
     border-radius: 0 0 12px 12px;
     border-top: none;
-} */
+}
 
 .panels-3wFtMD .button-12Fmur:hover {
     border-radius: 5px;
