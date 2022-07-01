@@ -462,6 +462,7 @@ body::after {
     background-color: var(--background-modifier-selected);
     border-top: var(--background-modifier-accent-border);
     border-right: var(--background-modifier-accent-border);
+    backdrop-filter: blur(calc(var(--window-blur) * var(--enable-blur)));
 }
 
 .theme-light .scroller-3X7KbA {
