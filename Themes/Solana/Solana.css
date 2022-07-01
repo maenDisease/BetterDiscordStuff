@@ -4257,6 +4257,10 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     background-color: transparent;
 }
 
+.footer-3naVBw {
+    background-color: transparent;
+}
+
 /* 14.3. Emojipicker */
 #emoji-picker-tab-panel[role="dialog"] .emojiPicker-6YCk8a {
     background-color: var(--background-floating);
