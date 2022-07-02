@@ -31,7 +31,7 @@
     /* guidlist */
     --home-icon: initial;
     --favorites-icon: initial;
-    --guildlist-blur: var(--window-blur-calc);
+    --guildlist-blur: var(--window-blur);
 
     /* sidebar */
     --sidebar-width: 240px;
@@ -432,7 +432,7 @@
     --background-modifier-accent-s: 10%;
     --background-modifier-accent-l: 48%;
     --background-modifier-accent-a: 0.34;
-    
+
     --text-brightness-src: var(--sidebar-text-brightness);
 
     --header-primary: hsl(var(--background-accent-hue), var(--header-primary-s), calc(var(--header-primary-l) * calc(1 + var(--text-brightness-src))));
