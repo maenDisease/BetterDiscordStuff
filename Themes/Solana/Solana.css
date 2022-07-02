@@ -420,6 +420,19 @@
 .sidebar-1tnWFu>*:first-child:not(.panels-3wFtMD),
 .container-YkUktl,
 .sidebar-nqHbhN {
+    --background-modifier-hover-s: 13%;
+    --background-modifier-hover-l: 48%;
+    --background-modifier-hover-a: 0.16;
+    --background-modifier-active-s: 13%;
+    --background-modifier-active-l: 48%;
+    --background-modifier-active-a: 0.2;
+    --background-modifier-selected-s: 5%;
+    --background-modifier-selected-l: 48%;
+    --background-modifier-selected-a: 0.3;
+    --background-modifier-accent-s: 10%;
+    --background-modifier-accent-l: 48%;
+    --background-modifier-accent-a: 0.34;
+    
     --text-brightness-src: var(--sidebar-text-brightness);
 
     --header-primary: hsl(var(--background-accent-hue), var(--header-primary-s), calc(var(--header-primary-l) * calc(1 + var(--text-brightness-src))));
