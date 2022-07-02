@@ -5,6 +5,8 @@
     --accent-saturation: 100%;
     --accent-brightness: 50%;
     --background-accent-hue: 213;
+    --background-accent-saturation: 100%;
+    --background-accent-brightness: 50%;
     --text-link-hue: 212;
 
     /* background image */
@@ -386,12 +388,12 @@ body::after {
 }
 
 body::before {
-    background: var(--background-image-calc) var(--background-image-position)/var(--background-image-size);
+    background: var(--background-image-calc) var(--background-image-position)/var(--background-image-size) no-repeat;
 }
 
 body::after {
     backdrop-filter: blur(var(--background-image-blur-calc));
-    background: hsla(var(--background-accent-hue), calc(var(--saturation-factor) * 100%), 50%, var(--background-image, var(--background-hue-shift-strength)));
+    background: hsla(var(--background-accent-hue), calc(var(--saturation-factor) * var(--background-accent-saturation)), var(--background-accent-saturation), var(--background-image, var(--background-hue-shift-strength)));
     mix-blend-mode: hue;
     will-change: opacity;
 }
