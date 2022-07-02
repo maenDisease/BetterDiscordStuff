@@ -393,7 +393,7 @@ body::before {
 
 body::after {
     backdrop-filter: blur(var(--background-image-blur-calc));
-    background: hsla(var(--background-accent-hue), calc(var(--saturation-factor) * var(--background-accent-saturation)), var(--background-accent-saturation), var(--background-image, var(--background-hue-shift-strength)));
+    background: hsla(var(--background-accent-hue), calc(var(--saturation-factor) * var(--background-accent-saturation)), var(--background-accent-brightness), var(--background-image, var(--background-hue-shift-strength)));
     mix-blend-mode: hue;
     will-change: opacity;
 }
