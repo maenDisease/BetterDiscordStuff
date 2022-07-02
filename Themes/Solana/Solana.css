@@ -22,7 +22,7 @@
 
     /* window */
     --window-margin: 24;
-    --window-margin-left: 24;
+    --window-margin-left: 0;
     --window-accent-tint-strength: 5%;
     --window-opacity: 100%;
     --window-blur: 0;
