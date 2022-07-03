@@ -59,7 +59,7 @@
     --window-border-radius-calc: calc(min(1, var(--window-margin)) * var(--window-border-radius));
     --guildlist-blur-calc: calc(var(--guildlist-blur) * 1px * var(--enable-blur));
     --window-blur-calc: calc(var(--window-blur) * 1px * var(--enable-blur));
-    --window-home-blur-calc: calc(var(--window-blur) * 1px * var(--enable-blur));
+    --window-home-blur-calc: calc(var(--window-home-blur) * 1px * var(--enable-blur));
     --window-color-hue: initial;
     --window-color-lightness: initial;
     --window-color-calc: hsla(var(--window-color-hue), 100%, var(--window-color-lightness), var(--window-opacity));
