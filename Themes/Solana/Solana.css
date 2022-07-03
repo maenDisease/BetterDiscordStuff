@@ -36,10 +36,10 @@
     --text-link-hue: 212;
     --chat-text-brightness: 0;
 
-    /* guidlist */
+    /* dock */
     --home-icon: initial;
     --favorites-icon: initial;
-    --guildlist-blur: var(--window-blur);
+    --dock-blur: var(--window-blur);
 
     /* sidebar */
     --sidebar-width: 240px;
@@ -67,7 +67,7 @@
     --background-floating-blur-calc: calc(var(--background-floating-blur) * var(--enable-blur));
     --window-margin-px: calc(var(--window-margin) * 1px);
     --window-border-radius-calc: calc(min(1, var(--window-margin)) * var(--window-border-radius));
-    --guildlist-blur-calc: calc(var(--guildlist-blur) * 1px * var(--enable-blur));
+    --dock-blur-calc: calc(var(--dock-blur) * 1px * var(--enable-blur));
     --window-blur-calc: calc(var(--window-blur) * 1px * var(--enable-blur));
     --window-friends-blur-calc: calc(var(--window-friends-blur) * 1px * var(--enable-blur));
     --window-color-hue: initial;
@@ -345,7 +345,7 @@
 1. Transparency
 2. Background
 3. Titlebar
-4. Guildlist
+4. dock
 5. channellist
     1. Guildheader
     2. Channels
@@ -565,7 +565,7 @@ body::after {
     -webkit-app-region: no-drag;
 }
 
-/* 4. Guildlist */
+/* 4. dock */
 .wrapper-1_HaEi {
     background-color: transparent;
 }
@@ -598,7 +598,7 @@ body::after {
     background-color: var(--background-modifier-selected);
     border-top: var(--background-modifier-accent-border);
     border-right: var(--background-modifier-accent-border);
-    backdrop-filter: blur(var(--guildlist-blur-calc));
+    backdrop-filter: blur(var(--dock-blur-calc));
 }
 
 .theme-light .scroller-3X7KbA {
