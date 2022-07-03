@@ -1515,16 +1515,16 @@ code {
 }
 
 .groupStart-3Mlgv1.cozyMessage-1DWF9U .contents-2MsGLg,
-.cozyMessage-1DWF9U:not(.groupStart-3Mlgv1) .contents-2MsGLg > .markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+.cozyMessage-1DWF9U:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
     background: linear-gradient(var(--chat-bubble-background-color), var(--chat-bubble-background-color));
     background-size: calc(var(--chat-bubble) * 1px);
     max-width: calc(100% - (10% * var(--chat-bubble)));
     width: fit-content;
     margin: 0;
-    padding: calc(7px * var( --chat-bubble)) calc(12px * var( --chat-bubble));
+    padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
     border-radius: calc(8px * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color);
-    box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0,0,0,calc(0.16 * var(--chat-bubble)));
+    box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
 }
 
 .cozyMessage-1DWF9U.automodMessage-265YwJ:before,
@@ -1535,7 +1535,7 @@ code {
 }
 
 .groupStart-3Mlgv1.cozyMessage-1DWF9U.mentioned-Tre-dv .contents-2MsGLg,
-.cozyMessage-1DWF9U.mentioned-Tre-dv:not(.groupStart-3Mlgv1) .contents-2MsGLg > .markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+.cozyMessage-1DWF9U.mentioned-Tre-dv:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
     background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--info-warning-foreground);
@@ -1547,9 +1547,9 @@ code {
 }
 
 .groupStart-3Mlgv1.cozyMessage-1DWF9U.replying-eZ7p5z .contents-2MsGLg,
-.cozyMessage-1DWF9U.replying-eZ7p5z:not(.groupStart-3Mlgv1) .contents-2MsGLg > .markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *),
+.cozyMessage-1DWF9U.replying-eZ7p5z:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *),
 .groupStart-3Mlgv1.cozyMessage-1DWF9U.ephemeral-2nDdnn .contents-2MsGLg,
-.cozyMessage-1DWF9U.ephemeral-2nDdnn:not(.groupStart-3Mlgv1) .contents-2MsGLg > .markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+.cozyMessage-1DWF9U.ephemeral-2nDdnn:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
     background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
@@ -1562,7 +1562,7 @@ code {
 }
 
 .groupStart-3Mlgv1.cozyMessage-1DWF9U.automodMessage-265YwJ .contents-2MsGLg,
-.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1) .contents-2MsGLg > .markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
     background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
@@ -1574,7 +1574,7 @@ code {
 }
 
 .groupStart-3Mlgv1.cozyMessage-1DWF9U.automodMessage-265YwJ:hover .contents-2MsGLg,
-.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1):hover .contents-2MsGLg > .markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1):hover .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
     background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
