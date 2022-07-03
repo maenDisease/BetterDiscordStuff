@@ -1517,8 +1517,8 @@ code {
     border-right: var(--background-primary-border);
 }
 
-.groupStart-3Mlgv1.cozyMessage-1DWF9U .contents-2MsGLg,
-.cozyMessage-1DWF9U:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+.groupStart-3Mlgv1.cozyMessage-1DWF9U>.contents-2MsGLg,
+.cozyMessage-1DWF9U:not(.groupStart-3Mlgv1)>.contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     background-size: calc(var(--chat-bubble) * 1px);
     max-width: calc(100% - (10% * var(--chat-bubble)));
