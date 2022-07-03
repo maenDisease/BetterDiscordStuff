@@ -2607,7 +2607,6 @@ html:not(.app-focused) .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInn
     border-top: var(--background-tertiary-border-variable-width-a);
     border-bottom: var(--background-tertiary-border-variable-width-a);
     border-right: var(--background-tertiary-border-variable-divider-a);
-    backdrop-filter: blur(var(--window-blur-calc));
 }
 
 .theme-light .contentRegion-3HkfJJ {
