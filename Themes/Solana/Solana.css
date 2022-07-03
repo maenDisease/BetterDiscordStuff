@@ -7,9 +7,6 @@
     --background-accent-hue: 213;
     --background-accent-saturation: 100%;
     --background-accent-brightness: 50%;
-    --text-link-hue: 212;
-    --sidebar-text-brightness: 0;
-    --chat-text-brightness: 0;
 
     /* background image */
     --background-image: initial;
@@ -26,10 +23,18 @@
     --window-accent-tint-strength: 5%;
     --window-opacity: 100%;
     --window-background-image: initial;
+    --window-background-image-position: center;
     --window-background-image-attachment: fixed;
     --window-blur: 0;
-    --window-home-blur: 0;
+    --window-friends-blur: 0;
     --window-border-radius: 10px;
+
+    /* chat */
+    --chat-bubble: 0;
+    --chat-bubble-background-color: var(--background-primary);
+    --chat-bubble-border-color: var(--background-primary-border-color);
+    --text-link-hue: 212;
+    --chat-text-brightness: 0;
 
     /* guidlist */
     --home-icon: initial;
@@ -39,6 +44,11 @@
     /* sidebar */
     --sidebar-width: 240px;
     --members-width: 240px;
+    --sidebar-text-brightness: 0;
+
+    /* floating */
+    --background-floating-blur: 20px;
+    --enable-floating-transparency: 1;
 
     /* font */
     --custom-font-display: "";
@@ -46,19 +56,12 @@
     --custom-font-primary: "";
     --custom-font-code: "";
 
-    /* floating */
-    --background-floating-blur: 20px;
-    --enable-floating-transparency: 1;
-
     /* other */
-    --chat-bubble: 0;
-    --chat-bubble-background-color: var(--background-primary);
-    --chat-bubble-border-color: var(--background-primary-border-color);
     --enable-blur: 1;
 }
 
 :root {
-    --window-background-image-calc: var(--window-background-image, var(--background-image)) center/cover no-repeat var(--window-background-image-attachment);
+    --window-background-image-calc: var(--window-background-image, var(--background-image)) var(--window-background-image-position)/cover no-repeat var(--window-background-image-attachment);
     --background-image-calc: var(--background-image, url(https://i.imgur.com/wDB9XWK.png));
     --background-image-blur-calc: calc(var(--background-image-blur) * var(--enable-blur));
     --background-floating-blur-calc: calc(var(--background-floating-blur) * var(--enable-blur));
@@ -66,7 +69,7 @@
     --window-border-radius-calc: calc(min(1, var(--window-margin)) * var(--window-border-radius));
     --guildlist-blur-calc: calc(var(--guildlist-blur) * 1px * var(--enable-blur));
     --window-blur-calc: calc(var(--window-blur) * 1px * var(--enable-blur));
-    --window-home-blur-calc: calc(var(--window-home-blur) * 1px * var(--enable-blur));
+    --window-friends-blur-calc: calc(var(--window-friends-blur) * 1px * var(--enable-blur));
     --window-color-hue: initial;
     --window-color-lightness: initial;
     --window-color-calc: hsla(var(--window-color-hue), 100%, var(--window-color-lightness), var(--window-opacity));
@@ -1516,14 +1519,14 @@ code {
 
 .groupStart-3Mlgv1.cozyMessage-1DWF9U .contents-2MsGLg,
 .cozyMessage-1DWF9U:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
-    background: linear-gradient(var(--chat-bubble-background-color), var(--chat-bubble-background-color));
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     background-size: calc(var(--chat-bubble) * 1px);
     max-width: calc(100% - (10% * var(--chat-bubble)));
     width: fit-content;
     margin: 0;
     padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
     border-radius: calc(8px * var(--chat-bubble));
-    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color);
+    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
     box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
 }
 
@@ -2383,7 +2386,7 @@ code {
 
 .container-2cd8Mz .content-1jQy2l,
 .container-2cd8Mz .tabBody-2dgbAs {
-    backdrop-filter: blur(var(--window-home-blur-calc));
+    backdrop-filter: blur(var(--window-friends-blur-calc));
 }
 
 .container-2cd8Mz {
