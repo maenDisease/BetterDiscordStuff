@@ -25,7 +25,10 @@
     --window-margin-left: 0;
     --window-accent-tint-strength: 5%;
     --window-opacity: 100%;
+    --window-background-image: initial;
+    --window-background-image-attachment: fixed;
     --window-blur: 0;
+    --window-home-blur: 0;
     --window-border-radius: 10px;
 
     /* guidlist */
@@ -52,6 +55,7 @@
 }
 
 :root {
+    --window-background-image-calc: var(--window-background-image, var(--background-image)) center/cover no-repeat var(--window-background-image-attachment);
     --background-image-calc: var(--background-image, url(https://i.imgur.com/wDB9XWK.png));
     --background-image-blur-calc: calc(var(--background-image-blur) * var(--enable-blur));
     --background-floating-blur-calc: calc(var(--background-floating-blur) * var(--enable-blur));
@@ -1080,6 +1084,22 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
     border-top: var(--background-tertiary-border-variable-width-a);
     border-bottom: var(--background-tertiary-border-variable-width-a);
     border-right: var(--background-tertiary-border-variable-width-a);
+}
+
+.chat-2ZfjoI::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: var(--window-background-image-calc);
+}
+
+.chat-2ZfjoI .content-1jQy2l,
+.chat-2ZfjoI .container-ZMc96U {
+    backdrop-filter: blur(var(--window-blur-calc));
 }
 
 .theme-light .chat-2ZfjoI {
@@ -2287,6 +2307,26 @@ code {
     border-right: var(--background-tertiary-border-variable-width-a);
 }
 
+.container-2cd8Mz .content-1jQy2l,
+.container-2cd8Mz .tabBody-2dgbAs {
+    backdrop-filter: blur(var(--window-home-blur-calc));
+}
+
+.container-2cd8Mz {
+    backdrop-filter: blur();
+}
+
+.container-2cd8Mz::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: var(--window-background-image-calc);
+}
+
 .theme-light #app-mount .container-2cd8Mz {
     border-left: var(--background-tertiary-border-a);
 }
@@ -2504,6 +2544,7 @@ code {
     border-bottom: var(--background-tertiary-border-variable-width-a);
     border-right: var(--background-tertiary-border-variable-width-a);
     backdrop-filter: blur(var(--window-blur-calc));
+    overflow: hidden;
 }
 
 .theme-light #app-mount .pageWrapper-2PwDoS {
@@ -2608,6 +2649,7 @@ html:not(.app-focused) .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInn
     border-top: var(--background-tertiary-border-variable-width-a);
     border-bottom: var(--background-tertiary-border-variable-width-a);
     border-right: var(--background-tertiary-border-variable-divider-a);
+    backdrop-filter: blur(var(--window-blur-calc));
 }
 
 .theme-light .contentRegion-3HkfJJ {
