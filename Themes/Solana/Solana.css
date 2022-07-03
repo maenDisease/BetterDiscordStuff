@@ -67,7 +67,7 @@
     --background-floating-blur-calc: calc(var(--background-floating-blur) * var(--enable-blur));
     --window-margin-px: calc(var(--window-margin) * 1px);
     --window-border-radius-calc: calc(min(1, var(--window-margin)) * var(--window-border-radius));
-    --dock-blur-calc: calc(var(--dock-blur) * 1px * var(--enable-blur));
+    --dock-blur-calc: calc(var(--dock-blur, var(--window-blur)) * 1px * var(--enable-blur));
     --window-blur-calc: calc(var(--window-blur) * 1px * var(--enable-blur));
     --window-friends-blur-calc: calc(var(--window-friends-blur) * 1px * var(--enable-blur));
     --window-color-hue: initial;
@@ -1658,6 +1658,12 @@ code {
     border-radius: 8px;
 }
 
+.embedCard-bDyD5S {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+    box-shadow: var(--box-shadow-outer-2);
+}
+
 .videoControls-2NzHnF {
     flex-wrap: wrap;
     width: 80%;
@@ -1909,14 +1915,6 @@ code {
 
 .member-2gU6Ar {
     max-width: var(--members-width);
-}
-
-.ChannelDms-channelmembers-wrap .channel-1Shao0 {
-    max-width: unset;
-}
-
-.ChannelDms-channelmembers-wrap {
-    width: var(--members-width);
 }
 
 /* 6.6. Searchpage */
@@ -5731,8 +5729,12 @@ bd-body .floating-window {
 }
 
 /* Channeldms */
+.ChannelDms-channelmembers-wrap .channel-1Shao0 {
+    max-width: unset;
+}
+
 .ChannelDms-channelmembers-wrap {
-    width: 240px;
+    width: var(--members-width);
 }
 
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
