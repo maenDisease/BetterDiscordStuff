@@ -2313,7 +2313,7 @@ code {
 }
 
 .container-2cd8Mz {
-    backdrop-filter: blur();
+    position: relative;
 }
 
 .container-2cd8Mz::before {
@@ -2516,6 +2516,11 @@ code {
     border-bottom: var(--background-tertiary-border-variable-width-a);
     border-right: var(--background-tertiary-border-variable-width-a);
     backdrop-filter: blur(var(--window-blur-calc));
+}
+
+.headerBar-1dSpQr:before {
+    -webkit-box-shadow: var(--elevation-low-a);
+    box-shadow: var(--elevation-low-a);
 }
 
 .theme-light .applicationStore-2nk7Lo {
