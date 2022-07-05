@@ -24,36 +24,69 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap);
 
 :root {
+    /* 
+    bdeditor.dev/theme/solana
+    is strongly recommended for customization 
+    */
+
     /* color control */
     --accent-hue: 213;
     --accent-saturation: 100%;
     --accent-brightness: 50%;
     --background-accent-hue: 213;
-    --text-link-hue: 212;
+    --background-accent-saturation: 100%;
+    --background-accent-brightness: 50%;
 
     /* background image */
     --background-image: initial;
     --background-image-position: center;
     --background-image-size: cover;
     --background-image-blur: 0;
-    --background-overlay-lightness: initial;
     --background-overlay-opacity: 80%;
+    --background-overlay-color-lightness: 0;
     --background-hue-shift-strength: 100%;
 
     /* window */
-    --window-margin: 24;
-    --window-accent-tint-strength: 5%;
+    --window-background-image: initial;
+    --window-background-image-position: center;
+    --window-background-image-attachment: fixed;
     --window-opacity: 100%;
     --window-blur: 0;
+    --window-friends-blur: 0;
+    --window-margin: 24;
+    --window-margin-left: 0;
     --window-border-radius: 10px;
+    --window-background-lightness: 0;
+    --window-accent-tint-strength: 5%;
+
+    /* chat */
+    --chat-bubble: 0;
+    --chat-bubble-background-color: var(--background-primary);
+    --chat-bubble-border-color: var(--background-primary-border-color);
+    --text-link-hue: 212;
+    --chat-text-brightness: 0;
+
+    /* dock */
+    --home-icon: initial;
+    --favorites-icon: initial;
+    --dock-blur: var(--window-blur);
+    --dock-border-radius: 0;
+    --guildlist-show: 1;
+    --guildlist-peek-unread: 1;
+    --guildlist-peek-ping: 1;
+    --guildlist-peek-selected: 1;
+    --guildlist-peek-group-unread: 1;
+
+    /* sidebar */
+    --sidebar-width: 240px;
+    --members-width: 240px;
+    --sidebar-text-brightness: 0;
 
     /* floating */
     --background-floating-blur: 20px;
+    --floating-background-lightness: 0;
+    --background-floating-opacity: 1;
     --enable-floating-transparency: 1;
-
-    /* home icons */
-    --home-icon: initial;
-    --favorites-icon: initial;
 
     /* font */
     --custom-font-display: "";
