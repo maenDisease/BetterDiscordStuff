@@ -516,7 +516,7 @@ body,
 }
 
 .bg-1QIAus {
-    background-color: hsla(0, 0%, calc(var(--background-floating-l) * (1 + var(--background-overlay-lightness))), var(--background-overlay-opacity));
+    background-color: hsla(0, 0%, calc(var(--background-floating-l) * (1 + var(--background-overlay-color-lightness))), var(--background-overlay-opacity));
 }
 
 body::before,
@@ -2229,7 +2229,7 @@ code {
 }
 
 .wrapper-3AZUiP.errorPage-2pZ2Kq {
-    background-color: hsla(0, 0%, calc(var(--background-floating-l) * (1 + var(--background-overlay-lightness))), var(--background-overlay-opacity));
+    background-color: hsla(0, 0%, calc(var(--background-floating-l) * (1 + var(--background-overlay-color-lightness))), var(--background-overlay-opacity));
 }
 
 .wrapper-3AZUiP.errorPage-2pZ2Kq .text-3IbNaT {
