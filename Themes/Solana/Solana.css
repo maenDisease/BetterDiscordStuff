@@ -56,6 +56,7 @@
     /* floating */
     --background-floating-blur: 20px;
     --floating-background-lightness: 0;
+    --background-floating-opacity: 1;
     --enable-floating-transparency: 1;
 
     /* font */
@@ -121,10 +122,10 @@
     --font-code: var(--custom-font-code), Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 
     --background-floating: hsl(var(--background-accent-hue), 4%, var(--background-floating-l));
-    --background-floating-40a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc(1.4 - var(--enable-floating-transparency)));
-    --background-floating-60a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc(1.6 - var(--enable-floating-transparency)));
-    --background-floating-80a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc(1.8 - var(--enable-floating-transparency)));
-    --background-floating-90a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc(1.9 - var(--enable-floating-transparency)));
+    --background-floating-40a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc((var(--background-floating-opacity) + .4) - var(--enable-floating-transparency)));
+    --background-floating-60a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc((var(--background-floating-opacity) + .6) - var(--enable-floating-transparency)));
+    --background-floating-80a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc((var(--background-floating-opacity) + .8) - var(--enable-floating-transparency)));
+    --background-floating-90a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc((var(--background-floating-opacity) + .9) - var(--enable-floating-transparency)));
 
     --background-primary: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), 1);
     --background-primary-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), var(--window-opacity));
