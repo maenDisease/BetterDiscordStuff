@@ -149,6 +149,7 @@
     --background-tertiary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-tertiary-border-l));
     --background-tertiary-border-color-a: hsla(var(--background-accent-hue), 4%, var(--background-tertiary-border-l), var(--window-opacity));
     --background-floating-border-color: hsl(var(--background-accent-hue), 4%, var(--background-floating-border-l));
+    --background-floating-primary-border-color-a: hsla(var(--background-accent-hue), 4%, var(--background-primary-border-l), var(--background-floating-opacity));
 
     --background-primary-border: 1px solid var(--background-primary-border-color);
     --background-primary-border-a: 1px solid var(--background-primary-border-color-a);
@@ -157,6 +158,7 @@
     --background-tertiary-border: 1px solid var(--background-tertiary-border-color);
     --background-tertiary-border-a: 1px solid var(--background-tertiary-border-color-a);
     --background-floating-border: 1px solid var(--background-floating-border-color);
+    --background-floating-primary-border-a: 1px solid var(--background-floating-primary-border-color-a);
 
     --background-primary-box-shadow-border: 0 0 0 1px var(--background-primary-border-color);
     --background-secondary-box-shadow-border: 0 0 0 1px var(--background-secondary-border-color);
@@ -611,10 +613,10 @@ body::after {
     backdrop-filter: blur(var(--dock-blur-calc));
 }
 
-.theme-light .scroller-3X7KbA {
+.theme-light .guilds-2JjMmN:not(.theme-dark) .scroller-3X7KbA {
     background-color: var(--background-floating-40a);
-    border-top: var(--background-primary-border);
-    border-right: var(--background-primary-border);
+    border-top: var(--background-floating-primary-border-a);
+    border-right: var(--background-floating-primary-border-a);
 }
 
 .listItem-3SmSlK,
