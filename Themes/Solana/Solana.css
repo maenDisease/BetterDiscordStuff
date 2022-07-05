@@ -13,21 +13,22 @@
     --background-image-position: center;
     --background-image-size: cover;
     --background-image-blur: 0;
-    --background-overlay-lightness: initial;
     --background-overlay-opacity: 80%;
+    --background-overlay-color-lightness: 0;
     --background-hue-shift-strength: 100%;
 
     /* window */
-    --window-margin: 24;
-    --window-margin-left: 0;
-    --window-accent-tint-strength: 5%;
-    --window-opacity: 100%;
     --window-background-image: initial;
     --window-background-image-position: center;
     --window-background-image-attachment: fixed;
+    --window-opacity: 100%;
     --window-blur: 0;
     --window-friends-blur: 0;
+    --window-margin: 24;
+    --window-margin-left: 0;
     --window-border-radius: 10px;
+    --window-background-lightness: 0;
+    --window-accent-tint-strength: 5%;
 
     /* chat */
     --chat-bubble: 0;
@@ -40,6 +41,12 @@
     --home-icon: initial;
     --favorites-icon: initial;
     --dock-blur: var(--window-blur);
+    --dock-border-radius: 0;
+    --guildlist-show: 1;
+    --guildlist-peek-unread: 1;
+    --guildlist-peek-ping: 1;
+    --guildlist-peek-selected: 1;
+    --guildlist-peek-group-unread: 1;
 
     /* sidebar */
     --sidebar-width: 240px;
@@ -48,6 +55,7 @@
 
     /* floating */
     --background-floating-blur: 20px;
+    --floating-background-lightness: 0;
     --enable-floating-transparency: 1;
 
     /* font */
@@ -175,16 +183,16 @@
 
 .theme-dark {
     --background-tertiary-border-variable-divider-a: 1px solid hsla(var(--background-accent-hue), 4%, calc(min(1, var(--window-margin)) * var(--background-tertiary-border-l)), var(--window-opacity));
-    --background-primary-l: 19%;
-    --background-secondary-l: 16%;
-    --background-tertiary-l: 14%;
-    --background-accent-l: 22%;
-    --background-floating-l: 15%;
+    --background-primary-l: calc(19% * (1 + var(--window-background-lightness)));
+    --background-secondary-l: calc(16% * (1 + var(--window-background-lightness)));
+    --background-tertiary-l: calc(14% * (1 + var(--window-background-lightness)));
+    --background-accent-l: calc(22% * (1 + var(--window-background-lightness)));
+    --background-floating-l: calc(15% * (1 + var(--floating-background-lightness)));
 
-    --background-primary-border-l: 26%;
-    --background-secondary-border-l: 22%;
-    --background-tertiary-border-l: 32%;
-    --background-floating-border-l: 37%;
+    --background-primary-border-l: calc(26% * (1 + var(--window-background-lightness)));
+    --background-secondary-border-l: calc(22% * (1 + var(--window-background-lightness)));
+    --background-tertiary-border-l: calc(32% * (1 + var(--window-background-lightness)));
+    --background-floating-border-l: calc(37% * (1 + var(--floating-background-lightness)));
 
     --header-primary-s: 2%;
     --header-primary-l: 92%;
@@ -232,16 +240,16 @@
 }
 
 .theme-light {
-    --background-primary-l: 91%;
-    --background-secondary-l: 94%;
-    --background-tertiary-l: 96%;
-    --background-accent-l: 98%;
-    --background-floating-l: 97%;
+    --background-primary-l: calc(91% * (1 + var(--window-background-lightness)));
+    --background-secondary-l: calc(94% * (1 + var(--window-background-lightness)));
+    --background-tertiary-l: calc(96% * (1 + var(--window-background-lightness)));
+    --background-accent-l: calc(98% * (1 + var(--window-background-lightness)));
+    --background-floating-l: calc(97% * (1 + var(--floating-background-lightness)));
 
-    --background-primary-border-l: 87%;
-    --background-secondary-border-l: 90%;
-    --background-tertiary-border-l: 58%;
-    --background-floating-border-l: 95%;
+    --background-primary-border-l: calc(87% * (1 + var(--window-background-lightness)));
+    --background-secondary-border-l: calc(90% * (1 + var(--window-background-lightness)));
+    --background-tertiary-border-l: calc(58% * (1 + var(--window-background-lightness)));
+    --background-floating-border-l: calc(95% * (1 + var(--floating-background-lightness)));
 
     --header-primary-s: 0%;
     --header-primary-l: 30%;
@@ -430,7 +438,8 @@
 
 .sidebar-1tnWFu>*:first-child:not(.panels-3wFtMD),
 .container-YkUktl,
-.sidebar-nqHbhN {
+.sidebar-nqHbhN,
+#channelTabs-container {
     --background-modifier-hover-s: 13%;
     --background-modifier-hover-l: 48%;
     --background-modifier-hover-a: 0.16;
@@ -507,7 +516,7 @@ body,
 }
 
 .bg-1QIAus {
-    background-color: hsla(0, 0%, var(--background-overlay-lightness, var(--background-floating-l)), var(--background-overlay-opacity));
+    background-color: hsla(0, 0%, calc(var(--background-floating-l) * (1 + var(--background-overlay-lightness))), var(--background-overlay-opacity));
 }
 
 body::before,
@@ -593,7 +602,7 @@ body::after {
 
 .scroller-3X7KbA {
     contain: unset;
-    border-radius: 1.1rem;
+    border-radius: calc(1.1rem * (1 + var(--dock-border-radius)));
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
     background-color: var(--background-modifier-selected);
     border-top: var(--background-modifier-accent-border);
@@ -2220,7 +2229,7 @@ code {
 }
 
 .wrapper-3AZUiP.errorPage-2pZ2Kq {
-    background-color: hsla(0, 0%, var(--background-overlay-lightness, var(--background-floating-l)), var(--background-overlay-opacity));
+    background-color: hsla(0, 0%, calc(var(--background-floating-l) * (1 + var(--background-overlay-lightness))), var(--background-overlay-opacity));
 }
 
 .wrapper-3AZUiP.errorPage-2pZ2Kq .text-3IbNaT {
@@ -5791,13 +5800,6 @@ bd-body .floating-window {
 }
 
 /* Channeltabs */
-#channelTabs-container {
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #fff;
-    --interactive-muted: #7272729f;
-}
-
 .channelTabs-tab:not(.channelTabs-selected):hover {
     box-shadow: var(--box-shadow-border);
 }
