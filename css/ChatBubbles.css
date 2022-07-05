@@ -8,6 +8,7 @@ Debuggerz1 - Math
 
     --chat-bubble-background-color: var(--background-secondary);
     --chat-bubble-border-color: var(--background-secondary-alt);
+    --chat-bubble-code-background-color: var(--background-secondary-alt);
 
     --chat-bubble-max-width: 90%;
     --chat-bubble-border-radius: 8px;
@@ -95,6 +96,7 @@ Debuggerz1 - Math
 
 .groupStart-3Mlgv1.cozyMessage-1DWF9U>.contents-2MsGLg .markup-eYLPri code,
 .cozyMessage-1DWF9U:not(.groupStart-3Mlgv1)>.contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) code {
-    background: linear-gradient(var(--background-secondary-alt), var(--background-secondary-alt));
+    background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
+    background-color: var(--background-secondary);
     background-size: calc(var(--chat-bubble) * 1px);
 }
