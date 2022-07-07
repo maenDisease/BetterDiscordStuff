@@ -1436,42 +1436,34 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 
 .attachButton-_ACFSu svg {
     -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /></svg>') center/cover;
-    background: var(--interactive-muted);
+    background: var(--interactive-normal);
     transition-property: background;
+}
+
+.attachButton-_ACFSu svg:not(:hover) {
+    opacity: 0.3;
 }
 
 .attachButton-_ACFSu svg path {
     display: none;
 }
 
-.attachButton-_ACFSu:hover svg {
-    background: var(--interactive-normal);
-}
-
 #app-mount .buttons-uaqb-5>button[aria-label] svg {
     -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" /></svg>') center/cover;
-    background: var(--interactive-muted);
+    background: var(--interactive-normal);
 }
 
 #app-mount .buttons-uaqb-5>button[aria-label] svg path {
     display: none;
 }
 
-#app-mount .buttons-uaqb-5>button[aria-label]:hover svg {
-    background: var(--interactive-normal);
-}
-
 .form-3gdLxP .button-f2h6uQ #icon svg {
     -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>') center/cover;
-    background: var(--interactive-muted);
+    background: var(--interactive-normal);
 }
 
 .form-3gdLxP .button-f2h6uQ #icon svg path {
     display: none;
-}
-
-.form-3gdLxP .button-f2h6uQ:hover #icon svg {
-    background: var(--interactive-normal);
 }
 
 .form-3gdLxP .stickerButton-1-nFh2 {
@@ -1482,18 +1474,14 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
     width: 24px !important;
     height: 24px !important;
     -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>') center/cover;
-    background: var(--interactive-muted);
+    background: var(--interactive-normal);
 }
 
 .form-3gdLxP .stickerButton-1-nFh2 svg path {
     display: none;
 }
 
-#app-mount .form-3gdLxP .stickerButton-1-nFh2:hover svg {
-    background: var(--interactive-normal);
-}
-
-.form-3gdLxP .emojiButton-1fMsf3:not(:hover) .sprite-2lxwfc {
+.buttons-uaqb-5>div:not(:hover) {
     opacity: 0.3;
 }
 
