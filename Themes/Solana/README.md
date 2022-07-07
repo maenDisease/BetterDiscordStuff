@@ -1,13 +1,22 @@
 <h1 align="center">Solana</h1>
-<p align="center">macOS with barely any customization.</p>
+<p align="center">macOS with customization.</p>
 
 ![](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview.png)
 
 ---
 
 ## Features
+* Customizable. Recommended to use https://bdeditor.dev/theme/solana
+  * Notable options
+    * Custom background and window images
+    * Custom home icon image
+    * Adjustable channels and members width
+    * Adjustable background color brightness
+    * Independent brightness controls for sidebar and chat
+    * Hide And Peek. Configurable dock icons will slide out leaving only unread/ping/selected icons peeking
+    * Toggle chat bubbles
+    
 * Light Mode Support
-* Basic customization
 
 ## Screenshots
 ![](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-1.png)
