@@ -100,3 +100,7 @@ Debuggerz1 - Math
     background-color: var(--background-secondary);
     background-size: calc(var(--chat-bubble) * 1px);
 }
+
+.markup-eYLPri blockquote, .markup-eYLPri pre {
+    max-width: 100%;
+}
