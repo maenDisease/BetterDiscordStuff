@@ -1641,6 +1641,10 @@ code {
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
+.markup-eYLPri blockquote, .markup-eYLPri pre {
+    max-width: 100%;
+}
+
 /* 6.2.2. Embeds */
 .imageWrapper-oMkQl4:not([style^="width: 48px; height: "]) {
     border-radius: 8px;
