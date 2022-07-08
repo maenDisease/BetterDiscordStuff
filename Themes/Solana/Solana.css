@@ -5811,24 +5811,6 @@ bd-body .floating-window {
     background-color: transparent;
 }
 
-.ChannelDms-channelmembers-wrap .selected-3veCBZ,
-.ChannelDms-channelmembers-wrap .interactiveSelected-29CP8y.selected-3veCBZ {
-    color: #fff;
-    background-color: var(--background-modifier-selected);
-    box-shadow: var(--box-shadow-inner-1);
-}
-
-.ChannelDms-channelmembers-wrap .interactive-1vLZ_I:not(.selected-3veCBZ):hover {
-    background-color: var(--background-modifier-hover);
-    box-shadow: var(--box-shadow-inner-1);
-}
-
-.ChannelDms-channelmembers-wrap .interactive-1vLZ_I:not(.selected-3veCBZ):focus-within,
-.ChannelDms-channelmembers-wrap .interactive-1vLZ_I:not(.selected-3veCBZ):active {
-    background-color: var(--background-modifier-active);
-    box-shadow: var(--box-shadow-inner-1);
-}
-
 .ChannelDms-channelmembers-wrap .topPill-3DJJNV {
     border: var(--background-primary-border-a);
     border-radius: 8px;
