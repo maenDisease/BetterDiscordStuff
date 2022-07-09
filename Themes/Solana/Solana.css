@@ -1641,7 +1641,8 @@ code {
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
-.markup-eYLPri blockquote, .markup-eYLPri pre {
+.markup-eYLPri blockquote,
+.markup-eYLPri pre {
     max-width: 100%;
 }
 
