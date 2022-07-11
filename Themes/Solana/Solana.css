@@ -5311,6 +5311,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     height: 18px;
     background-size: cover;
     background-position: center;
+    flex-shrink: 0;
 }
 
 .item-3XjbnG[aria-controls=my-account-tab]::before {
