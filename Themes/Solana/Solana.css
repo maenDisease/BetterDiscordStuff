@@ -2054,27 +2054,40 @@ code {
 
 
 /* 6.7. Chatsidebar */
-.container-3XgAHv .embedWrapper-1MtIDg,
-.container-3XgAHv .embedVideo-2ixt5A,
-.container-3XgAHv .wrapper-1FP9YQ,
-.container-3XgAHv .embedGalleryImagesWrapper-3BWvNM,
-.thin-31rlnD .embedWrapper-1MtIDg,
-.thin-31rlnD .embedVideo-2ixt5A,
-.thin-31rlnD .wrapper-1FP9YQ,
-.thin-31rlnD .embedGalleryImagesWrapper-3BWvNM {
+.container-3XgAHv .embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
+.container-3XgAHv .embedWrapper-1MtIDg .embedVideo-2ixt5A,
+.container-3XgAHv .wrapper-1FP9YQ {
     height: auto !important;
     width: unset !important;
     max-width: max-content;
+    max-height: 300px;
 }
 
-.container-3XgAHv .embedWrapper-1MtIDg .clickableWrapper-2WTAkL img,
-.container-3XgAHv .embedWrapper-1MtIDg video,
-.thin-31rlnD .embedWrapper-1MtIDg .clickableWrapper-2WTAkL img,
-.thin-31rlnD.embedWrapper-1MtIDg video {
+.container-3XgAHv .embedWrapper-1MtIDg .clickableWrapper-2WTAkL img:not(.embedGalleryImageElement-2VNYIN),
+.container-3XgAHv .embedWrapper-1MtIDg [data-fullscreen="false"] video {
     position: relative;
     height: auto !important;
     width: unset !important;
     max-width: 100%;
+    max-height: 300px;
+}
+
+.thin-31rlnD .embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
+.thin-31rlnD .embedWrapper-1MtIDg .embedVideo-2ixt5A,
+.thin-31rlnD .wrapper-1FP9YQ {
+    height: auto !important;
+    width: unset !important;
+    max-width: max-content;
+    max-height: 300px;
+}
+
+.thin-31rlnD .embedWrapper-1MtIDg .clickableWrapper-2WTAkL img:not(.embedGalleryImageElement-2VNYIN),
+.thin-31rlnD .embedWrapper-1MtIDg [data-fullscreen="false"] video {
+    position: relative;
+    height: auto !important;
+    width: unset !important;
+    max-width: 100%;
+    max-height: 300px;
 }
 
 .container-3XgAHv .embedSpotify-1rDvOE.embedWrapper-1MtIDg,
