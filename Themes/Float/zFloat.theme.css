@@ -1,0 +1,75 @@
+/**
+ * @name Float
+ * @version 2.0.0
+ * @author Disease#3749
+ * @authorId 678469587444170762
+ * @description A Practical compact Discord with customization.
+ * @source https://github.com/maenDisease/BetterDiscordStuff/tree/main/Themes/Float
+ * @invite BShu37e4jg
+ * @website https://maendisease.github.io/
+*/
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/HideAndPeekGuilds.css);
+
+/* If your theme has custom settings icons, delete or comment this line */
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css);
+
+html:root {
+    --guildicon-size: 48;
+    --enable-if-using-favorites-experiment: 1;
+    --guildlist-collapse: 0;
+
+    --guildlist-show: 1;
+    --guildlist-peek-unread: 1;
+    --guildlist-peek-ping: 1;
+    --guildlist-peek-selected: 1;
+    --guildlist-peek-group-unread: 1;
+
+    --slide-window-on-hover: 1;
+    --sidebar-width: 48;
+    --sidebar-hover-width: 240px;
+    --sidebar-hover-delay: 0.2s;
+    --sidebar-transition-duration: 0.4s;
+    --sidebar-window-gap: 8px;
+    --sidebar-border-radius: 8px;
+    --sidebar-usersettings-width: 66px;
+
+    --members-width: 65px;
+    --members-hover-width: 240px;
+    --members-hover-delay: 1.5s;
+    --members-transition-duration: 0.4s;
+
+    --topic-opacity: 1;
+    --toolbar-visibility: flex;
+
+    --textarea-buttons-gif: flex;
+    --textarea-buttons-sticker: flex;
+    --textarea-buttons-gift: none;
+}
+
+@media (max-width:700px) {
+    html:root {
+        --topic-opacity: 0;
+        --toolbar-visibility: none;
+        --textarea-buttons-gif: none;
+        --textarea-buttons-sticker: none;
+    }
+}
+
+@media (max-width:500px) {
+    html:root {
+        --guildicon-size: 40;
+        --sidebar-width: 0;
+        --members-width: 0;
+    }
+}
+
+/* Theme Compatibility */
+:root{
+    --float-guildlist-width-correction: 0px;
+}
