@@ -9,16 +9,19 @@
  * @website https://maendisease.github.io/
 */
 
+/* Addons */
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/HideAndPeekGuilds.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css);
+
+/* Source */
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
 
 /* If your theme has custom settings icons, delete or comment this line */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
 
 html:root {
     --guildicon-size: 48;
@@ -53,6 +56,7 @@ html:root {
     --textarea-buttons-gift: none;
 }
 
+/* The variables are used when the window is at the set sizes */
 @media (max-width:700px) {
     html:root {
         --topic-opacity: 0;
@@ -71,6 +75,6 @@ html:root {
 }
 
 /* Theme Compatibility */
-:root{
+:root {
     --float-guildlist-width-correction: 0px;
 }
