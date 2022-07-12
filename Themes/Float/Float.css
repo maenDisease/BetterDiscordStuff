@@ -1,6 +1,6 @@
 html:root {
     --guildicon-size: 48;
-    --enable-if-using-favorites-experiment: 1;
+    --enable-if-using-favorites-experiment: 0;
     --guildlist-collapse: 0;
 
     --guildlist-show: 1;
