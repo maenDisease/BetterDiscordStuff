@@ -888,6 +888,9 @@ html #app-mount .layer-86YKbF.layer-86YKbF~.layer-86YKbF .sidebarRegion-1VBisG {
         pointer-events: auto;
     }
 
+    .modeSelected-3DmyhH .content-1gYQeQ {
+        background-color: var(--background-modifier-selected);
+    }
 }
 
 /* 13.1. User */
