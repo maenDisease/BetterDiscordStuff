@@ -70,6 +70,8 @@
 }
 
 :root {
+    --float-guildlist-width-correction: 12px;
+
     --window-background-image-calc: var(--window-background-image, var(--background-image)) var(--window-background-image-position)/cover no-repeat var(--window-background-image-attachment);
     --background-image-calc: var(--background-image, url(https://i.imgur.com/wDB9XWK.png));
     --background-image-blur-calc: calc(var(--background-image-blur) * var(--enable-blur));
