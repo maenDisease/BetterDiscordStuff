@@ -4884,9 +4884,9 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border: var(--background-secondary-border);
 }
 
-.recentMentionsPopout-2bI1ZN .container-iA3Qrz,
-.recentMentionsPopout-2bI1ZN .channel-3NJZ1V,
-.recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
+#app-mount .recentMentionsPopout-2bI1ZN .container-iA3Qrz,
+#app-mount .recentMentionsPopout-2bI1ZN .channel-3NJZ1V,
+#app-mount .recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
     background-color: var(--background-secondary);
 }
 
