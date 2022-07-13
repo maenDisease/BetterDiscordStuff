@@ -23,7 +23,7 @@
 /* If your theme has custom settings icons, delete or comment this line */
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
 
-html:root {
+:root {
     /* Guildlist */
     --guildicon-size: 48;
     --enable-if-using-favorites-experiment: 0; /* boolean */
@@ -38,7 +38,7 @@ html:root {
 
     /* Channel sidebar */
     --slide-window-on-hover: 1; /* boolean */
-    --sidebar-width: 48;
+    --float-sidebar-width: 48;
     --sidebar-hover-width: 240px;
     --sidebar-hover-delay: 0.2s;
     --sidebar-transition-duration: 0.4s;
@@ -60,11 +60,14 @@ html:root {
     --textarea-buttons-gif: flex;
     --textarea-buttons-sticker: flex;
     --textarea-buttons-gift: none;
+
+    /* Theme compatibility */
+    --float-guildlist-width-correction: 0px;
 }
 
 /* The variables are used when the window is at the set sizes, each media query can be deleted */
 @media (max-width:700px) {
-    html:root {
+    :root {
         --topic-opacity: 0;
         --toolbar-visibility: none;
         --textarea-buttons-gif: none;
@@ -73,26 +76,20 @@ html:root {
 }
 
 @media (max-width:500px) {
-    html:root {
+    :root {
         --guildicon-size: 40;
         --members-width: 0;
     }
 }
 
 @media (max-width:400px) {
-    html:root {
-        --sidebar-width: 0;
+    :root {
+        --float-sidebar-width: 0;
     }
 }
 
 @media (max-width:300px) {
-    html:root {
-        --sidebar-width: 0;
+    :root {
         --guildlist-collapse: 1;
     }
-}
-
-/* Theme Compatibility */
-:root {
-    --float-guildlist-width-correction: 0px;
 }
