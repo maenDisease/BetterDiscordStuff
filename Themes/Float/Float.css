@@ -650,14 +650,14 @@
     transition: var(--members-transition-calc-exit);
 }
 
-.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+#app-mount .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
     position: absolute;
     right: 0;
     width: var(--float-members-width);
     transition: var(--members-transition-calc-exit);
 }
 
-.ChannelDms-channelmembers-wrap:hover .ChannelDms-channelmembers-header,
+#app-mount .ChannelDms-channelmembers-wrap:hover .ChannelDms-channelmembers-header,
 .ChannelDms-channelmembers-wrap:hover .membersWrap-3NUR2t,
 .ChannelDms-channelmembers-wrap:hover .privateChannels-oVe7HL {
     width: var(--members-hover-width);
