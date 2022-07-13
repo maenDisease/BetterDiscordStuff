@@ -1,4 +1,4 @@
-html:root {
+:root {
     --guildicon-size: 48;
     --enable-if-using-favorites-experiment: 0;
     --guildlist-collapse: 0;
@@ -10,7 +10,7 @@ html:root {
     --guildlist-peek-group-unread: 1;
 
     --slide-window-on-hover: 1;
-    --sidebar-width: 48;
+    --float-sidebar-width: 48;
     --sidebar-hover-width: 240px;
     --sidebar-hover-delay: 0.2s;
     --sidebar-transition-duration: 0.4s;
@@ -29,16 +29,14 @@ html:root {
     --textarea-buttons-gif: flex;
     --textarea-buttons-sticker: flex;
     --textarea-buttons-gift: none;
-}
 
-:root {
     --float-guildlist-width-correction: 0px;
 }
 
 :root {
     --guildicon-size-px: calc(var(--guildicon-size) * 1px);
 
-    --sidebar-width-px: calc(var(--sidebar-width) * 1px);
+    --float-sidebar-width-px: calc(var(--float-sidebar-width) * 1px);
     --sidebar-transition-exit: var(--sidebar-transition-duration) ease;
     --sidebar-transition-entry: var(--sidebar-transition-duration) var(--sidebar-hover-delay) ease;
 
@@ -213,7 +211,7 @@ html:root {
 }
 
 .sidebar-1tnWFu .wrapper-NhbLHG .content-1gYQeQ>.children-1MGS9G {
-    margin-left: calc(((min(var(--sidebar-width), 96) - min(var(--sidebar-width), 97)) + 1) * 32px);
+    margin-left: calc(((min(var(--float-sidebar-width), 96) - min(var(--float-sidebar-width), 97)) + 1) * 32px);
     transition: margin-left var(--sidebar-transition-exit);
 }
 
@@ -261,7 +259,7 @@ html:root {
 }
 
 .sidebar-1tnWFu>* {
-    width: var(--sidebar-width-px);
+    width: var(--float-sidebar-width-px);
     -webkit-transition: width var(--sidebar-transition-exit);
     transition: width var(--sidebar-transition-exit);
 }
@@ -274,27 +272,27 @@ html:root {
 
 .sidebar-1tnWFu+div,
 .sidebar-1tnWFu~.chat-2ZfjoI {
-    margin-left: calc(min(1, var(--sidebar-width)) * (var(--sidebar-width-px) + var(--sidebar-window-gap)));
+    margin-left: calc(min(1, var(--float-sidebar-width)) * (var(--float-sidebar-width-px) + var(--sidebar-window-gap)));
     transition: -webkit-transform var(--sidebar-transition-exit), transform var(--sidebar-transition-exit);
 }
 
 .sidebar-1tnWFu:hover+div,
 .sidebar-1tnWFu:hover~.chat-2ZfjoI {
-    -webkit-transform: translateX(calc(var(--slide-window-on-hover) * (var(--sidebar-hover-width) - var(--sidebar-width-px) + (var(--slide-window-on-hover) * (1 - min(var(--sidebar-width), 1)) * var(--sidebar-window-gap)))));
-    transform: translateX(calc(var(--slide-window-on-hover) * (var(--sidebar-hover-width) - var(--sidebar-width-px) + (var(--slide-window-on-hover) * (1 - min(var(--sidebar-width), 1)) * var(--sidebar-window-gap)))));
+    -webkit-transform: translateX(calc(var(--slide-window-on-hover) * (var(--sidebar-hover-width) - var(--float-sidebar-width-px) + (var(--slide-window-on-hover) * (1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-window-gap)))));
+    transform: translateX(calc(var(--slide-window-on-hover) * (var(--sidebar-hover-width) - var(--float-sidebar-width-px) + (var(--slide-window-on-hover) * (1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-window-gap)))));
     transition: -webkit-transform var(--sidebar-transition-entry), transform var(--sidebar-transition-entry);
 }
 
 .wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu>* {
-    width: calc((min(var(--sidebar-width), 1) * (var(--sidebar-width) * 1px)) + ((1 - min(var(--sidebar-width), 1)) * var(--sidebar-hover-width)));
+    width: calc((min(var(--float-sidebar-width), 1) * (var(--float-sidebar-width) * 1px)) + ((1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-hover-width)));
     -webkit-transition: width var(--sidebar-transition-entry);
     transition: width var(--sidebar-transition-entry);
 }
 
 .wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu+div,
 .wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu~.chat-2ZfjoI {
-    -webkit-transform: translateX(calc(var(--slide-window-on-hover) * ((min(var(--sidebar-width), 1) * (min(var(--sidebar-width), 0) * 1px)) + ((1 - min(var(--sidebar-width), 1)) * var(--sidebar-hover-width) + (var(--slide-window-on-hover) * (1 - min(var(--sidebar-width), 1)) * var(--sidebar-window-gap))))));
-    transform: translateX(calc(var(--slide-window-on-hover) * ((min(var(--sidebar-width), 1) * (min(var(--sidebar-width), 0) * 1px)) + ((1 - min(var(--sidebar-width), 1)) * var(--sidebar-hover-width) + (var(--slide-window-on-hover) * (1 - min(var(--sidebar-width), 1)) * var(--sidebar-window-gap))))));
+    -webkit-transform: translateX(calc(var(--slide-window-on-hover) * ((min(var(--float-sidebar-width), 1) * (min(var(--float-sidebar-width), 0) * 1px)) + ((1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-hover-width) + (var(--slide-window-on-hover) * (1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-window-gap))))));
+    transform: translateX(calc(var(--slide-window-on-hover) * ((min(var(--float-sidebar-width), 1) * (min(var(--float-sidebar-width), 0) * 1px)) + ((1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-hover-width) + (var(--slide-window-on-hover) * (1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-window-gap))))));
     transition: -webkit-transform var(--sidebar-transition-entry), transform var(--sidebar-transition-entry), margin-left var(--sidebar-transition-entry);
 }
 
@@ -302,20 +300,20 @@ html:root {
 .sidebar-1tnWFu .privateChannels-oVe7HL+.panels-3wFtMD,
 .sidebar-1tnWFu>.thin-31rlnD,
 .sidebar-1tnWFu>.thin-31rlnD+.panels-3wFtMD {
-    width: calc(min(1, var(--sidebar-width)) * (var(--sidebar-width-px) + 17px));
+    width: calc(min(1, var(--float-sidebar-width)) * (var(--float-sidebar-width-px) + 17px));
 }
 
 .sidebar-1tnWFu+.container-2cd8Mz,
 .sidebar-1tnWFu+.applicationStore-2nk7Lo,
 .sidebar-1tnWFu+.pageWrapper-2PwDoS {
-    margin-left: calc(min(1, var(--sidebar-width)) * (var(--sidebar-width-px) + var(--sidebar-window-gap) + 17px));
+    margin-left: calc(min(1, var(--float-sidebar-width)) * (var(--float-sidebar-width-px) + var(--sidebar-window-gap) + 17px));
     transition: -webkit-transform var(--sidebar-transition-exit), transform var(--sidebar-transition-exit), margin-left var(--sidebar-transition-exit);
 }
 
 .sidebar-1tnWFu:hover+.container-2cd8Mz,
 .sidebar-1tnWFu:hover+.applicationStore-2nk7Lo,
 .sidebar-1tnWFu:hover+.pageWrapper-2PwDoS {
-    margin-left: calc(min(1, var(--sidebar-width)) * (var(--sidebar-width-px) + var(--sidebar-window-gap) + 0px + (1 - var(--slide-window-on-hover)) * (min(var(--sidebar-width), 1)) * 17px));
+    margin-left: calc(min(1, var(--float-sidebar-width)) * (var(--float-sidebar-width-px) + var(--sidebar-window-gap) + 0px + (1 - var(--slide-window-on-hover)) * (min(var(--float-sidebar-width), 1)) * 17px));
     transition: -webkit-transform var(--sidebar-transition-entry), transform var(--sidebar-transition-entry), margin-left var(--sidebar-transition-entry);
 }
 
@@ -323,7 +321,7 @@ html:root {
 .wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu .privateChannels-oVe7HL+.panels-3wFtMD,
 .wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu>.thin-31rlnD,
 .wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu>.thin-31rlnD+.panels-3wFtMD {
-    width: calc((min(var(--sidebar-width), 1) * ((var(--sidebar-width) + 17) * 1px)) + ((1 - min(var(--sidebar-width), 1)) * var(--sidebar-hover-width)));
+    width: calc((min(var(--float-sidebar-width), 1) * ((var(--float-sidebar-width) + 17) * 1px)) + ((1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-hover-width)));
 }
 
 /* 5.1. Guildheader */
