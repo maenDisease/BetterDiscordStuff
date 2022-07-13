@@ -18,7 +18,7 @@ html:root {
     --sidebar-border-radius: 8px;
     --sidebar-usersettings-width: 66px;
 
-    --members-width: 65px;
+    --float-members-width: 65px;
     --members-hover-width: 240px;
     --members-hover-delay: 1.5s;
     --members-transition-duration: 0.4s;
@@ -594,7 +594,7 @@ html:root {
 /* 6.4. Autocompletemenu */
 /* 6.5. Memberlist */
 .content-1jQy2l>.container-2o3qEW {
-    margin-left: var(--members-width);
+    margin-left: var(--float-members-width);
 }
 
 .members-3WRCEx {
@@ -609,7 +609,7 @@ html:root {
     position: absolute;
     right: 0;
     min-width: unset;
-    width: var(--members-width);
+    width: var(--float-members-width);
     height: 100%;
     transition: var(--members-transition-calc-exit);
 }
@@ -625,7 +625,7 @@ html:root {
 }
 
 #app-mount .ChannelDms-channelmembers-wrap {
-    width: var(--members-width);
+    width: var(--float-members-width);
     transition: var(--members-transition-calc-exit);
 }
 
@@ -648,14 +648,14 @@ html:root {
 
 .ChannelDms-channelmembers-wrap .membersWrap-3NUR2t,
 .ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
-    width: var(--members-width);
+    width: var(--float-members-width);
     transition: var(--members-transition-calc-exit);
 }
 
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
     position: absolute;
     right: 0;
-    width: var(--members-width);
+    width: var(--float-members-width);
     transition: var(--members-transition-calc-exit);
 }
 

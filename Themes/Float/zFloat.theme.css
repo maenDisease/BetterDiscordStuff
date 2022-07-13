@@ -47,7 +47,7 @@ html:root {
     --sidebar-usersettings-width: 66px;
 
     /* Memberlist */
-    --members-width: 65px;
+    --float-members-width: 65px;
     --members-hover-width: 240px;
     --members-hover-delay: 1.5s;
     --members-transition-duration: 0.4s;
