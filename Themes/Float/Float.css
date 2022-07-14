@@ -215,6 +215,11 @@
     transition: margin-left var(--sidebar-transition-exit);
 }
 
+.wrapper-1_HaEi:hover+.base-2jDfDU .wrapper-NhbLHG .content-1gYQeQ>.children-1MGS9G {
+    margin-left: calc(min(var(--float-sidebar-width),0) * 32px);
+    transition: margin-left var(--sidebar-transition-entry);
+}
+
 .sidebar-1tnWFu:hover .wrapper-NhbLHG .content-1gYQeQ>.children-1MGS9G {
     margin-left: 0;
     transition: margin-left var(--sidebar-transition-entry);
