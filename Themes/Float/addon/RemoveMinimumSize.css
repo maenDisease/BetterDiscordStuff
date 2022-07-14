@@ -12,7 +12,7 @@
     box-shadow: var(--elevation-high);
     z-index: 999;
     pointer-events: none;
-    animation: warningVisibility 0s 1.5s forwards;
+    animation: warningVisibility 0s 3s forwards;
     visibility: hidden;
 }
 
