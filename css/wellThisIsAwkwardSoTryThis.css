@@ -39,6 +39,7 @@
     content: '\
 [2022-05-25] [AvatarsEverywhere] Crash when loading server.\a
 [2022-07-11] [FavoriteMedia] Crash when clicking a FavoriteMedia button containing saved media.\a
+[2022-07-13] [PreviewMessageLinks] Crash when loading message links. Quit and reopen Discord, then disable in settings.\a
 ';
 
 }
