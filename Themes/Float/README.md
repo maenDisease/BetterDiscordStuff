@@ -5,9 +5,28 @@
 
 ---
 
+## :warning: Remove Minimum Size
+
+In BetterDiscord settings, scroll down to WINDOW PREFERENCES and enable `Remove Minimum Size`.
+<p align="center">
+  <img src="https://i.imgur.com/l292lJE.png" alt="Remove Minimum Size png"/>
+</p>
+
+## Keep the window on top
+
+### BetterDiscord
+- Install the plugin [AlwaysOnTop](https://betterdiscord.app/plugin/AlwaysOnTop) by [qwerasd205](https://github.com/qwerasd205).
+- Toggle the function by pressing `CTRL/⌘cmd + F11`.
+
+### Windows
+- Install [Powertoys by Microsoft](https://github.com/microsoft/PowerToys#microsoft-powertoys).
+- Toggle the function by pressing `⊞ Win + CTRL + T`.
+
+
 ## Screenshots
 ![](https://maendisease.github.io/BetterDiscordStuff/Themes/Float/assets/preview-1.png)
-![](https://maendisease.github.io/BetterDiscordStuff/Themes/Float/assets/preview-2-compress.gif)
+![](https://user-images.githubusercontent.com/90428263/178907361-10717c58-a261-4d3c-bf16-cad34b0af00a.gif)
+<p align="center"><a href="https://maendisease.github.io/BetterDiscordStuff/Themes/Float/assets/preview-2.gif">Higher quality mirror gif link</a></p>
 
 ## Features
 * Compatible with other themes *(probably)*
