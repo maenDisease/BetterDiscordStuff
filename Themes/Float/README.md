@@ -15,7 +15,7 @@ In BetterDiscord settings, scroll down to WINDOW PREFERENCES and enable `Remove 
 ## Keep the window on top
 
 ### BetterDiscord
-- Install the plugin [AlwaysOnTop](https://betterdiscord.app/plugin/AlwaysOnTop) by [qwerasd205](https://github.com/qwerasd205).
+- Install the plugin [AlwaysOnTop by qwerasd205](https://betterdiscord.app/plugin/AlwaysOnTop).
 - Toggle the function by pressing `CTRL/⌘cmd + F11`.
 
 ### Windows
