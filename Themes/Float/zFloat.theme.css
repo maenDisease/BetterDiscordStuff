@@ -65,7 +65,7 @@
     --float-guildlist-width-correction: 0px;
 }
 
-/* The variables are used when the window is at the set sizes, each media query can be deleted */
+/* The variables are used when the window is at the set sizes, each media query can be edited/deleted */
 @media (max-width:700px) {
     :root {
         --topic-opacity: 0;
