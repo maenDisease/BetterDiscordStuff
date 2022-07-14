@@ -17,6 +17,9 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/HideAndPeekGuilds.css);
 
+/* Warning to Remove Minimum Size */
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
+
 /* Source */
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
 
