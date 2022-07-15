@@ -25,8 +25,9 @@ In BetterDiscord settings, scroll down to WINDOW PREFERENCES and enable `Remove 
 
 ## Screenshots
 ![](https://maendisease.github.io/BetterDiscordStuff/Themes/Float/assets/preview-1.png)
-![](https://user-images.githubusercontent.com/90428263/178907361-10717c58-a261-4d3c-bf16-cad34b0af00a.gif)
+![preview-2-compress](https://user-images.githubusercontent.com/90428263/179085842-06d19aba-b9c4-4af3-99ef-a0c636278bce.gif)
 <p align="center"><a href="https://maendisease.github.io/BetterDiscordStuff/Themes/Float/assets/preview-2.gif">Higher quality mirror gif link</a></p>
+
 
 ## Features
 * Compatible with other themes *(probably)*
