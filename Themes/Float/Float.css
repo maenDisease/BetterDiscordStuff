@@ -508,8 +508,8 @@
 .container-ZMc96U:not(.transparent-1lUmft) .toolbar-3_r2xA:hover>div:not(:nth-last-child(-n+4)),
 .sidebar-1tnWFu+div:not(.container-2cd8Mz) .container-ZMc96U:not(.transparent-1lUmft) .toolbar-3_r2xA:hover>div:nth-last-child(-n+2),
 .sidebar-1tnWFu~.chat-2ZfjoI .container-ZMc96U:not(.transparent-1lUmft) .toolbar-3_r2xA:hover>div:nth-last-child(-n+2),
-.sidebar-1tnWFu+div:not(.container-2cd8Mz) .container-ZMc96U:not(.transparent-1lUmft) .toolbar-3_r2xAL>div.selected-29KTGM,
-.sidebar-1tnWFu~.chat-2ZfjoI .container-ZMc96U:not(.transparent-1lUmft) .toolbar-3_r2xAL>div.selected-29KTGM {
+.sidebar-1tnWFu+div:not(.container-2cd8Mz) .container-ZMc96U:not(.transparent-1lUmft) .toolbar-3_r2xA>div.selected-29KTGM,
+.sidebar-1tnWFu~.chat-2ZfjoI .container-ZMc96U:not(.transparent-1lUmft) .toolbar-3_r2xA>div.selected-29KTGM {
     display: flex;
 }
 
