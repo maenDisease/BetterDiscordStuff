@@ -26,6 +26,7 @@
     color: var(--info-positive-text);
     content: '\
 [2022-07-07] [BetterMessageLinks] Fixed in v1.4.12 - Crash when loading message links.\a
+[2022-07-16] [PreviewMessageLinks] Fixed in v0.0.2 - Crash when loading message links.\a
 ';
 
 }
@@ -39,7 +40,6 @@
     content: '\
 [2022-05-25] [AvatarsEverywhere] Crash when loading server.\a
 [2022-07-11] [FavoriteMedia] Crash when clicking a FavoriteMedia button containing saved media.\a
-[2022-07-13] [PreviewMessageLinks] Crash when loading message links. Quit and reopen Discord, then disable in settings.\a
 ';
 
 }
