@@ -30,7 +30,7 @@
     --textarea-buttons-sticker: flex;
     --textarea-buttons-gift: none;
 
-    --float-guildlist-width-correction: 0px;
+    /* --float-guildlist-width-correction: 0px; */
 }
 
 :root {
