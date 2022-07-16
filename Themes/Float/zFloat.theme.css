@@ -65,7 +65,7 @@
     --textarea-buttons-gift: none;
 
     /* Theme compatibility */
-    --float-guildlist-width-correction: 0px;
+    /* --float-guildlist-width-correction: 0px; */
 }
 
 /* The variables are used when the window is at the set sizes, each media query can be edited/deleted */
