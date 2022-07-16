@@ -72,7 +72,7 @@ In BetterDiscord settings, scroll down to WINDOW PREFERENCES and enable `Remove 
       --textarea-buttons-gift: none;
 
       /* Theme compatibility */
-      --float-guildlist-width-correction: 0px;
+      /* --float-guildlist-width-correction: 0px; */
   }
   ```
  * Preset window activation levels
