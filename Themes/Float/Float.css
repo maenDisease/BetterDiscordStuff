@@ -162,7 +162,7 @@
 
 .listItem-3SmSlK {
     height: var(--guildicon-size-px);
-    width: calc((var(--guildicon-size) * (72px - var(--float-guildlist-width-correction))) / 48);
+    width: calc((var(--guildicon-size) * (72px - var(--float-guildlist-width-correction, 0px))) / 48);
     margin-bottom: calc((var(--guildicon-size) * 8px) / 48);
 }
 
