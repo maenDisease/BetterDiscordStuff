@@ -191,7 +191,7 @@
 }
 
 .wrapper-38slSD .expandedFolderBackground-1kSAf6 {
-    left: calc((var(--guildicon-size) * 12px) / 48);
+    left: calc((var(--guildicon-size) * calc(12px - (var(--float-guildlist-width-correction, 0px) / 2))) / 48);
     bottom: calc((var(--guildicon-size) * 8px) / 48);
     width: calc(var(--guildicon-size) * 1px);
     border-radius: calc((var(--guildicon-size) * 16px) / 48);
