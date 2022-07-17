@@ -152,11 +152,13 @@
     width: calc((var(--guildicon-size) * 72px) / 48);
 }
 
-.tutorialContainer-1pL9QS+.listItem-3SmSlK {
+.tutorialContainer-1pL9QS+.listItem-3SmSlK,
+.tutorialContainer-1pL9QS~[style]+.listItem-3SmSlK {
     height: calc((var(--guildicon-size-px) * var(--enable-if-using-favorites-experiment)) + (2px * (1 - var(--enable-if-using-favorites-experiment))));
 }
 
-.tutorialContainer-1pL9QS+.listItem-3SmSlK+.listItem-3SmSlK {
+.tutorialContainer-1pL9QS+.listItem-3SmSlK+.listItem-3SmSlK,
+.tutorialContainer-1pL9QS+.listItem-3SmSlK~[style]+.listItem-3SmSlK {
     height: calc((var(--guildicon-size-px) * (1 - var(--enable-if-using-favorites-experiment))) + (2px * var(--enable-if-using-favorites-experiment)));
 }
 
