@@ -81,7 +81,7 @@
 @media (max-width:500px) {
     :root {
         --guildicon-size: 40;
-        --members-width: 0;
+        --float-members-width: 0;
     }
 }
 
