@@ -570,7 +570,7 @@
 .wrapper-1FP9YQ {
     height: auto !important;
     width: unset !important;
-    max-width: max-content;
+    max-width: max-content !important;
     max-height: 300px;
 }
 
@@ -579,7 +579,7 @@
     position: relative;
     height: auto !important;
     width: unset !important;
-    max-width: 100%;
+    max-width: 100% !important;
     max-height: 300px;
 }
 
