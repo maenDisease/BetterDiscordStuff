@@ -1502,6 +1502,10 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
     color: var(--header-primary);
 }
 
+.scrollerSpacer-3AqkT9 {
+    height: 20px;
+}
+
 /* 6.2.1. Message */
 .wrapper-2vIMkT {
     border: var(--background-primary-border);
