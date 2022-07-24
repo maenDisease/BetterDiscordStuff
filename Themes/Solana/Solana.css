@@ -5867,6 +5867,10 @@ bd-body .floating-window {
     background: var(--brand-experiment);
 }
 
+#app-mount .channelTabs-tab.channelTabs-selected .channelTabs-tabName {
+    color: #fff;
+}
+
 /* Userdetails */
 #app-mount .UserDetails-dates-container svg {
     fill: var(--interactive-normal);
