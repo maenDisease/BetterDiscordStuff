@@ -39,7 +39,7 @@
     color: var(--info-warning-text);
     content: '\
 [2022-05-25] [AvatarsEverywhere] Crash when loading server.\a
-[2022-07-11] [FavoriteMedia] Crash when clicking a FavoriteMedia button containing saved media.\a
+[2022-07-24] [VoiceActivity] Crash on startup.\a
 ';
 
 }
