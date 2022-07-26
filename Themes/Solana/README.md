@@ -1,7 +1,7 @@
 <h1 align="center">Solana</h1>
 <p align="center">macOS with customization.</p>
 
-![](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview.png)
+![preview](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview.png)
 
 ---
 
@@ -19,13 +19,16 @@
 * Light Mode Support
 
 ## Screenshots
-![](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-1.png)
+![preview-1](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-1.png)
 
-![](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-2.png)
+![preview-2](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-2.png)
 
-![](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-3.png)
+![preview-3](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-3.png)
 
-![](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-4.png)
+![preview-4](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-4.png)
+
+![preview-5](https://user-images.githubusercontent.com/90428263/181122894-b60fdd37-1187-4943-a00b-8234be5b0da9.png)
+
 
 <h2 align="center">Credits</h1>
 <p align="center"><a href="https://github.com/TheCommieAxolotl">TheCommieAxolotl</a> - <a href="https://github.com/maenDisease/BetterDiscordStuff/blob/37dcfdccbac77ad529ba2b4cdd58aecc4ca5270c/Themes/Solana/Solana.css#L2817-L2828">Appearance Previews</a></p>
