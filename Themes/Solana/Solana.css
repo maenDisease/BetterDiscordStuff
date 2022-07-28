@@ -5171,6 +5171,19 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
+.popout-TdhJ6Z {
+    border-radius: 8px;
+    background-color: var(--background-floating);
+    backdrop-filter: blur(var(--background-floating-blur-calc));
+    border: var(--background-floating-border);
+    animation: floatingtranstion 0.5s 0.2s forwards;
+}
+
+.didRender-2SiRlm .popout-TdhJ6Z {
+    background-color: var(--background-floating);
+    animation: floatingtranstion 0.5s 0.2s forwards;
+}
+
 /* 14.14. Publicguildannouncement */
 
 
