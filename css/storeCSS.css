@@ -60,7 +60,8 @@
     transform: scale(.6)
 }
 
-.chatContent-3KubbW[aria-label^=css-snippets] .embedWrapper-1MtIDg,
+/* Discord added this :D */
+/* .chatContent-3KubbW[aria-label^=css-snippets] .embedWrapper-1MtIDg,
 .chatContent-3KubbW[aria-label^=css-snippets] .embedVideo-2ixt5A{
     height: auto !important;
     width: unset !important
@@ -72,7 +73,7 @@
     height: auto !important;
     width: unset !important;
     max-width: 100%
-}
+} */
 
 .chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 {
     margin: 0 !important;
