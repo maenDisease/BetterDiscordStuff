@@ -565,7 +565,9 @@
 }
 
 /* 6.2.2. Embeds */
-.embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
+
+/* Discord added this :D */
+/* .embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
 .embedWrapper-1MtIDg .embedVideo-2ixt5A,
 .wrapper-1FP9YQ {
     height: auto !important;
@@ -581,7 +583,7 @@
     width: unset !important;
     max-width: 100% !important;
     max-height: 300px;
-}
+} */
 
 /* 6.2.3. Nitrogift */
 /* 6.2.4. Invite */

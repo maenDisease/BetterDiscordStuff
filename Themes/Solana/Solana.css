@@ -2060,7 +2060,8 @@ code {
 
 
 /* 6.7. Chatsidebar */
-.container-3XgAHv .embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
+/* Discord added this :D */
+/* .container-3XgAHv .embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
 .container-3XgAHv .embedWrapper-1MtIDg .embedVideo-2ixt5A,
 .container-3XgAHv .wrapper-1FP9YQ {
     height: auto !important;
@@ -2094,7 +2095,7 @@ code {
     width: unset !important;
     max-width: 100% !important;
     max-height: 300px;
-}
+} */
 
 .container-3XgAHv .embedSpotify-1rDvOE.embedWrapper-1MtIDg,
 .thin-31rlnD .embedSpotify-1rDvOE.embedWrapper-1MtIDg {
