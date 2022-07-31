@@ -1,98 +1,39 @@
 /**
  * @name Float
- * @version 2.0.0
- * @author Disease#3749
+ * @version 0.0.8
+ * @author Disease
  * @authorId 678469587444170762
- * @description A practical compact Discord with customization.
- * @source https://github.com/maenDisease/BetterDiscordStuff/tree/main/Themes/Float
- * @invite BShu37e4jg
- * @website https://maendisease.github.io/
+ * @description A practical compact Discord
+ * @source https://github.com/maendisease/Float
+ * @invite BpwYF5UyHu
 */
 
-/* Addons */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/HideAndPeekGuilds.css);
-
-/* Warning to Remove Minimum Size */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
-
 /* Source */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
+@import url("https://maendisease.github.io/Float/src/base.css"); 
 
-/* If your theme has custom settings icons, delete or comment this line */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
+/* optional */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
+
+/* Max width values of when each part of Float activates */
+@import url("https://maendisease.github.io/Float/src/700px.css") (max-width: 700px);
+@import url("https://maendisease.github.io/Float/src/400px.css") (max-width: 400px);
+@import url("https://maendisease.github.io/Float/src/300px.css") (max-width: 300px);
+
+/* Imports */
+/* SettingsIcons by mwittrien, recommended to comment out/remove this if your theme uses custom settings icons. */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css") (max-width: 700px);
 
 :root {
-    /* Guildlist */
-    --guildicon-size: 48;
-    --enable-if-using-favorites-experiment: 0; /* boolean */
-    --guildlist-collapse: 0; /* boolean */
+    /* MinimalMode */
+    --header-height: 40px;
+    --guildbar-width: 56px;
+    --sidebar-width: 240px;
 
-    /* Guildlist icons */
-    --guildlist-show: 1;
-    --guildlist-peek-unread: 1;
-    --guildlist-peek-ping: 1;
-    --guildlist-peek-selected: 1;
-    --guildlist-peek-group-unread: 1;
-
-    /* Channel sidebar */
-    --slide-window-on-hover: 1; /* boolean */
-    --float-sidebar-width: 48;
-    --sidebar-hover-width: 240px;
-    --sidebar-hover-delay: 0.2s;
-    --sidebar-transition-duration: 0.4s;
-    --sidebar-window-gap: 8px;
-    --sidebar-border-radius: 8px;
-    --sidebar-usersettings-width: 66px;
-
-    /* Memberlist */
-    --float-members-width: 65px;
-    --members-hover-width: 240px;
-    --members-hover-delay: 1.5s;
-    --members-transition-duration: 0.4s;
-
-    /* Channelheader */
-    --topic-opacity: 1;
-    --toolbar-visibility: flex; /* [flex][none] */
-
-    /* Textarea buttons */ /* [flex][none] */
-    --textarea-buttons-gif: flex;
-    --textarea-buttons-sticker: flex;
-    --textarea-buttons-gift: none;
-
-    /* Theme compatibility */
-    /* --float-guildlist-width-correction: 0px; */
-}
-
-/* The variables are used when the window is at the set sizes, each media query can be edited/deleted */
-@media (max-width:700px) {
-    :root {
-        --topic-opacity: 0;
-        --toolbar-visibility: none;
-        --textarea-buttons-gif: none;
-        --textarea-buttons-sticker: none;
-    }
-}
-
-@media (max-width:500px) {
-    :root {
-        --guildicon-size: 40;
-        --float-members-width: 0;
-    }
-}
-
-@media (max-width:400px) {
-    :root {
-        --float-sidebar-width: 0;
-    }
-}
-
-@media (max-width:300px) {
-    :root {
-        --guildlist-collapse: 1;
-    }
+    /* Float */
+    --float-app-opacity: 100%;
+    --float-app-transition-speed: 0.5s;
+    --float-channel-width: 240px;
+    --float-sidebar-hide-width: 40px;
+    --float-guildbar-hover-speed: 0.5s;
 }
