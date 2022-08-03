@@ -28,6 +28,7 @@
 [2022-07-07] [BetterMessageLinks] Fixed in v1.4.12 - Crash when loading message links.\a
 [2022-07-16] [PreviewMessageLinks] Fixed in v0.0.2 - Crash when loading message links.\a
 [2022-07-24] [VoiceActivity] Fixed in v1.3.4 - Crash on startup due to v1.3.3 update.\a
+[2022-08-02] [PlatformIndicators] Fixed in v1.2.3, update or redownload plugin.\a
 ';
 
 }
@@ -43,7 +44,6 @@
 [2022-07-31] [Channel Permissions] Crash when using plugin, disable plugin. Developer is aware.\a
 [2022-08-02] [FavoriteMedia] Crash on startup, disable or remove plugin.\a
 [2022-08-02] [CallTimeCounter] Crash on voice chat, disable or remove plugin.\a
-[2022-08-02] [PlatformIndicators] May crash on startup, disable or remove plugin.\a
 ';
 
 }
