@@ -40,7 +40,7 @@
     color: var(--info-warning-text);
     content: '\
 [2022-05-25] [AvatarsEverywhere] Crash when loading server. The plugin has been discontinued.\a
-[2022-07-31] [Channel Permissions] Crash when using plugin, disable or remove from plugins folder. Developer is aware.\a
+[2022-07-31] [Channel Permissions] Crash when using plugin, disable plugin. Developer is aware.\a
 ';
 
 }
