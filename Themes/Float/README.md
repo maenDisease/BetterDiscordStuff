@@ -1,5 +1,5 @@
 <h1 align="center">Float</h1>
-<p align="center">A practical compact Discord with customization.</p>
+<p align="center">A practical compact mobile Discord with customization.</p>
 
 ![](https://maendisease.github.io/BetterDiscordStuff/Themes/Float/assets/preview.png)
 
