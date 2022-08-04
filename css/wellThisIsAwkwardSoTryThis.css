@@ -28,7 +28,9 @@
 [2022-07-07] [BetterMessageLinks] Fixed in v1.4.12 - Crash when loading message links.\a
 [2022-07-16] [PreviewMessageLinks] Fixed in v0.0.2 - Crash when loading message links.\a
 [2022-07-24] [VoiceActivity] Fixed in v1.3.4 - Crash on startup due to v1.3.3 update.\a
-[2022-08-02] [PlatformIndicators] Fixed in v1.2.3, update or redownload plugin.\a
+[2022-08-02] [PlatformIndicators] Fixed in v1.2.3 - Update or redownload plugin.\a
+[2022-08-04] [Channel Permissions]Fixed in v4.2.4 - Crash on channel hover.\a
+[2022-08-04] [FavoriteMedia] Fixed with ZeresPluginLibrary v2.0.4 - Crash on startup.\a
 ';
 
 }
@@ -41,8 +43,6 @@
     color: var(--info-warning-text);
     content: '\
 [2022-05-25] [AvatarsEverywhere] Crash when loading server. The plugin has been discontinued.\a
-[2022-07-31] [Channel Permissions] Crash when using plugin, disable plugin. Developer is aware.\a
-[2022-08-02] [FavoriteMedia] Crash on startup, disable or remove plugin.\a
 [2022-08-02] [CallTimeCounter] Crash on voice chat, disable or remove plugin.\a
 ';
 
