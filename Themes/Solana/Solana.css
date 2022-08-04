@@ -5453,6 +5453,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 .item-3XjbnG[aria-controls=settings-tab]::before,
+.item-3XjbnG[aria-controls=emotes-tab]::before,
 .item-3XjbnG[aria-controls=customcss-tab]::before,
 .item-3XjbnG[aria-controls=plugins-tab]::before,
 .item-3XjbnG[aria-controls=themes-tab]::before,
