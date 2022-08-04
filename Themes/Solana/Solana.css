@@ -5452,11 +5452,11 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMpSURBVDhPlVRbb01BFP5m730utKpEqyqpez2oa9u0qhIaHBKJJsIDIuEBEU/eBE/8ACSuD40gkUiaUgmN0AckKNESJW2qLnVpcZzjXNpzzt6zt2+mLSVCTLJmZk/W+matb317BDj2HTlRYsA4xG01IMZxNdT5X4YLeBEIcUeY4uDhPTvahQLxpLgn4GUPOf3fEIhLWIvNxctDZ+B58zzP4/Jvc38zz/UCnCYZ0pFLpZT4mznKHAeGEJg9tQihJZWoqSiFY9v63HHsakN6bu6fgrUpJzqP8vmwoqoCe7dvxpZ1a7CsYhErAuxMRvu4jhxvuFKKP4Gom2yCFE+bgp2bNmDa5EK0tXci8i2uM+zoeqmB1J7+BktzNKq+3bER9Pswt3gmJufnoWzuHKxfvQK5Odk4fe4CTtbVEawD0VgCbc+e6wuZiF6NkRkEWELtqpWoLi/D+LE5qKmqRDAYYJcFZk2fikkT81FUWIA791uQSqdJtqtjlVlqUt0YHQwSoIJBJu4+aMHCkhIEAn46ueRDYOvG9drvazSGazebIQyD3xSUS0lx6IxUNvFEHI3Xr+FSQwPC4Qiys7Lo5GkgzQMDkgMpnL9Uj1gyyQsJxLPhjAY54iadSiOZTKC7u4u3mboc3XYC2Y4kL0lcrL+MlsetMAxLZ6HAfwJxUoRRWhpgV1YXMgyMJweQ6E9pYl+9fc9ML+NNTw9My4JhqrIoyCEQlcwgR0SnQjFnTBizJ6Rxu+sRrrL1fgZIaWNc7lisDYXQ2NSEnt5Pv3AzPFRpnkJWra8qjiCZ48P2glaUPTuLW8038OFjL8pLy/HpSxhPn7/4ATJckjJS4BqOI6Na5syg3yfxWgZwojsPx+IzYAVGoe9zH96+e4+jp04hEv2mQX6UNGT8DovabbsbqIdaaTvIZFJQq2qtRU2pzpiGgN9nIZZIwB8IwrJ8JJuvDJsxPLirJ9k44Eo3pv5kpSGTAKZ2ZucYoDqX6B/QAEpPym9kt/jTR13h2292Pnn4eeb8BVeomUKC5zHYZCZE5ePlUbrqERPCpRy4p6kzzyWxboSdazL95qbGuuMd3wEAfmD6wT8kGgAAAABJRU5ErkJggg==");
 }
 
-.item-3XjbnG[aria-controls=settings-tab]::before,
-.item-3XjbnG[aria-controls=emotes-tab]::before,
-.item-3XjbnG[aria-controls=customcss-tab]::before,
-.item-3XjbnG[aria-controls=plugins-tab]::before,
-.item-3XjbnG[aria-controls=themes-tab]::before,
+.bd-settings-tab::before,
+.bd-emotes-tab::before,
+.bd-customcss-tab::before,
+.bd-plugins-tab::before,
+.bd-themes-tab::before,
 .item-3XjbnG[aria-controls=experiments-tab]::before,
 .item-3XjbnG[aria-controls=developer-options-tab]::before,
 .item-3XjbnG[aria-controls=hotspot-options-tab]::before,
