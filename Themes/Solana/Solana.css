@@ -5824,6 +5824,12 @@ bd-body .floating-window {
     fill: var(--interactive-active);
 }
 
+#app-mount .bd-addon-error {
+    border: var(--background-primary-border);
+    background-color: var(--background-primary);
+    border-radius: 8px;
+}
+
 /* inbox */
 .recentMentionsPopout-2bI1ZN .header-145e10 .tab-TRrPC8 {
     height: unset;
