@@ -27,7 +27,8 @@
 
 ![preview-4](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview-4.png)
 
-![preview-5](https://user-images.githubusercontent.com/90428263/181122894-b60fdd37-1187-4943-a00b-8234be5b0da9.png)
+![preview-5](https://user-images.githubusercontent.com/90428263/183326277-9e38fadc-1c27-495e-9eda-ba92ef4fc776.png)
+
 
 
 <h2 align="center">Credits</h1>
