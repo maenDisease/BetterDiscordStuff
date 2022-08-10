@@ -602,7 +602,8 @@
 
 /* 6.4. Autocompletemenu */
 /* 6.5. Memberlist */
-.content-1jQy2l>.container-2o3qEW {
+.content-1jQy2l>.container-2o3qEW,
+.content-1jQy2l>.membersWrap-3NUR2t {
     margin-left: var(--float-members-width);
 }
 
@@ -614,7 +615,12 @@
     max-width: 100%;
 }
 
-#app-mount .membersWrap-3NUR2t {
+/* BANDAID */
+#app-mount .content-1jQy2l>.membersWrap-3NUR2t:not(:hover) {
+    position: relative;
+}
+
+#app-mount .container-2o3qEW .membersWrap-3NUR2t {
     position: absolute;
     right: 0;
     min-width: unset;
