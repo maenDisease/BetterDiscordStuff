@@ -1,0 +1,382 @@
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css);
+
+:root {
+    --settingsidebar-width: 280px;
+    --settingsidebar-border-top-right-radius: 8px;
+}
+
+/* base */
+.platform-win .standardSidebarView-E9Pc3j {
+    background: none;
+    border-top-right-radius: var(--settingsidebar-border-top-right-radius);
+    overflow: hidden;
+}
+
+.layer-86YKbF.baseLayer-W6S8cY.stop-animations ~ .layer-86YKbF {
+    background: none;
+}
+
+.layer-86YKbF.baseLayer-W6S8cY~.layer-86YKbF {
+	width: var(--settingsidebar-width);
+}
+
+.layer-86YKbF.baseLayer-W6S8cY.stop-animations {
+    margin-left: var(--settingsidebar-width);
+}
+
+#app-mount .baseLayer-W6S8cY {
+	opacity: 1 !important;
+	transform: unset !important;
+	will-change: unset !important;
+}
+
+#app-mount .stop-animations * {
+	transition-property: inherit !important;
+	animation: inherit !important;
+}
+
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+/* channelTextArea */
+.layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .scrollableContainer-15eg7h {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .attachWrapper-3slhXI,
+.layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .buttons-uaqb-5 {
+    display:none;
+}
+
+/* sidebar */
+.sidebarRegion-1VBisG {
+    position: absolute;
+	height: 48px;
+	z-index: 10;
+    width: var(--settingsidebar-width);
+}
+
+.sidebarRegion-1VBisG:hover {
+	height: 100%;
+}
+
+.sidebar-nqHbhN {
+    width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    padding-right: calc(20px - 8px);
+}
+
+.sidebarRegion-1VBisG:not(:hover) .sidebar-nqHbhN {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.sidebarRegionScroller-FXiQOh:not(:hover) .item-3XjbnG.selected-g-kMVV {
+	margin-top: 8px;
+}
+
+#app-mount .sidebarRegionScroller-FXiQOh:not(:hover) .side-2ur1Qk > div:not(.item-3XjbnG.selected-g-kMVV) {
+	display:none;
+}
+
+/* contentregion */
+.contentRegion-3HkfJJ {
+	margin-top: 48px;
+}
+
+.contentColumn-1C7as6,
+.customColumn-2n-oKU {
+    min-width: unset;
+    width: 0;
+}
+
+.contentColumnDefault-3eyv5o {
+    padding-top: 20px;
+    padding-right: calc(20px - 8px);
+    padding-left: 20px;
+}
+
+.toolsContainer-25FL6V {
+	position: absolute;
+	padding-top: 8px;
+	right: -37px;
+    /* top: -44px; */
+    z-index: 999;
+}
+
+.closeButton-PCZcma + .keybind-13vtq8 {
+    display: none;
+}
+
+.closeButton-PCZcma:hover + .keybind-13vtq8 {
+    display: block;
+}
+
+/* scrollbar */
+.scroller-39BnzZ::-webkit-scrollbar-track,
+.scroller-14hecM::-webkit-scrollbar-track,
+.contentRegionScroller-2_GT_N::-webkit-scrollbar-track {
+    display: none;
+}
+
+.scroller-39BnzZ::-webkit-scrollbar-thumb,
+.scroller-14hecM::-webkit-scrollbar-thumb,
+.contentRegionScroller-2_GT_N::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+
+.scroller-39BnzZ:hover::-webkit-scrollbar-thumb,
+.scroller-14hecM:hover::-webkit-scrollbar-thumb,
+.contentRegionScroller-2_GT_N:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+.scroller-39BnzZ::-webkit-scrollbar,
+.scroller-14hecM::-webkit-scrollbar,
+.contentRegionScroller-2_GT_N::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroller-39BnzZ::-webkit-scrollbar-thumb,
+.scroller-14hecM::-webkit-scrollbar-thumb,
+.contentRegionScroller-2_GT_N::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+}
+
+/* responsive elements */
+.userInfo-regn9W {
+    flex-wrap: wrap;
+}
+
+.userInfo-regn9W {
+    min-height: 72;
+    height: unset;
+}
+
+.buttonContainer-cmXa0P {
+    width: unset;
+    max-width: 300px;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+}
+
+.buttonContainer-cmXa0P>button {
+    min-width: fit-content;
+    max-width: calc(150px - 8px);
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin-right: 0;
+}
+
+.bd-setting-header {
+    flex-wrap: wrap;
+}
+
+.accountProfileCard-lbN7n- .fieldButtonList-28BYbB {
+    flex-direction: column;
+}
+
+#my-account-tab .flexChild-3PzYmX:not(img) {
+    width: 100%;
+}
+
+.profileCustomizationSection-2OOT4p .baseLayout-8AMrwn {
+    flex-wrap: wrap;
+}
+
+.profileCustomizationSection-2OOT4p .preview-Z55SA3 {
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+#streamer-mode-tab .formNotice-2nS8ey .flex-2S1XBF {
+    flex-direction: column;
+}
+
+.marketingRefreshSectionTier1-1chtWC {
+    flex-wrap: wrap;
+}
+
+.contentRegion-3HkfJJ .flex-2S1XBF.horizontal-112GEH:not(.layout-Zs52SM, .iconWrapper-1sOtkE, .headerInfo-3UVPHi) {
+    grid-template-columns: repeat(auto-fill, 100%);
+    display: grid;
+}
+
+.horizontal-112GEH>.flex-2S1XBF, .horizontal-112GEH:not(.headerInfo-3UVPHi)>.flexChild-3PzYmX {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.horizontal-112GEH>.flex-2S1XBF:not(:first-child), .horizontal-112GEH:not(.headerInfo-3UVPHi)>.flexChild-3PzYmX:not(:first-child) {
+    margin-top: 8px;
+}
+
+.features-2OVNMp {
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+}
+
+#nitro-server-boost-tab .guilds-XTTuu3 {
+    grid-template-columns: repeat(auto-fill, 100%);
+}
+
+.tiersList-12_0Zw {
+    flex-wrap: wrap;
+}
+
+.tiersList-12_0Zw .tierVertical-1fTmTd+.tierVertical-1fTmTd {
+    margin-left: 0;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.tiersList-12_0Zw .wrapper-3Zq_cJ {
+    padding: 8px 16px;
+}
+
+/* guild settings */
+.progressBarImage-3lGAbU {
+    width: 100%;
+    height: auto;
+}
+
+.customScroller-m1-jZn>div {
+    margin-left: 0;
+    padding-left: 20px;
+    min-width: 100%;
+}
+
+.roleNameSpacing-ss4Ir8 {
+    -ms-flex: 0 0 105px;
+    flex: 0 0 105px;
+}
+
+.memberSpacing-1e6OH3 {
+    -ms-flex: 0 0 0;
+    flex: 0;
+    margin-left: 0;
+}
+
+.searchContainer-u-1vUp {
+    flex-wrap: wrap;
+}
+
+/* role sidebar */
+#roles-tab .sidebar-3K3Z4C {
+    position: absolute;
+    height: 48px;
+    width: 100%;
+    flex-basis: 100% !important;
+    z-index: 10;
+    overflow: hidden;
+    border-right: none;
+}
+
+#roles-tab .sidebar-3K3Z4C:hover {
+    height: 100%;
+}
+
+#roles-tab .sidebar-3K3Z4C:hover + .contentContainer-3hXFtK {
+    visibility: hidden;
+}
+
+.contentContainer-3hXFtK {
+    left: 0;
+}
+
+#roles-tab .sidebar-3K3Z4C:not(:hover) .titleContainer-3fPic2,
+#roles-tab .sidebar-3K3Z4C:not(:hover) .row-LoqnA5.item-3XjbnG:not(.selected-g-kMVV),
+#roles-tab .sidebar-3K3Z4C:not(:hover) .list-1AJFv_::-webkit-scrollbar-thumb {
+    display:none;
+}
+
+#roles-tab .page-15bX59 {
+    min-width: unset;
+}
+
+#roles-tab .titleContainer-3fPic2 {
+    width: calc(100% - 32px);
+    padding: 20px;
+    margin: 0;
+}
+
+#roles-tab .list-1AJFv_ {
+    padding-left: calc(20px + 6px);
+}
+
+#roles-tab .sidebar-3K3Z4C:not(:hover) .list-1AJFv_ .side-2ur1Qk {
+    margin-top: 8px;
+    margin-right: 40px;
+}
+
+#roles-tab .contentWidth-3aWel5 {
+    width: 100%;
+    min-width: unset;
+    padding-left: 20px;
+    padding-right: calc(20px - 8px);
+}
+
+#roles-tab .permissionsWrapper-34gbP6 .clearButtonWrapper-3P4Ikn {
+    position: relative;
+}
+
+.infoWrapper-1HtsGy {
+    flex-wrap: wrap;
+}
+
+.infoItem-Q4HWUe {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
+
+img.infoItem-Q4HWUe {
+    width: 100%;
+}
+
+.descriptionBox-SKGNgB {
+    flex-wrap: wrap;
+}
+
+.features-XssPiD {
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+}
+
+.tiers-7TOtI7 {
+    margin-left: 38px;
+    width: calc(100% - 38px);
+}
+
+.perks-36lD43 {
+    grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
+}
+
+.avatar-rUnPfv {
+    flex-shrink: 0;
+}
+
+.member-2cj2PI {
+    width: 100%;
+}
+
+.member-2cj2PI .nameTag-1UsB6_ {
+    min-width: 100px;
+}
+
+.revokeInvite-1VNYBG {
+    right: 2px;
+}
+
+.permission-CbNHIg {
+    -webkit-box-align: start;
+    align-items: start;
+    height: fit-content;
+}
+
+.permissionCheckmark-ji-OoY {
+    flex-shrink: 0;
+}
