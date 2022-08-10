@@ -394,6 +394,20 @@ img.infoItem-Q4HWUe {
     padding-right: 20px;
 }
 
+.repoList-9JnAPs .contentColumn-1C7as6 {
+    padding-top: 0;
+}
+
+.repoList-9JnAPs .repoHeader-2KfNvH .tabBar-2hXqzU {
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: var(--settingsidebar-width);
+}
+
+.repoList-9JnAPs .repoHeader-2KfNvH .tabBarItem-30Te4- {
+    margin: 0 2px;
+}
+
 .repoList-9JnAPs.contentRegion-3HkfJJ .flex-2S1XBF.tabBarContainer-sCZC4w {
     display: flex;
     flex-wrap: wrap;
