@@ -958,6 +958,18 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 }
 
 /* 5.4. Account/Voice/GoLive */
+#account.menu-1QACrS {
+    width: 220px;
+}
+
+#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
+    max-width: 220px;
+}
+
+#account.menu-1QACrS .profileBody-3QbfPe {
+    display:none;
+}
+
 .panels-3wFtMD {
     background-color: transparent;
 }
