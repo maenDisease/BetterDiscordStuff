@@ -5842,6 +5842,10 @@ bd-body .floating-window {
     border-radius: 8px;
 }
 
+.bd-reload {
+    -webkit-app-region: no-drag;
+}
+
 /* inbox */
 .recentMentionsPopout-2bI1ZN .header-145e10 .tab-TRrPC8 {
     height: unset;
