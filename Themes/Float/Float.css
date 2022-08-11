@@ -336,6 +336,18 @@
 /* 5.2. Channels */
 /* 5.3. Dmchannels */
 /* 5.4. Account/Voice/GoLive */
+#account.menu-1QACrS {
+    width: 220px;
+}
+
+#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
+    max-width: 220px;
+}
+
+#account.menu-1QACrS .profileBody-3QbfPe {
+    display:none;
+}
+
 .panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN>.connection-3k9QeF>.inner-llGtyq {
     min-width: 48px;
 }
