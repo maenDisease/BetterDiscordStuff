@@ -76,6 +76,10 @@
     padding-bottom: 0;
 }
 
+.sidebarRegion-1VBisG>.sidebarRegionScroller-FXiQOh {
+    max-width: 100%;
+}
+
 .sidebarRegionScroller-FXiQOh:not(:hover) .item-3XjbnG.selected-g-kMVV {
     margin-top: 8px;
 }
