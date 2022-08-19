@@ -892,10 +892,9 @@ body::after {
     margin-top: -3px;
 }
 
-.unread-2wipsx {
+.bar-wDIGjg {
     background-color: var(--background-floating-90a);
     opacity: 1;
-    color: var(--header-primary);
     border: var(--background-floating-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
     box-shadow: var(--elevation-stroke), var(--elevation-medium);
