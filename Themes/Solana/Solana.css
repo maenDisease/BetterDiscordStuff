@@ -892,12 +892,16 @@ body::after {
     margin-top: -3px;
 }
 
-.bar-wDIGjg {
-    background-color: var(--background-floating-90a);
-    opacity: 1;
-    border: var(--background-floating-border);
+.bar-2eAyLE {
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
     box-shadow: var(--elevation-stroke), var(--elevation-medium);
+}
+
+.bar-2eAyLE:not(.mention-3XBnnZ) {
+    opacity: 1;
+    background-color: var(--background-floating-90a);
+    color: var(--header-primary);
+    border: var(--background-floating-border);
 }
 
 html.app-focused .modeSelected-3DmyhH .content-1gYQeQ,
