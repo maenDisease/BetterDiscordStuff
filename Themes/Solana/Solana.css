@@ -1498,7 +1498,7 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
     display: none;
 }
 
-.buttons-uaqb-5>div:not(:hover) {
+.buttons-uaqb-5>*:not(:hover) {
     opacity: 0.3;
 }
 
