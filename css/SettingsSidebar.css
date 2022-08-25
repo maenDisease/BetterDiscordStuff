@@ -439,3 +439,53 @@ img.infoItem-Q4HWUe {
 #pluginrepo-tab .settingsRow-o9Ft44 .flexChild-3PzYmX {
     width: auto;
 }
+
+/* Sessions */
+.sessions-2KZ0-Q .sessionMoreButton-2cApSx {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    display:none;
+}
+
+.sessions-2KZ0-Q .session-9khLqt:hover .sessionMoreButton-2cApSx {
+    display: block;
+}
+
+.sessions-2KZ0-Q .session-9khLqt {
+    position: relative;
+}
+
+.sessions-2KZ0-Q .session-9khLqt {
+    gap: 12px;
+}
+
+.sessions-2KZ0-Q .sessionInfo-HxfESS {
+    gap: 0;
+}
+
+.sessions-2KZ0-Q .eyebrow-Ejf06y.sessionInfoRow-pEX9fY {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    font-family: var(--font-primary);
+    text-transform: capitalize;
+}
+
+.sessions-2KZ0-Q .text-sm-medium-3Pz3rB.sessionInfoRow-pEX9fY {
+    color: var(--channels-default);
+}
+
+.sessions-2KZ0-Q .sessionIcon-2fwSzb {
+    background: none;
+    color: var(--interactive-normal);
+}
+
+.sessions-2KZ0-Q .session-9khLqt.currentSession-1g_u10 .sessionIcon-2fwSzb {
+    color: var(--status-positive);
+}
+
+.children-1xdcWE > .session-9khLqt:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
