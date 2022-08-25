@@ -5363,6 +5363,10 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 /* User Settings */
+.sidebar-nqHbhN .item-3XjbnG .textBadge-1fdDPJ {
+    margin-left: 6px;
+}
+
 .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(2)::before,
 .sidebar-nqHbhN .item-3XjbnG[aria-controls=my-account-tab]::before {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI7SURBVDhPnVS7bhNBFD33zu7GBDnAxqIIQkKEh9JThDIlNS0/gpDSQEXFH1DQUgDiA2K6QIGSJkqRIkoieY2f+IGT7M5wZndxEgmQ4mufnfGde899eVZA2U+S5YqalyKyBpFFrkq1OOe4zU0A56gRPrhzzvLZheBL6tz6Uq22I41G466J5r7SYDF3uKSQ9Gfq7GNJWq13xgTPSv1sYu0HabY7h8aYW6VqJnHWdpS5xb4P/wIbg/2B4Gj093MPE5gb0up0j7mJCu6LstUSvP6maA3ZY+tw+xrwfBVYvu57fibK2Ui72zsJgiAsdRhlwDYzGJ8Cb0hycupJ8qbmZAsM+fYJUJ16+GEKyZj9eXz6ofg+UrxvKH5dYbSQ0SItVmKQKTYOfUkX/Uh0Vmu9r9jpWfQmQJoq4vMkXMXw78UMP245bO57gjPfKdHeRLE3FsxHBhNrcExMxEA9QUmmSlt+DvqC9c8W2wfuHBEPfH0t9qQoWNE7EQwzgWMGOckcrUpCCfjb8Iym9V2b+/6BvweIIxbqeQjryiisxBgi4Ih5roSEhZ2XWpXEtCtsRXOilauCO/NFJA4uZ1TD1I0luKqDktBn4+XBTcHTR+GUSIbD4TiMIs6nyKafAo2J4JQj5zeHF3+LPZA6mMzhYc0TeEXu52Q4Hh/NheFSoZpNrLVt5btiY5re7KhLkiT34jjeVNW4DHApYTa9LMtW8yqbzeb9arX6imRrfBMsUJW34z9i6TzgWufVeVGpVHZ/A7XgzO8PEtNYAAAAAElFTkSuQmCC");
