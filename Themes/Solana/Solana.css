@@ -69,7 +69,8 @@
     --enable-blur: 1;
 }
 
-:root {
+.theme-dark,
+.theme-light {
     --float-guildlist-width-correction: 12px;
 
     --window-background-image-calc: var(--window-background-image, var(--background-image)) var(--window-background-image-position)/cover no-repeat var(--window-background-image-attachment);
