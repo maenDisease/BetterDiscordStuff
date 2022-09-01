@@ -3,11 +3,17 @@
     width: 300px;
 }
 
-#app-mount .profileColors-3Y0XaR {
+.profileColors-3Y0XaR {
     --profile-gradient-primary-color: transparent;
     --profile-gradient-secondary-color: transparent;
-    --profile-body-divider-color: var(--background-modifier-accent);
-    --profile-body-divider-opacity: 1;
+}
+
+.theme-dark .profileColors-3Y0XaR {
+    --profile-body-background-color: rgba(0,0,0, 0.45);
+}
+
+.theme-light .profileColors-3Y0XaR {
+    --profile-body-background-color: rgba(255,255,255, 0.45);
 }
 
 /* Body */
