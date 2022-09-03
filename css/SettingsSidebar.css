@@ -244,6 +244,19 @@
     padding: 8px 16px;
 }
 
+#profile-customization-tab .baseLayoutProfileThemes-1Jj-oN {
+    flex-wrap: wrap;
+}
+
+#profile-customization-tab .page-nvZ_ef {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.profileCustomizationPreview-2-Y173 {
+    width: calc(var(--settingsidebar-width) - 20px);
+}
+
 /* guild settings */
 .progressBarImage-3lGAbU {
     width: 100%;
