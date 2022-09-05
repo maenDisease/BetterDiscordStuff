@@ -502,3 +502,26 @@ img.infoItem-Q4HWUe {
     border-bottom: none;
     padding-bottom: 0;
 }
+
+/* BD */
+.bd-addon-list-title {
+    flex-wrap: wrap;
+}
+
+.bd-addon-list-filters {
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    margin-top: 6px;
+}
+
+.bd-addon-list-filters .bd-select-wrapper+.bd-select-wrapper {
+    margin-left: 0;
+}
+
+.bd-addon-list-controls {
+    flex-wrap: wrap;
+}
+
+.bd-addon-list.bd-grid-view {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
