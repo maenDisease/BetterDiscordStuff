@@ -5939,6 +5939,13 @@ bd-body .floating-window {
     -webkit-app-region: no-drag;
 }
 
+#app-mount .bd-store-card {
+    --background-secondary-alt: var(--background-primary);
+    --background-tertiary: var(--background-secondary);
+    box-shadow: var(--box-shadow-outer-2);
+    border: var(--background-primary-border);
+}
+
 /* inbox */
 .recentMentionsPopout-2bI1ZN .header-145e10 .tab-TRrPC8 {
     height: unset;
