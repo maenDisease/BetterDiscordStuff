@@ -4470,7 +4470,13 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 /* 13.15. Guildrules */
-
+.spamBanner-1auiob {
+    background: var(--background-floating);
+    border-radius: 8px;
+    border: var(--background-floating-border);
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+}
 
 /* 13.16. Guildfeedback */
 
