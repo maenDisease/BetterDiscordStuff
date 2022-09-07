@@ -973,7 +973,7 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 }
 
 #account.menu-1QACrS .profileBody-3QbfPe {
-    display:none;
+    display: none;
 }
 
 .panels-3wFtMD {
@@ -3367,7 +3367,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     color: var(--status-positive);
 }
 
-.children-1xdcWE > .session-9khLqt:last-child {
+.children-1xdcWE>.session-9khLqt:last-child {
     border-bottom: none;
     padding-bottom: 0;
 }
