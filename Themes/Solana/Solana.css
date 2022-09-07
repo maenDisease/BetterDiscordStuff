@@ -5222,6 +5222,12 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     background-color: transparent;
 }
 
+.popoutContainer-2wbmiM .assetWrapper-2hzITV,
+.popoutContainer-2wbmiM .primaryEmoji-2Og_xG,
+.popoutContainer-2wbmiM .guildSection-2Zyzy8 svg {
+    margin-right: 8px;
+}
+
 /* 14.12. Streampreview */
 #app-mount .streamPreview-I7itZ6 {
     border-radius: 8px;
