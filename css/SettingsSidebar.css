@@ -399,6 +399,61 @@ img.infoItem-Q4HWUe {
     flex-shrink: 0;
 }
 
+/* Automod */
+#guild_automod-tab .descriptionContainer-3zJrFW {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#guild_automod-tab .mainContainer-yxgti4 {
+    display: grid;
+    row-gap: 10px;
+}
+
+#guild_automod-tab .ruleTextContainer-akUmjL {
+    margin-right: 0;
+}
+
+.saveNoticeContainer-3t-pI1 {
+    width: 100%;
+}
+
+#app-mount .saveNoticeContainer-3t-pI1 {
+    border-radius: unset;
+    background-color: unset;
+    border: unset;
+    padding: unset;
+    margin: unset;
+}
+
+.noticeRegion-qjyUVg {
+    width: 100%;
+}
+
+.saveNoticeContainer-3t-pI1 .message-3C6JQ1,
+.noticeRegion-qjyUVg .message-3C6JQ1 {
+    white-space: normal;
+}
+
+.saveNoticeContainer-3t-pI1 .flexContainer-3yvuCP,
+.noticeRegion-qjyUVg .flexContainer-3yvuCP {
+    display: grid;
+}
+
+#guild_automod-tab .triggerContainer-1T_TRB {
+    display: grid;
+}
+
+#guild_automod-tab .cardContentsContainer-1bLlb8 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#guild_automod-tab .mentionLimitContainer-zBzr5i {
+    display: grid;
+    row-gap: 10px;
+}
+
 /* plugin repo */
 .repoList-9JnAPs .repoHeader-2KfNvH {
     padding-top: 20px;

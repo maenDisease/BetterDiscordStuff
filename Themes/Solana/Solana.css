@@ -388,6 +388,7 @@
 10. Discovery/Unihub
 11. Usersettings
 12. Guildsettings
+    1. Automod
 13. Modals
     1. User
     2. Guildadd/Creation
@@ -4159,6 +4160,38 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 .content-2ssVKB.layoutStyle-3d1mjU>.permissionsForm-35gjPz>.flex-2S1XBF:last-child>.divider-_0um2u:last-child {
     display: none;
+}
+
+/* 12.1. Automod */
+#app-mount .saveNoticeContainer-3t-pI1,
+#app-mount .saveNoticeContainer-3t-pI1~.endSpacer-1CGp7w {
+    border-radius: unset;
+    background-color: unset;
+    border: unset;
+    padding: unset;
+    margin: unset;
+}
+
+.actionContainer-EzNGrb {
+    border-radius: 6px;
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+}
+
+.triggerMainContainer-274ue5 {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+}
+
+.mentionLimitContainer-zBzr5i,
+.actionContainer-2krsiT {
+    background-color: transparent;
+}
+
+.stepCountIcon-1A2Rxd {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+
 }
 
 /* 13. Modals */
