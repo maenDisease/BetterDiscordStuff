@@ -899,6 +899,9 @@ body::after {
 .bar-2eAyLE {
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
     box-shadow: var(--elevation-stroke), var(--elevation-medium);
+    width: fit-content;
+    padding: 0 8px;
+
 }
 
 .bar-2eAyLE:not(.mention-3XBnnZ) {
@@ -906,6 +909,11 @@ body::after {
     background-color: var(--background-floating-90a);
     color: var(--header-primary);
     border: var(--background-floating-border);
+}
+
+.unread-XRkyaQ.container-1qIct8 {
+    display: flex;
+    justify-content: center;
 }
 
 html.app-focused .modeSelected-3DmyhH .content-1gYQeQ,
