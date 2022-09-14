@@ -928,6 +928,11 @@ html.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ .actionIcon-2sw4Sl {
     color: var(--text-normal);
 }
 
+html.app-focused .modeSelected-3DmyhH .content-1gYQeQ .subtitle-3PyFgf,
+html.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ .subtitle-3PyFgf {
+    color: #fff !important;
+}
+
 /* 5.3. Dmchannels */
 .searchBar-3TnChZ {
     box-shadow: none;
