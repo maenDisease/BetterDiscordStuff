@@ -2160,7 +2160,7 @@ code {
     border-radius: 0 var(--window-border-radius-calc) var(--window-border-radius-calc) 0;
     overflow: hidden;
     background: var(--background-floating-60a);
-    border-left: var(--background-floating-border);
+    border-left: var(--background-tertiary-border);
 }
 
 .container-3XgAHv.floating-3M3WeH::before {
@@ -2214,6 +2214,44 @@ code {
 
 .container-3XgAHv .form-3gdLxP {
     border-top: thin solid transparent;
+}
+
+.chatHeaderBar-2fUORh {
+    background-color: var(--background-floating);
+    box-shadow: var(--elevation-medium);
+    border-bottom: var(--background-primary-border);
+}
+
+.box-2iMsQm {
+    background-color: transparent;
+    margin-top: 8px;
+    padding-left: 0;
+}
+
+.chatHeaderBar-2fUORh.narrow-2jjOvw {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.chatHeaderBar-2fUORh.narrow-2jjOvw .chatHeaderBarButton-3q1QVr.button-f2h6uQ {
+    height: unset;
+    min-height: unset;
+}
+
+.container-27JV1h .heading-xxl-medium-1hl0GL,
+.container-27JV1h .heading-xxl-normal-3zbV4t {
+    font-family: var(--font-display);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.iconWrapper-3FqQ75 {
+    margin-top: 0;
+    background-color: transparent;
+}
+
+.container-27JV1h .tags-2Siay7 {
+    padding: 0 4px 4px 4px;
 }
 
 /* 6.8. Call */
