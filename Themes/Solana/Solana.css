@@ -901,7 +901,7 @@ body::after {
     box-shadow: var(--elevation-stroke), var(--elevation-medium);
     width: fit-content;
     padding: 0 8px;
-
+    text-transform: capitalize;
 }
 
 .bar-2eAyLE:not(.mention-3XBnnZ) {
