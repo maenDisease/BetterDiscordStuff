@@ -1,0 +1,74 @@
+#app-mount .container-3wLKDe,
+#app-mount .background-fkKrXt {
+    background-color: var(--background-primary);
+}
+
+/* Card */
+.mainCard-3KBsBI,
+.card-3x20HF,
+.container-xwOzwi,
+.container-2Hi7Km {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+}
+
+.icon-2IDTxf {
+    border-color: var(--background-secondary);
+    background-color: var(--background-secondary);
+}
+
+.container-2qVG6q {
+    border: none;
+}
+
+.container-2qVG6q:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.mainCard-3KBsBI .heading-lg-medium-3gUJeM,
+.mainCard-3KBsBI .heading-lg-normal-1bqh2L {
+    font-family: var(--font-display);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sidebarCard-1Gn1ch {
+    background-color: var(--background-secondary);
+    border: none;
+    border-radius: 8px;
+}
+
+/* Form */
+.mainCard-3KBsBI .container-JhuCwn.collapsed-23aTv6 {
+    cursor: unset;
+}
+
+.mainCard-3KBsBI.header-1Uy0p6:hover {
+    border-color: transparent;
+}
+
+.mainCard-3KBsBI form .title-1v5ZfI,
+.mainCard-3KBsBI form .title-1v5ZfI::placeholder {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.mainCard-3KBsBI .pill-3pRQlO {
+    background-color: var(--background-tertiary);
+}
+
+.mainCard-3KBsBI .dots-2_b2Mn {
+    border-color: var(--background-secondary);
+}
+
+/* Sidebar */
+.container-3XgAHv .container-27JV1h .heading-xxl-medium-1hl0GL,
+.container-3XgAHv .container-27JV1h .heading-xxl-normal-3zbV4t {
+    font-family: var(--font-display);
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.container-3XgAHv .container-27JV1h .iconWrapper-3FqQ75 {
+    margin-top: 0;
+}
