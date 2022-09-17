@@ -791,6 +791,15 @@ html #MemberCount {
 }
 
 /* 6.10. Forums */
+.container-3wLKDe .headerRow-1MKoR- {
+    min-width: 0;
+}
+
+.container-3wLKDe .list-3FIpnh>div:first-child {
+    min-width: 0;
+    width: calc(100% - 32px);
+}
+
 /* 7. Peoples */
 /* 8. Store/Nitro */
 /* 9. Library (cant) */
