@@ -4976,6 +4976,31 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     background-color: transparent;
 }
 
+/* Full */
+.topSection-13QKHs .nameTag-2Nlmsy {
+    margin-top: 66px;
+}
+
+.topSection-13QKHs .nameTagWithCustomStatus-5c-v3- {
+    margin-bottom: 0;
+}
+
+.connectedAccountContainer-3aLMHJ {
+    margin-top: 12px;
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+    border-radius: 8px;
+}
+
+.discordMemberCreatedAtIconContainer-2oMHqL {
+    background-color: transparent;
+    color: var(--status-positive);
+}
+
+.topSection-13QKHs .customStatusActivity-WKWGD- {
+    padding-bottom: 8px;
+}
+
 /* 14.3. Emojipicker */
 #emoji-picker-tab-panel[role="dialog"] .emojiPicker-6YCk8a {
     background-color: var(--background-floating);
