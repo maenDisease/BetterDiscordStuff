@@ -1,6 +1,5 @@
 .userPopout-3fydSP {
     position: relative;
-    width: 300px;
 }
 
 .overlayBackground-arbZMT,
@@ -17,13 +16,13 @@
 }
 
 /* Avatar */
-.avatarWrapperNormal-1tQ3Je {
+.userPopoutInnerNonPremium-3zrFkp .avatarWrapperNormal-1tQ3Je {
     background-color: var(--profile-body-background-color);
     box-shadow: var(--elevation-medium);
 }
 
-.avatarHoverTarget-l77PhT,
-.avatarHint-2g3Mcd {
+.userPopoutInnerNonPremium-3zrFkp .avatarHoverTarget-l77PhT,
+.userPopoutInnerNonPremium-3zrFkp .avatarHint-2g3Mcd {
     padding:6px;
 }
 
