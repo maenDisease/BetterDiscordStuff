@@ -7,11 +7,11 @@
 }
 
 .theme-dark .profileColors-3Y0XaR {
-    --profile-body-background-color: rgba(0,0,0, 0.45);
+    --profile-body-background-color: rgba(0, 0, 0, 0.45);
 }
 
 .theme-light .profileColors-3Y0XaR {
-    --profile-body-background-color: rgba(255,255,255, 0.45);
+    --profile-body-background-color: rgba(255, 255, 255, 0.45);
 }
 
 /* Avatar */
@@ -22,7 +22,16 @@
 
 .userPopoutInnerNonPremium-1EOFgI .avatarHoverTarget-l77PhT,
 .userPopoutInnerNonPremium-1EOFgI .avatarHint-2g3Mcd {
-    padding:6px;
+    padding: 6px;
+}
+
+.avatarWrapper-3y0KZ1 circle {
+    fill: var(--profile-avatar-border-color);
+}
+
+.avatarWrapper-3y0KZ1 rect[style] {
+    opacity: 1;
+    fill: var(--profile-gradient-primary-color);
 }
 
 /* Banner */
