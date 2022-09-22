@@ -4892,13 +4892,13 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 /* 14.2. Userpopout */
-.userPopout-3fydSP {
+.userPopout-29jUdN {
     border: var(--background-floating-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
 
-.userPopout-3fydSP textarea.textarea-_59yqs.input-2g-os5 {
+.userPopout-29jUdN textarea.textarea-_59yqs.input-2g-os5 {
     border: none;
     background: none;
 }
