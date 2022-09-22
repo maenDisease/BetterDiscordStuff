@@ -336,16 +336,18 @@
 /* 5.2. Channels */
 /* 5.3. Dmchannels */
 /* 5.4. Account/Voice/GoLive */
-#account.menu-1QACrS {
+.didRender-2SiRlm>.userPopout-29jUdN {
     width: 220px;
 }
 
-#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
-    max-width: 220px;
+.didRender-2SiRlm>.userPopout-29jUdN .userPopoutInner-1v4xcM>:not(.overlayBackground-2Zjm9f),
+.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f>:not(#account.menu-1QACrS),
+.didRender-2SiRlm>.userPopout-29jUdN #account.menu-1QACrS #account-divider-1 {
+    display: none;
 }
 
-#account.menu-1QACrS .profileBody-3QbfPe {
-    display:none;
+.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f {
+    margin: 0;
 }
 
 .panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN>.connection-3k9QeF>.inner-llGtyq {
