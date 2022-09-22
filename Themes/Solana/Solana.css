@@ -4892,6 +4892,14 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 /* 14.2. Userpopout */
+#account.menu-1QACrS {
+    background-color: var(--background-floating-80a);
+    border-radius: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 .userPopout-29jUdN {
     border: var(--background-floating-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
