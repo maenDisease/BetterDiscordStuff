@@ -979,17 +979,17 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 }
 
 /* 5.4. Account/Voice/GoLive */
-.didRender-2SiRlm>.userPopout-29jUdN {
+.didRender-2SiRlm>.userPopout-2VyFj_ {
     width: 220px;
 }
 
-.didRender-2SiRlm>.userPopout-29jUdN .userPopoutInner-1v4xcM>:not(.overlayBackground-2Zjm9f),
-.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f>:not(#account.menu-1QACrS),
-.didRender-2SiRlm>.userPopout-29jUdN #account.menu-1QACrS #account-divider-1 {
+.didRender-2SiRlm>.userPopout-2VyFj_ .userPopoutInner-1v4xcM>:not(.overlayBackground-2Zjm9f),
+.didRender-2SiRlm>.userPopout-2VyFj_ .overlayBackground-2Zjm9f>:not(#account.menu-1QACrS),
+.didRender-2SiRlm>.userPopout-2VyFj_ #account.menu-1QACrS #account-divider-1 {
     display: none;
 }
 
-.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f {
+.didRender-2SiRlm>.userPopout-2VyFj_ .overlayBackground-2Zjm9f {
     margin: 0;
 }
 
@@ -4900,13 +4900,13 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     box-shadow: none;
 }
 
-.userPopout-29jUdN {
+.userPopout-2VyFj_ {
     border: var(--background-floating-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
 
-.userPopout-29jUdN textarea.textarea-_59yqs.input-2g-os5 {
+.userPopout-2VyFj_ textarea.textarea-_59yqs.input-2g-os5 {
     border: none;
     background: none;
 }
