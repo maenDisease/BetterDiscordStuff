@@ -26,6 +26,7 @@
     color: var(--info-positive-text);
     content: '\
 [To Open Plugins Folder] [Windows] Press win+r and type and paste %appdata%/betterdiscord/plugins\a
+[2022-09-29] [BetterSyntax] Crash when viewing codeblocks. Fixed.\a
 ';
 
 }
