@@ -336,18 +336,29 @@
 /* 5.2. Channels */
 /* 5.3. Dmchannels */
 /* 5.4. Account/Voice/GoLive */
-.didRender-2SiRlm>.userPopout-29jUdN {
+.accountProfilePopoutWrapper-3GskID {
+    left: unset;
+}
+
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
     width: 220px;
 }
 
-.didRender-2SiRlm>.userPopout-29jUdN .userPopoutInner-1v4xcM>:not(.overlayBackground-2Zjm9f),
-.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f>:not(#account.menu-1QACrS),
-.didRender-2SiRlm>.userPopout-29jUdN #account.menu-1QACrS #account-divider-1 {
-    display: none;
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+    margin:0;
+    background: none;
 }
 
-.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f {
-    margin: 0;
+.accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY > :not(.overlayBackground-1KgwVi),
+.accountProfilePopoutWrapper-3GskID .overlayBackground-1KgwVi > :not(#account),
+.accountProfilePopoutWrapper-3GskID #account>div>div>#account-divider-1 {
+    display:none;
+}
+
+
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ,
+.accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY {
+    background: none;
 }
 
 .panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN>.connection-3k9QeF>.inner-llGtyq {
