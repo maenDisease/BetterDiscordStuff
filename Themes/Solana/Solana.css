@@ -2547,14 +2547,6 @@ code {
     height: 32px;
 }
 
-.tagList-2APRrt,
-.tagsIcon-1ia6lX,
-.tagsButton-2EKn70,
-.tagList-1CiR0h,
-.tagList-1CiR0h~* {
-    padding-bottom: 4px;
-}
-
 .pill-3pRQlO.selected-24z1Ou {
     border-color: var(--text-positive);
     background-color: var(--button-positive-background)
