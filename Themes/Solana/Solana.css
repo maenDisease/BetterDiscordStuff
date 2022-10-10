@@ -2625,6 +2625,19 @@ code {
     box-shadow: var(--box-shadow-outer-3);
 }
 
+.tagsContainer-2bBw1x .tagsButton-4pwOKH {
+    background: none;
+    box-shadow: none;
+}
+.tagsContainer-2bBw1x .tagList-1CiR0h {
+    padding-bottom: 4px;
+}
+
+.tagsContainer-2bBw1x .sortDropdown-hY93nR,
+.tagsContainer-2bBw1x .tagsButton-4pwOKH {
+    margin-bottom: 4px;
+}
+
 /* 7. Peoples */
 #app-mount .container-2cd8Mz {
     border-radius: var(--window-border-radius-calc);
@@ -5901,6 +5914,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 /* Non-standard settings */
 .bd-settings-tab::before,
+.bd-updates-tab::before,
 .bd-emotes-tab::before,
 .bd-customcss-tab::before,
 .bd-plugins-tab::before,
