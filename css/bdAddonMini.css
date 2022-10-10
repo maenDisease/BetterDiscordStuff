@@ -251,7 +251,7 @@
     border: 1px solid var(--info-danger-foreground);
 }
 
-.bd-addon-list .bd-addon-card-disabled .bd-switch::after {
+.bd-addon-list .bd-addon-card-disabled .bd-switch.bd-switch-disabled::after {
     background: var(--info-danger-background);
 }
 
