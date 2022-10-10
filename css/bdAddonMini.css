@@ -42,7 +42,6 @@
 }
 
 /* footer */
-
 .bd-addon-list .bd-addon-card .bd-footer {
     position: absolute;
     padding: 0 16px 0 8px;
@@ -84,7 +83,6 @@
 }
 
 /* controls */
-
 .bd-addon-list .bd-controls>.bd-addon-button,
 .bd-addon-list .bd-controls>.bd-addon-button:first-of-type {
     border-radius: 4px;
@@ -120,7 +118,6 @@
 }
 
 /* description */
-
 .bd-addon-list .bd-addon-card .bd-description-wrap {
     transform: scale(1);
     transition: transform .2s;
@@ -180,7 +177,6 @@
 }
 
 /* switch */
-
 .bd-addon-list .bd-switch {
     order: -1;
     position: static;
@@ -251,11 +247,11 @@
     opacity: 0.5;
 }
 
-.bd-addon-list .bd-addon-card-disabled {
-    box-shadow: 0 0 0 1px var(--info-danger-foreground);
+.bd-addon-list .bd-addon-card-disabled .bd-switch::after {
+    border: 1px solid var(--info-danger-foreground);
 }
 
-.bd-addon-list .bd-addon-card-disabled .bd-switch:not(.bd-switch-checked)::after {
+.bd-addon-list .bd-addon-card-disabled .bd-switch::after {
     background: var(--info-danger-background);
 }
 
