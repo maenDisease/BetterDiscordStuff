@@ -175,10 +175,6 @@
     line-height: 16px;
 }
 
-#app-mount .bd-addon-list .banner~.bd-description {
-    padding-top: 0;
-}
-
 .bd-addon-list.bd-grid-view .bd-description {
     padding-top: calc(8px + 26px);
 }
@@ -222,31 +218,9 @@
     background: var(--bdAddonMini-bg-unchecked);
 }
 
-.bd-addon-list .bd-addon-card .bd-switch-disabled {
-    opacity: 1;
-    filter: none;
-}
-
-.bd-addon-list .bd-addon-card .bd-switch-disabled .bd-switch-body {
-    opacity: 0.5;
-}
-
-.bd-addon-list .bd-addon-card .bd-switch.bd-switch-disabled::before {
-    border: 1px solid transparent;
-}
-
-.bd-addon-list .bd-addon-card .bd-switch.bd-switch-disabled::after {
-    background: var(--info-danger-background);
-    border: 1px solid var(--info-danger-foreground);
-}
-
 /* not checked hover */
-.bd-addon-list .bd-addon-card:hover .bd-switch:not(.bd-switch-checked)::after {
+.bd-addon-list .bd-addon-card:not(.bd-addon-card-disabled):hover .bd-switch:not(.bd-switch-checked)::after {
     background: var(--bdAddonMini-bg-unchecked-hover);
-}
-
-.bd-addon-list .bd-addon-card:hover .bd-switch.bd-switch-disabled::after {
-    background: var(--info-danger-background);
 }
 
 /* not checked hover dim */
@@ -256,11 +230,44 @@
     opacity: 0.4;
 }
 
+/* not checked hover dim */
+.bd-addon-list .bd-addon-card-disabled .bd-switch:not(.bd-switch-checked)::before {
+    z-index: 1;
+    background: var(--bdAddonMini-bg-unchecked);
+    opacity: 0.4;
+}
+
 .bd-addon-list .bd-addon-card:hover .bd-switch:not(.bd-switch-checked)::before {
     display: none;
 }
 
+/* disabled */
+.bd-addon-list .bd-addon-card .bd-switch-disabled {
+    opacity: 1;
+    filter: none;
+}
+
+.bd-addon-card-disabled .bd-switch-body {
+    opacity: 0.5;
+}
+
+.bd-addon-list .bd-addon-card-disabled {
+    box-shadow: 0 0 0 1px var(--info-danger-foreground);
+}
+
+.bd-addon-list .bd-addon-card-disabled .bd-switch:not(.bd-switch-checked)::after {
+    background: var(--info-danger-background);
+}
+
+#app-mount .bd-addon-list .banner~.bd-description {
+    padding-top: 0;
+}
+
 /* banner */
+.bd-addon-list .bd-addon-card:hover .bd-description-wrap {
+    flex-direction: column;
+}
+
 .bd-description-wrap .banner {
     font-weight: 500;
     font-size: 14px;
@@ -268,6 +275,7 @@
     padding: 8px;
     border-radius: 4px;
     border-width: 1px;
+    margin: 32px 8px 8px 8px;
 }
 
 .banner.banner-danger {
@@ -282,13 +290,4 @@
 
 .banner-danger .bd-icon path[d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"] {
     d: path("M10 0C4.486 0 0 4.486 0 10C0 15.515 4.486 20 10 20C15.514 20 20 15.515 20 10C20 4.486 15.514 0 10 0ZM9 4H11V11H9V4ZM10 15.25C9.31 15.25 8.75 14.691 8.75 14C8.75 13.31 9.31 12.75 10 12.75C10.69 12.75 11.25 13.31 11.25 14C11.25 14.691 10.69 15.25 10 15.25Z");
-}
-
-/* bdaddonmini */
-.bd-addon-list .bd-addon-card:hover .bd-description-wrap {
-    flex-direction: column;
-}
-
-.bd-description-wrap .banner {
-    margin: 32px 8px 8px 8px;
 }
