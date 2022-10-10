@@ -573,7 +573,10 @@ img.infoItem-Q4HWUe {
     margin-left: 0;
 }
 
-.bd-addon-list-controls {
+.bd-addon-list-controls,
+.bd-controls-advanced {
+    margin-top: 4px;
+    row-gap: 4px;
     flex-wrap: wrap;
 }
 
