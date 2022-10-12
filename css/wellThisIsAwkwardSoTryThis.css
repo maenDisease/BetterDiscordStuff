@@ -27,7 +27,8 @@
     content: '\
 [To Open Plugins Folder] [Windows] Press win+r and type and paste %appdata%/betterdiscord/plugins\a
 [2022-09-29] [BetterSyntax] Crash when viewing codeblocks. Fixed version on Github.\a
-[2022-10-11] [ZeresPluginLibrary] Crash from showing confirmation modal. Update to 2.0.7.\a
+[2022-10-11] [ZeresPluginLibrary] Crash from showing confirmation modal. Update to v2.0.7\a
+[2022-10-11] [BetterDiscord] Crashing on startup. Reinstall BD to v1.0.8\a
 ';
 
 }
