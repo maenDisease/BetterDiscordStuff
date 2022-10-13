@@ -4908,8 +4908,10 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 /* 14.2. Userpopout */
+
 #account.menu-1QACrS {
-    background-color: var(--background-floating-80a);
+    background-color: var(--background-floating);
+    animation: floatingtranstion 0.5s 0.2s forwards;
     border-radius: 0;
     border: none;
     -webkit-box-shadow: none;
