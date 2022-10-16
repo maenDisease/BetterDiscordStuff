@@ -41,6 +41,7 @@
     color: var(--info-warning-text);
     content: '\
 [2022-10-13] [TypingUserAvatars] Crashing on messages. Disable or remove. Conflicts with BetterRoleColors.\a
+[2022-10-13] [GuildAndFriendRemovalAlerts] Crashing on VC. Disable or remove.\a
 ';
 
 }
