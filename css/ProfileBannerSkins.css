@@ -2,10 +2,6 @@
     position: relative;
 }
 
-.overlayBackground-1KgwVi {
-    margin: 28px 8px 8px;
-}
-
 .theme-dark .profileColors-3Y0XaR {
     --profile-body-background-color: rgba(0, 0, 0, 0.45);
 }
@@ -15,7 +11,8 @@
 }
 
 /* Avatar */
-.userProfileInnerNonPremium-1XjSjn .avatarWrapperNormal-1tQ3Je {
+.userProfileInnerNonPremium-1XjSjn .avatarWrapperNormal-1tQ3Je,
+.userProfileInnerNonPremium-1XjSjn .wrapper-1VLyxH.avatar-1YsFQ1 {
     background-color: var(--profile-body-background-color);
     box-shadow: var(--elevation-medium);
 }
@@ -29,33 +26,41 @@
     fill: var(--profile-avatar-border-color);
 }
 
+.wrapper-1VLyxH.avatar-1YsFQ1 circle {
+    fill: none;
+}
+
 .avatarWrapper-3y0KZ1 rect[style] {
     opacity: 1;
     fill: var(--profile-gradient-primary-color);
 }
 
+.userProfileInnerNonPremium-1XjSjn .wrapper-1VLyxH.avatar-1YsFQ1 {
+    padding: 6px;
+    background-color: var(--profile-body-background-color);
+}
+
 /* Banner */
-.userProfileInnerNonPremium-1XjSjn .bannerSVGWrapper-qc0szY {
-    height: 100%;
-    position: absolute;
-    z-index: 0;
+.bannerSVGWrapper-qc0szY {
+    overflow: visible;
 }
 
 .userProfileInnerNonPremium-1XjSjn .bannerSVGWrapper-qc0szY foreignObject {
     mask: none;
-    transform: translateY(-120px)
 }
 
-.userProfileInnerNonPremium-1XjSjn .popoutBanner-16rVDY {
+.profileBanner-2zIsK7,
+.popoutBanner-16rVDY {
     height: 100vh;
 }
 
 /* Body */
-.userProfileInnerNonPremium-1XjSjn .overlayBackground-1KgwVi {
-    margin-top: calc(28px + 60px);
+.overlayBackground-1KgwVi {
+    margin: 28px 8px 8px;
+    z-index: 1;
 }
 
-.userPopoutInner-1hXSeY:not(.userPopoutInnerWithoutTheme-3IBtvN.userPopoutInnerWithBanner-1jusp9) .overlayBackground-1KgwVi {
+.profileColors-3Y0XaR:not(.userPopoutInnerWithoutTheme-3IBtvN.userPopoutInnerWithBanner-1jusp9) .overlayBackground-1KgwVi {
     box-shadow: var(--elevation-medium);
 }
 
@@ -69,7 +74,12 @@
     padding-bottom: 4px;
 }
 
-.userPopoutInner-1hXSeY .profileBadges-31rDHI {
+.profileColors-3Y0XaR .profileBadges-31rDHI,
+.profileColors-3Y0XaR .badgeList-2pMvZX {
+    box-shadow: var(--elevation-medium);
+}
+
+.profileColors-3Y0XaR .relationshipButtons-pZ_UWl button {
     box-shadow: var(--elevation-medium);
 }
 
