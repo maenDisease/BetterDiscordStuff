@@ -4918,7 +4918,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     box-shadow: none;
 }
 
-.profileColors-3Y0XaR {
+.profileColors-3Y0XaR:not(.userProfileModalOuter-1FYL8T) {
     border: var(--background-floating-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
