@@ -26,7 +26,8 @@
     fill: var(--profile-avatar-border-color);
 }
 
-.wrapper-1VLyxH.avatar-1YsFQ1 circle {
+.wrapper-1VLyxH.avatar-1YsFQ1 circle,
+.wrapper-1VLyxH.avatar-1YsFQ1 rect:not([class]) {
     fill: none;
 }
 
