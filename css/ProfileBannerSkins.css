@@ -67,7 +67,7 @@
 
 /* Badges */
 .userProfileInnerNonPremium-1XjSjn .profileBadges-31rDHI {
-    top: calc(12px + 60px);
+    z-index: 1;
 }
 
 .profileBadges-31rDHI:not(.containerWithContent-2_V0PM) {
