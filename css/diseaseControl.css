@@ -34,26 +34,3 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, .4) 0, transparent 48px), url(https://i.imgur.com/j2H4s4f.png) no-repeat center/cover;
     box-shadow: var(--elevation-low)
 }
-
-/* Blacklist */
-a:where(
-[href="https://discord.gg/plugin"],
-)::after {
-    content:'css: THIS SERVER IS MALICIOUS';
-    display: inline-flex;
-    vertical-align: top;
-    padding: 0 4px;
-    margin: 1px 0 0 5px;
-    font-size: .625rem;
-    line-height: 15px;
-    font-weight: 500;
-    border-radius: 3px;
-    color: #fff;
-    background: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);
-}
-
-a:where(
-[href="https://discord.gg/plugin"],
-) {
-    color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%) !important;
-}

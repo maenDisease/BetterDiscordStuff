@@ -3,12 +3,6 @@
     --enable-if-using-favorites-experiment: 0;
     --guildlist-collapse: 0;
 
-    --guildlist-show: 1;
-    --guildlist-peek-unread: 1;
-    --guildlist-peek-ping: 1;
-    --guildlist-peek-selected: 1;
-    --guildlist-peek-group-unread: 1;
-
     --slide-window-on-hover: 1;
     --float-sidebar-width: 48;
     --sidebar-hover-width: 240px;

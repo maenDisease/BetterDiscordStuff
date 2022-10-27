@@ -14,8 +14,6 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/HideAndPeekGuilds.css);
 
 /* Warning to Remove Minimum Size */
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
@@ -31,13 +29,6 @@
     --guildicon-size: 48;
     --enable-if-using-favorites-experiment: 0; /* boolean */
     --guildlist-collapse: 0; /* boolean */
-
-    /* Guildlist icons */
-    --guildlist-show: 1;
-    --guildlist-peek-unread: 1;
-    --guildlist-peek-ping: 1;
-    --guildlist-peek-selected: 1;
-    --guildlist-peek-group-unread: 1;
 
     /* Channel sidebar */
     --slide-window-on-hover: 1; /* boolean */
