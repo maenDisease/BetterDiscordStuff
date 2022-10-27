@@ -27,8 +27,8 @@
     content: '\
 [To Open Plugins Folder] [Windows] Press win+r and type and paste %appdata%/betterdiscord/plugins\a
 [2022-09-29] [BetterSyntax] Crash when viewing codeblocks. Update to latest.\a
-[2022-10-11] [ZeresPluginLibrary] Crash from showing confirmation modal. Update to v2.0.7\a
 [2022-10-11] [BetterDiscord] Crashing on startup. Reinstall BD to v1.0.8\a
+[2022-10-17] [ZeresPluginLibrary] Crash from showing confirmation modal. Update to v2.0.7\a
 ';
 
 }
@@ -42,7 +42,7 @@
     content: '\
 [2022-10-13] [TypingUserAvatars] Crashing on messages. Disable or remove. Conflicts with BetterRoleColors.\a
 [2022-10-13] [GuildAndFriendRemovalAlerts] Crashing on VC. Disable or remove.\a
-[2022-10-17] [ZeresPluginLibrary] Crash from loading modals. Fixed in upcoming Zlib update. \a
+[DEPRECATED] [WellThisIsAwkwardSoTryThis] I recommend removing this CSS and instead use the official BD server #known-issues.\a
 ';
 
 }

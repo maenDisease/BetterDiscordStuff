@@ -13,7 +13,6 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
 
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css);
 
@@ -71,11 +70,6 @@
     --favorites-icon: initial;
     --dock-blur: var(--window-blur);
     --dock-border-radius: 0;
-    --guildlist-show: 1;
-    --guildlist-peek-unread: 1;
-    --guildlist-peek-ping: 1;
-    --guildlist-peek-selected: 1;
-    --guildlist-peek-group-unread: 1;
 
     /* sidebar */
     --sidebar-width: 240px;
