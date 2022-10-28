@@ -11,14 +11,14 @@
 }
 
 /* Avatar */
-.userProfileInnerNonPremium-1XjSjn .avatarWrapperNormal-1tQ3Je,
-.userProfileInnerNonPremium-1XjSjn .wrapper-1VLyxH.avatar-1YsFQ1 {
+.userProfileInnerThemedNonPremium-1gT-zY .avatarWrapperNormal-1tQ3Je,
+.userProfileInnerThemedNonPremium-1gT-zY .wrapper-1VLyxH.avatar-1YsFQ1 {
     background-color: var(--profile-body-background-color);
     box-shadow: var(--elevation-medium);
 }
 
-.userProfileInnerNonPremium-1XjSjn .avatarHoverTarget-l77PhT,
-.userProfileInnerNonPremium-1XjSjn .avatarHint-2g3Mcd {
+.userProfileInnerThemedNonPremium-1gT-zY .avatarHoverTarget-l77PhT,
+.userProfileInnerThemedNonPremium-1gT-zY .avatarHint-2g3Mcd {
     padding: 6px;
 }
 
@@ -36,7 +36,7 @@
     fill: var(--profile-gradient-primary-color);
 }
 
-.userProfileInnerNonPremium-1XjSjn .wrapper-1VLyxH.avatar-1YsFQ1 {
+.userProfileInnerThemedNonPremium-1gT-zY .wrapper-1VLyxH.avatar-1YsFQ1 {
     padding: 6px;
     background-color: var(--profile-body-background-color);
 }
@@ -46,7 +46,7 @@
     overflow: visible;
 }
 
-.userProfileInnerNonPremium-1XjSjn .bannerSVGWrapper-qc0szY foreignObject {
+.userProfileInnerThemedNonPremium-1gT-zY .bannerSVGWrapper-qc0szY foreignObject {
     mask: none;
 }
 
@@ -66,7 +66,7 @@
 }
 
 /* Badges */
-.userProfileInnerNonPremium-1XjSjn .profileBadges-31rDHI {
+.userProfileInnerThemedNonPremium-1gT-zY .profileBadges-31rDHI {
     z-index: 1;
 }
 
