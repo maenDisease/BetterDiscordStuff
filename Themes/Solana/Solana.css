@@ -590,7 +590,6 @@ body::after {
     top: 0;
     left: 0;
     position: fixed;
-    outline: 1px dashed cyan;
     height: calc(var(--window-margin) * 1px);
     width: 100%;
     -webkit-app-region: drag;
