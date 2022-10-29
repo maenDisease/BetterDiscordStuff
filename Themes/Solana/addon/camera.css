@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.chat-2ZfjoI,
+.container-2cd8Mz {
+    padding: 34px 44px 34px 44px;
+}
+
+.chat-2ZfjoI::after,
+.container-2cd8Mz::after {
+    content: "";
+    position: absolute;
+    margin: 24px;
+    inset: 0;
+    z-index: 999;
+    pointer-events: none;
+    border: 2px solid transparent;
+    border-image-source: url(https://i.imgur.com/mbu5lLz.png);
+    border-image-slice: 113;
+    border-image-width: 100px;
+    border-image-outset: 0;
+    border-image-repeat: round;
+}
+
+.children-3xh0VB {
+    position: absolute;
+    width: 100%;
+    overflow: visible;
+}
+
+.title-17SveM {
+    text-transform: uppercase;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.children-3xh0VB>.iconWrapper-2awDjA {
+    display: none;
+}
+
+.title-17SveM::before {
+    content: '00:';
+}
+
+.forumPostTitle-16pN7d {
+    font-size: 16px;
+}
+.forumPostTitle-16pN7d::before {
+    content: '01:';
+}
+
+.topic-11NuQZ {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 12px;
+    max-width: 190px;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: var(--header-primary);
+}
+
+.topic-11NuQZ::before {
+    content: '...';
+}
+
+.children-3xh0VB .divider-q3P9HC {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 32px;
+    background: url(https://i.imgur.com/EybtuXn.png) no-repeat;
+    transform: translateX(calc(-15px / 2));
+    width: 15px;
+    height: 14px;
+}
+
+.toolbar-3_r2xA {
+    position: absolute;
+    right: 8px;
+}

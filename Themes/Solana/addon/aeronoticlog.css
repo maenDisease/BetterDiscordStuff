@@ -1,0 +1,14 @@
+:root {
+    --accent-hue: 0;
+    --accent-saturation: 60%;
+    --background-image: url('https://i.imgur.com/WpklDi0.jpg');
+    --background-image-position: center right;
+    --background-overlay-opacity: 70%;
+    --background-overlay-color-lightness: -1;
+    --window-opacity: 0%;
+    /* --window-margin: 60; */
+    --window-border-radius: 20px;
+    --window-background-lightness: -0.25;
+    --chat-bubble: 1;
+    --dock-blur: 6;
+}

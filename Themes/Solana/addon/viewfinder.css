@@ -1,0 +1,17 @@
+:root {
+    --accent-hue: 201;
+    --background-image: url('https://i.imgur.com/pAuLhiK.png');
+    --background-image-position: center right;
+    --background-overlay-opacity: 70%;
+    --background-overlay-color-lightness: -0.83;
+    --window-background-image: url('https://i.imgur.com/ooIei9L.png');
+    --window-background-image-size: cover;
+    --window-background-image-attachment: local;
+    --window-opacity: 0%;
+    --window-margin: 60;
+    --window-border-radius: 20px;
+    --window-background-lightness: -0.25;
+    --chat-bubble: 1;
+    --home-icon: url('https://i.imgur.com/HNE928t.png');
+    --dock-blur: 6;
+}
