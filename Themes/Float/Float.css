@@ -1,3 +1,7 @@
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
+
 :root {
     --guildicon-size: 48;
     --enable-if-using-favorites-experiment: 0;
