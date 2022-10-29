@@ -585,6 +585,17 @@ body::after {
     -webkit-app-region: no-drag;
 }
 
+.platform-win .typeWindows-2-g3UY::before {
+    content: '';
+    top: 0;
+    left: 0;
+    position: fixed;
+    outline: 1px dashed cyan;
+    height: calc(var(--window-margin) * 1px);
+    width: 100%;
+    -webkit-app-region: drag;
+}
+
 /* 4. dock */
 .wrapper-1_HaEi {
     background-color: transparent;
