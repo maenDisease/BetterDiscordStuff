@@ -4791,6 +4791,11 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 .nav-2mKdAt {
     -webkit-transform: translateY(-14px);
     transform: translateY(-14px);
+    opacity: 0;
+}
+
+.modalCarouselWrapper-YK1MX4:hover .nav-2mKdAt {
+    opacity: 1;
 }
 
 .navPrev-3Oe07S {
