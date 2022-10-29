@@ -1,6 +1,6 @@
 /**
  * @name Solana
- * @version 1.0.1
+ * @version 1.0.11
  * @author Disease#3749
  * @authorId 678469587444170762
  * @description macOS with barely any customization.
@@ -9,18 +9,13 @@
  * @website https://maendisease.github.io/
 */
 
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
-
+/* Source */
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css);
 
+/* Optional */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
-
-@import url(https://fonts.cdnfonts.com/css/sf-pro-display);
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap);
 
 :root {
     /* 
