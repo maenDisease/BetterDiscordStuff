@@ -122,6 +122,12 @@
     --status-danger: hsl(3, calc(var(--saturation-factor, 1) * 100%), 59%);
     --status-grey: hsl(240, 2%, 57%);
 
+    --status-red-500: var(--status-danger);
+    --status-yellow-500: var(--status-warning);
+    --status-green-600: var(--status-positive);
+    --status-grey-500: var(--status-grey);
+    /* --status-orange-100: hsl(18, calc(var(--saturation-factor, 1) * 100%), 98%); */
+
     --modal-background: var(--background-secondary);
     --font-display: var(--custom-font-display), BlinkMacSystemFont, "SF Pro Display", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
     --font-regular: var(--custom-font-regular), BlinkMacSystemFont, "SF Pro Text", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
