@@ -6202,6 +6202,11 @@ bd-body .floating-window {
     filter: invert();
 }
 
+.bd-addon-modal-header h1 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
 .bd-addon-modal-footer .bd-button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr {
     height: unset;
     min-height: unset;
