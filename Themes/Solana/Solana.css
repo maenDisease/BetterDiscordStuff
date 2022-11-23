@@ -2838,7 +2838,9 @@ code {
     background-color: transparent;
 }
 
-#app-mount .feature-2IUcBI {
+#app-mount .feature-2IUcBI,
+.bigPerkCard-1uwmWV,
+.smallPerkCard-2sX_-- {
     background-color: var(--background-primary);
     box-shadow: var(--box-shadow-outer-2);
     border: var(--background-primary-border);
