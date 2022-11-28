@@ -3,6 +3,7 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css);
 
 @import url(https://fonts.cdnfonts.com/css/sf-pro-display);
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap);
@@ -1587,80 +1588,21 @@ code {
     border-right: var(--background-primary-border);
 }
 
-.groupStart-3Mlgv1.cozyMessage-1DWF9U>.contents-2MsGLg,
-.cozyMessage-1DWF9U:not(.groupStart-3Mlgv1)>.contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
-    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
-    background-size: calc(var(--chat-bubble) * 1px);
-    max-width: calc(100% - (10% * var(--chat-bubble)));
-    width: fit-content;
-    margin: 0;
-    padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
-    border-radius: calc(8px * var(--chat-bubble));
-    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
-    box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
-}
-
-.cozyMessage-1DWF9U.automodMessage-265YwJ:before,
-.cozyMessage-1DWF9U.ephemeral-2nDdnn:before,
-.cozyMessage-1DWF9U.mentioned-Tre-dv:before,
-.cozyMessage-1DWF9U.replying-eZ7p5z:before {
-    width: calc(2px - (var(--chat-bubble) * 2px));
-}
-
-.groupStart-3Mlgv1.cozyMessage-1DWF9U.mentioned-Tre-dv .contents-2MsGLg,
-.cozyMessage-1DWF9U.mentioned-Tre-dv:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
-    background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
-    background-size: calc(var(--chat-bubble) * 1px);
-    border: calc(1px * var(--chat-bubble)) solid var(--info-warning-foreground);
-}
-
-.cozyMessage-1DWF9U.mentioned-Tre-dv {
-    background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
-    background-size: calc((1 - var(--chat-bubble)) * 1px);
-}
-
-.groupStart-3Mlgv1.cozyMessage-1DWF9U.replying-eZ7p5z .contents-2MsGLg,
-.cozyMessage-1DWF9U.replying-eZ7p5z:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *),
-.groupStart-3Mlgv1.cozyMessage-1DWF9U.ephemeral-2nDdnn .contents-2MsGLg,
-.cozyMessage-1DWF9U.ephemeral-2nDdnn:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
-    background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
-    background-size: calc(var(--chat-bubble) * 1px);
-    border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
-}
-
-.cozyMessage-1DWF9U.replying-eZ7p5z,
-.cozyMessage-1DWF9U.ephemeral-2nDdnn {
-    background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
-    background-size: calc((1 - var(--chat-bubble)) * 1px);
-}
-
-.groupStart-3Mlgv1.cozyMessage-1DWF9U.automodMessage-265YwJ .contents-2MsGLg,
-.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
-    background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
-    background-size: calc(var(--chat-bubble) * 1px);
-    border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
-}
-
-.cozyMessage-1DWF9U.automodMessage-265YwJ {
-    background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
-    background-size: calc((1 - var(--chat-bubble)) * 1px);
-}
-
-.groupStart-3Mlgv1.cozyMessage-1DWF9U.automodMessage-265YwJ:hover .contents-2MsGLg,
-.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1):hover .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
-    background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
-    background-size: calc(var(--chat-bubble) * 1px);
-    border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
-}
-
-.cozyMessage-1DWF9U.automodMessage-265YwJ:hover {
-    background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
-    background-size: calc((1 - var(--chat-bubble)) * 1px);
-}
-
-.markup-eYLPri blockquote,
-.markup-eYLPri pre {
-    max-width: 100%;
+/* Blocked messages */
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg {padding: 0 0 0 16px}
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg.compact-2Nkcau {padding: 0 0 0 108px}
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) {margin: 0}
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1.expanded-3lghlw:not(.backgroundFlash-1X5jVs) {background-color: var(--info-danger-background)}
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) .messageListItem-ZZ7v6g .groupStart-3Mlgv1,
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs, .expanded-3lghlw)+.messageListItem-ZZ7v6g .groupStart-3Mlgv1 {margin-top: 0}
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) .messageListItem-ZZ7v6g {opacity: .5}
+.blockedSystemMessage-3FmE9n .iconContainer-2rPbqG {display: none}
+.blockedMessageText-3Zeg3y {position: relative;font-size: 12px;line-height: 16px;color: var(--interactive-muted)}
+.blockedMessageText-3Zeg3y:hover {text-decoration: underline}
+.blockedMessageText-3Zeg3y:hover,.groupStart-3Mlgv1.expanded-3lghlw .blockedMessageText-3Zeg3y {color: var(--info-danger-foreground)}
+.blockedAction-2cPk2G {position: absolute;inset: 0;width: 100%;opacity: 0}
+.blockedMessageText-3Zeg3y:after {content: '';position: absolute;right: 0;height: 100%;width: 14px;pointer-events: none;background-color: currentColor;
+-webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat
 }
 
 /* 6.2.2. Embeds */
