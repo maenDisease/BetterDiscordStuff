@@ -334,6 +334,10 @@
 /* 5.2. Channels */
 /* 5.3. Dmchannels */
 /* 5.4. Account/Voice/GoLive */
+.container-YkUktl {
+    overflow: hidden;
+}
+
 .accountProfilePopoutWrapper-3GskID {
     left: unset;
 }
@@ -344,7 +348,6 @@
 
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
     margin:0;
-    background: none;
 }
 
 .accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY > :not(.overlayBackground-1KgwVi),
