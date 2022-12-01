@@ -255,7 +255,8 @@
 }
 
 .platform-win .sidebar-1tnWFu+div,
-.platform-win .sidebar-1tnWFu~.chat-2ZfjoI {
+.platform-win .sidebar-1tnWFu~.chat-2ZfjoI
+.platform-win .sidebar-1tnWFu~.container-2cd8Mz {
     border-top-left-radius: var(--sidebar-border-radius);
 }
 
@@ -277,13 +278,15 @@
 }
 
 .sidebar-1tnWFu+div,
-.sidebar-1tnWFu~.chat-2ZfjoI {
+.sidebar-1tnWFu~.chat-2ZfjoI,
+.sidebar-1tnWFu~.container-2cd8Mz {
     margin-left: calc(min(1, var(--float-sidebar-width)) * (var(--float-sidebar-width-px) + var(--sidebar-window-gap)));
     transition: -webkit-transform var(--sidebar-transition-exit), transform var(--sidebar-transition-exit);
 }
 
 .sidebar-1tnWFu:hover+div,
-.sidebar-1tnWFu:hover~.chat-2ZfjoI {
+.sidebar-1tnWFu:hover~.chat-2ZfjoI,
+.sidebar-1tnWFu:hover~.container-2cd8Mz {
     -webkit-transform: translateX(calc(var(--slide-window-on-hover) * (var(--sidebar-hover-width) - var(--float-sidebar-width-px) + (var(--slide-window-on-hover) * (1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-window-gap)))));
     transform: translateX(calc(var(--slide-window-on-hover) * (var(--sidebar-hover-width) - var(--float-sidebar-width-px) + (var(--slide-window-on-hover) * (1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-window-gap)))));
     transition: -webkit-transform var(--sidebar-transition-entry), transform var(--sidebar-transition-entry);
@@ -296,7 +299,8 @@
 }
 
 .wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu+div,
-.wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu~.chat-2ZfjoI {
+.wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu~.chat-2ZfjoI,
+.wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu~.container-2cd8Mz {
     -webkit-transform: translateX(calc(var(--slide-window-on-hover) * ((min(var(--float-sidebar-width), 1) * (min(var(--float-sidebar-width), 0) * 1px)) + ((1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-hover-width) + (var(--slide-window-on-hover) * (1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-window-gap))))));
     transform: translateX(calc(var(--slide-window-on-hover) * ((min(var(--float-sidebar-width), 1) * (min(var(--float-sidebar-width), 0) * 1px)) + ((1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-hover-width) + (var(--slide-window-on-hover) * (1 - min(var(--float-sidebar-width), 1)) * var(--sidebar-window-gap))))));
     transition: -webkit-transform var(--sidebar-transition-entry), transform var(--sidebar-transition-entry), margin-left var(--sidebar-transition-entry);
@@ -334,10 +338,6 @@
 /* 5.2. Channels */
 /* 5.3. Dmchannels */
 /* 5.4. Account/Voice/GoLive */
-.sidebar-1tnWFu {
-    overflow: hidden;
-}
-
 .accountProfilePopoutWrapper-3GskID {
     left: unset;
 }
