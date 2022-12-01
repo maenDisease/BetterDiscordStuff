@@ -132,7 +132,7 @@
     --modal-background: var(--background-secondary);
     --font-display: var(--custom-font-display), BlinkMacSystemFont, "SF Pro Display", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
     --font-regular: var(--custom-font-regular), BlinkMacSystemFont, "SF Pro Text", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
-    --font-primary: var(--custom-font-primary), 'Whitney', "Helvetica Neue", 'Helvetica', 'Arial', sans-serif;
+    --font-primary: var(--custom-font-primary), "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-code: var(--custom-font-code), Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 
     --background-floating: hsl(var(--background-accent-hue), 4%, var(--background-floating-l));
