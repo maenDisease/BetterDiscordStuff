@@ -658,6 +658,11 @@ body::after {
 }
 
 /* 4. dock */
+/* snowsgiving */
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub g rect {
+    fill: none;
+}
+
 .wrapper-1_HaEi {
     background-color: transparent;
 }
