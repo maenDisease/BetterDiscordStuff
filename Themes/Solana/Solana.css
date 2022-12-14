@@ -856,6 +856,12 @@ body::after {
     background-color: var(--text-normal);
 }
 
+.activePostCount-3b4wM_ {
+    background-color: var(--background-modifier-muted);
+    color: var(--interactive-muted);
+    font-weight: 400;
+}
+
 /* 5.1. Guildheader */
 .header-3OsQeK {
     box-shadow: none;
