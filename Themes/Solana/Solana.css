@@ -862,6 +862,11 @@ body::after {
     font-weight: 400;
 }
 
+.newPostCount-3SXe5K {
+    background-color: transparent;
+    color: var(--brand-560);
+}
+
 /* 5.1. Guildheader */
 .header-3OsQeK {
     box-shadow: none;
