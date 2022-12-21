@@ -132,7 +132,7 @@
     --modal-background: var(--background-secondary);
     --font-display: var(--custom-font-display), BlinkMacSystemFont, "SF Pro Display", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
     --font-regular: var(--custom-font-regular), BlinkMacSystemFont, "SF Pro Text", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
-    --font-primary: var(--custom-font-primary), "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-primary: var(--custom-font-primary), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-code: var(--custom-font-code), Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 
     --background-floating: hsl(var(--background-accent-hue), 4%, var(--background-floating-l));
@@ -1007,14 +1007,14 @@ html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
 }
 
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
-    margin:0;
+    margin: 0;
     background: none;
 }
 
-.accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY > :not(.overlayBackground-1KgwVi),
-.accountProfilePopoutWrapper-3GskID .overlayBackground-1KgwVi > :not(#account),
+.accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY> :not(.overlayBackground-1KgwVi),
+.accountProfilePopoutWrapper-3GskID .overlayBackground-1KgwVi> :not(#account),
 .accountProfilePopoutWrapper-3GskID #account>div>div>#account-divider-1 {
-    display:none;
+    display: none;
 }
 
 
@@ -1642,20 +1642,67 @@ code {
 }
 
 /* Blocked messages */
-.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg {padding: 0 0 0 16px}
-.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg.compact-2Nkcau {padding: 0 0 0 108px}
-.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) {margin: 0}
-.scrollerInner-2PPAp2>.groupStart-3Mlgv1.expanded-3lghlw:not(.backgroundFlash-1X5jVs) {background-color: var(--info-danger-background)}
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg {
+    padding: 0 0 0 16px
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg.compact-2Nkcau {
+    padding: 0 0 0 108px
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) {
+    margin: 0
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1.expanded-3lghlw:not(.backgroundFlash-1X5jVs) {
+    background-color: var(--info-danger-background)
+}
+
 .scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) .messageListItem-ZZ7v6g .groupStart-3Mlgv1,
-.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs, .expanded-3lghlw)+.messageListItem-ZZ7v6g .groupStart-3Mlgv1 {margin-top: 0}
-.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) .messageListItem-ZZ7v6g {opacity: .5}
-.blockedSystemMessage-3FmE9n .iconContainer-2rPbqG {display: none}
-.blockedMessageText-3Zeg3y {position: relative;font-size: 12px;line-height: 16px;color: var(--interactive-muted)}
-.blockedMessageText-3Zeg3y:hover {text-decoration: underline}
-.blockedMessageText-3Zeg3y:hover,.groupStart-3Mlgv1.expanded-3lghlw .blockedMessageText-3Zeg3y {color: var(--info-danger-foreground)}
-.blockedAction-2cPk2G {position: absolute;inset: 0;width: 100%;opacity: 0}
-.blockedMessageText-3Zeg3y:after {content: '';position: absolute;right: 0;height: 100%;width: 14px;pointer-events: none;background-color: currentColor;
--webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs, .expanded-3lghlw)+.messageListItem-ZZ7v6g .groupStart-3Mlgv1 {
+    margin-top: 0
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) .messageListItem-ZZ7v6g {
+    opacity: .5
+}
+
+.blockedSystemMessage-3FmE9n .iconContainer-2rPbqG {
+    display: none
+}
+
+.blockedMessageText-3Zeg3y {
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--interactive-muted)
+}
+
+.blockedMessageText-3Zeg3y:hover {
+    text-decoration: underline
+}
+
+.blockedMessageText-3Zeg3y:hover,
+.groupStart-3Mlgv1.expanded-3lghlw .blockedMessageText-3Zeg3y {
+    color: var(--info-danger-foreground)
+}
+
+.blockedAction-2cPk2G {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    opacity: 0
+}
+
+.blockedMessageText-3Zeg3y:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 14px;
+    pointer-events: none;
+    background-color: currentColor;
+    -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat
 }
 
 /* 6.2.2. Embeds */
@@ -2589,6 +2636,7 @@ code {
     background: none;
     box-shadow: none;
 }
+
 .tagsContainer-2bBw1x .tagList-1CiR0h {
     padding-bottom: 4px;
 }
@@ -2596,6 +2644,57 @@ code {
 .tagsContainer-2bBw1x .sortDropdown-hY93nR,
 .tagsContainer-2bBw1x .tagsButton-4pwOKH {
     margin-bottom: 4px;
+}
+
+/* 6.11 Browse Channels */
+.chat-2ZfjoI .content-1jQy2l .chat-2ZfjoI {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.search-kg4MrS {
+    background-color: transparent;
+    box-shadow: var(--background-secondary-box-shadow-border-a);
+}
+
+.channelRow-4X_3fi {
+    border-left: var(--background-primary-border);
+    border-right: var(--background-primary-border);
+    justify-content: start;
+}
+
+.channelRow-4X_3fi.firstChannel-3vAGDY {
+    border-top: var(--background-primary-border);
+}
+
+.lastChannel-21yyBC {
+    border-bottom: var(--background-primary-border);
+}
+
+.categoryRow-2VIZ6m .categoryText-35ACGA {
+    text-transform: capitalize;
+    font-family: var(--font-display);
+}
+
+.channelText-30KI3D {
+    color: var(--header-primary) !important;
+}
+
+.channelSubtitle-2k6z5J,
+.topic-3svq3- {
+    color: var(--header-secondary);
+}
+
+.channelActions-2FvDct {
+    order: -1;
+    flex-direction: row-reverse;
+    min-width: 123px;
+}
+
+.viewChannelButton-59XD70 {
+    margin-left: 16px;
+    display: none;
 }
 
 /* 7. Peoples */
@@ -2809,7 +2908,8 @@ code {
 }
 
 /* 8. Store/Nitro */
-.container-1kcjXL, .scroller-1aYPCA {
+.container-1kcjXL,
+.scroller-1aYPCA {
     background: var(--background-tertiary-a);
 }
 
