@@ -922,19 +922,13 @@ body::after {
     margin-top: -3px;
 }
 
-.bar-2eAyLE {
-    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
-    box-shadow: var(--elevation-stroke), var(--elevation-medium);
-    width: fit-content;
-    padding: 0 8px;
-    text-transform: capitalize;
+.bar-wDIGjg:not(.mentionsBar-DpLHCy) {
+    background-color: var(--background-floating);
+    border: var(--background-floating-border);
 }
 
-.bar-2eAyLE:not(.mention-3XBnnZ) {
-    opacity: 1;
-    background-color: var(--background-floating-90a);
-    color: var(--header-primary);
-    border: var(--background-floating-border);
+.bar-wDIGjg .barText-1eIsLx {
+    text-transform: capitalize;
 }
 
 .unread-XRkyaQ.container-1qIct8 {
