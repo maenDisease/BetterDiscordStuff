@@ -4942,6 +4942,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 /* 14.1. Contextmenu */
 .menu-1QACrS {
+    position: relative;
     background-color: var(--background-floating-80a);
     border-radius: 8px;
     border: var(--background-floating-border);
