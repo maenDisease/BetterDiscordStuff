@@ -4966,12 +4966,23 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-radius: 8px;
 }
 
-.theme-dark .item-1OdjEX.colorDefault-CDqZdO:not(.focused-3qFvc8, .colorDanger-3n-KnP) {
+.theme-dark .item-1OdjEX.colorDefault-CDqZdO:not(.focused-3qFvc8, .colorDanger-3n-KnP),
+.theme-dark .item-1OdjEX.colorDefault-CDqZdO:not(.focused-3qFvc8, .colorDanger-3n-KnP) .caret-2MOQD6 {
     color: var(--interactive-hover);
 }
 
-.theme-light .item-1OdjEX.colorDefault-CDqZdO:not(.focused-3qFvc8, .colorDanger-3n-KnP, :active) {
+.theme-light .item-1OdjEX.colorDefault-CDqZdO:not(.focused-3qFvc8, .colorDanger-3n-KnP, :active),
+.theme-dark .item-1OdjEX.colorDefault-CDqZdO:not(.focused-3qFvc8, .colorDanger-3n-KnP) .caret-2MOQD6 {
     color: var(--text-normal);
+}
+
+.item-1OdjEX .caret-2MOQD6 {
+    width: 18px;
+    color: var(--interactive-hover);
+}
+
+.item-1OdjEX.colorDefault-CDqZdO:not(.colorDanger-3n-KnP).focused-3qFvc8 .caret-2MOQD6 {
+    color: #fff;
 }
 
 .item-1OdjEX {
