@@ -986,14 +986,14 @@ html.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ .subtitle-3PyFgf {
     font-weight: 400;
 }
 
-html.app-focused .selected-3veCBZ,
-html.app-focused .interactiveSelected-29CP8y.selected-3veCBZ {
+html.app-focused .selected-26oxtA,
+html.app-focused .interactiveSelected-29CP8y.selected-26oxtA {
     color: #fff;
     background-color: var(--brand-experiment);
 }
 
-.selected-3veCBZ,
-.interactiveSelected-29CP8y.selected-3veCBZ {
+.selected-26oxtA,
+.interactiveSelected-29CP8y.selected-26oxtA {
     color: var(--text-normal);
 }
 
@@ -1970,10 +1970,10 @@ code {
     background-color: var(--brand-experiment);
 }
 
-.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover .text-md-normal-304U3g,
-.clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 .text-md-normal-304U3g,
-.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover .text-xs-normal-3SiVjE,
-.clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 .text-xs-normal-3SiVjE {
+.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover .text-md-normal-2rFCH3,
+.clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 .text-md-normal-2rFCH3,
+.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover .text-xs-normal-3O7EaX,
+.clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 .text-xs-normal-3O7EaX {
     color: #fff !important;
 }
 
@@ -2522,7 +2522,7 @@ code {
     border-top-color: var(--brand-experiment-460);
 }
 
-.authorContainer-3m1uzW .text-md-normal-304U3g {
+.authorContainer-3m1uzW .text-md-normal-2rFCH3 {
     font-weight: 600;
 }
 
@@ -3958,7 +3958,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     background: var(--brand-experiment);
 }
 
-.roleRow-230vCm:hover .text-md-normal-304U3g {
+.roleRow-230vCm:hover .text-md-normal-2rFCH3 {
     color: #fff !important;
 }
 
@@ -4128,7 +4128,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-right: var(--background-secondary-border);
 }
 
-.roleRow-230vCm:hover .text-md-normal-304U3g {
+.roleRow-230vCm:hover .text-md-normal-2rFCH3 {
     color: #fff !important;
 }
 
@@ -4264,7 +4264,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 .auditLog-1NVAY0 .text-sm-medium-3Pz3rB,
-.auditLog-1NVAY0 .text-sm-normal-3Zj3Iv {
+.auditLog-1NVAY0 .text-sm-normal-AEQz4v {
     font-family: var(--font-primary);
     font-size: 12px;
     line-height: 18px;
@@ -4712,7 +4712,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 .perksModalContentWrapper-3RHugb .defaultColor-24IHKz.headerBlurb-m6Avyp,
-.perksModalContentWrapper-3RHugb .defaultColor-24IHKz.text-md-normal-304U3g {
+.perksModalContentWrapper-3RHugb .defaultColor-24IHKz.text-md-normal-2rFCH3 {
     color: #dcddde;
 }
 
