@@ -688,7 +688,7 @@ body::after {
     max-height: calc(100% - 48px);
 }
 
-.scroller-3X7KbA {
+#app-mount .scroller-3X7KbA {
     contain: unset;
     border-radius: calc(1.1rem * (1 + var(--dock-border-radius)));
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
@@ -795,8 +795,9 @@ body::after {
 }
 
 /* 5. Channellist */
-.container-1NXEtd,
-.sidebar-1tnWFu {
+#app-mount .container-1NXEtd,
+.sidebar-1tnWFu,
+#app-mount .container-YkUktl {
     background-color: transparent;
 }
 
@@ -1238,6 +1239,10 @@ html.app-focused .interactiveSelected-29CP8y.selected-26oxtA {
 .chat-2ZfjoI .content-1jQy2l,
 .chat-2ZfjoI .container-ZMc96U {
     backdrop-filter: blur(var(--window-blur-calc));
+}
+
+.chatContent-3KubbW {
+    background: transparent;
 }
 
 .theme-light .chat-2ZfjoI {
@@ -1863,7 +1868,7 @@ code {
 
 /* 6.3. Textarea */
 .channelTextArea-1FufC0,
-.scrollableContainer-15eg7h {
+#app-mount .scrollableContainer-15eg7h {
     background-color: transparent;
 }
 
