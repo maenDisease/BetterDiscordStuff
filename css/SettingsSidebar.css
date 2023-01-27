@@ -42,7 +42,7 @@
 }
 
 .sidebarRegion-1VBisG:hover ~ .contentRegion-3HkfJJ {
-    opacity: 0;
+    display: none;
 }
 
 /* channelTextArea */
