@@ -41,6 +41,10 @@
     will-change: unset;
 }
 
+.sidebarRegion-1VBisG:hover ~ .contentRegion-3HkfJJ {
+    opacity: 0;
+}
+
 /* channelTextArea */
 .layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .scrollableContainer-15eg7h {
     opacity: 0.5;
