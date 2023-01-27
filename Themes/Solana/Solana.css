@@ -3582,7 +3582,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     margin-bottom: 20px;
 }
 
-#my-account-tab.contentColumn-1C7as6>div:not([class])>div:not(:first-child:not([class])):empty {
+#app-mount #my-account-tab.contentColumn-1C7as6>div:not([class])>div:not(:first-child:not([class])):empty {
     display: none;
 }
 
