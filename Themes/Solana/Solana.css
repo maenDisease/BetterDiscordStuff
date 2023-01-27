@@ -3590,12 +3590,28 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     margin-bottom: 0;
 }
 
-/* .connectContainer-1hylYM,
 .connection-YOVI9j {
     background: var(--background-secondary);
     border: var(--background-secondary-border);
     border-radius: 8px;
-} */
+}
+
+.connection-YOVI9j {
+    background: var(--background-primary);
+    border: var(--background-primary-border);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.connectionHeader-Ixbb1s {
+    padding: 0;
+    background: transparent;
+    border-radius: unset;
+}
+
+.connectionList-11Q_X- {
+    grid-gap: 8px;
+}
 
 .input-3O04eu {
     border-radius: 6px;
