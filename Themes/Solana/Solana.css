@@ -5087,16 +5087,16 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     background-color: transparent;
 }
 
-.headerTagWithNickname-1U8zZH {
+.userTagWithNickname-3-znkC {
     font-family: var(--font-display)
 }
 
-.headerTagUsernameNoNickname-1TjuLc,
-.headerTagDiscriminatorNoNickname-dfcvHa {
+.userTagUsernameNoNickname-2e_xaO,
+.userTagDiscriminatorNoNickname-2HLaIE {
     font-weight: 500;
 }
 
-.headerTagDiscriminatorNoNickname-dfcvHa {
+.userTagDiscriminatorNoNickname-2HLaIE {
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
@@ -5108,7 +5108,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border-radius: 6px;
 }
 
-.note-3M15gE textarea {
+.note-6O4w9y textarea {
     border-radius: 6px;
 }
 
