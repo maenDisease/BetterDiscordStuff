@@ -631,6 +631,11 @@ body::after {
     flex-grow: 0;
 }
 
+#app-mount .withBackgroundOverride-gzmZco.typeWindows-2-g3UY {
+    padding-top: 11px;
+    background: none;
+}
+
 .guilds-2JjMmN:not(.content-Pph8t6),
 .container-ZMc96U,
 .children-3xh0VB .iconWrapper-2awDjA>svg {
@@ -667,8 +672,8 @@ body::after {
     background-color: transparent;
 }
 
-.childWrapper-1j_1ub,
-.circleIconButton-1VxDrg {
+#app-mount .childWrapper-1j_1ub,
+#app-mount .circleIconButton-1VxDrg {
     background-color: transparent;
 }
 
@@ -713,7 +718,12 @@ body::after {
     left: 6px;
 }
 
-.folder-241Joy {
+#app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi,
+#app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+    background-color: transparent;
+}
+
+#app-mount .folder-241Joy {
     background-color: transparent;
 }
 
@@ -730,11 +740,11 @@ body::after {
     bottom: 0;
 }
 
-.folder-241Joy.hover-3m7-WT svg {
+#app-mount .folder-241Joy.hover-3m7-WT svg {
     color: #fff !important;
 }
 
-.folder-241Joy.hover-3m7-WT {
+#app-mount .folder-241Joy.hover-3m7-WT {
     background-color: var(--brand-experiment);
 }
 
