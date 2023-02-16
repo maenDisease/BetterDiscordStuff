@@ -2565,6 +2565,7 @@ code {
 }
 
 .pill-3pRQlO {
+    background-color: var(--background-secondary);
     border: var(--background-primary-border);
     box-shadow: var(--box-shadow-outer-3);
     height: 32px;
