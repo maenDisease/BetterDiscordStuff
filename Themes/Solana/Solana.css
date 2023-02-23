@@ -5795,30 +5795,29 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 /* 15. General */
 [mask="url(#svg-mask-status-online)"],
 [mask="url(#svg-mask-status-online)"] .status-2DiCMd,
-[mask="url(#db336b0c-f0ea-4ccb-9190-c0a2a91a5f1a)"][fill="#23a55a"],
 [mask="url(#svg-mask-status-online-mobile)"],
-[mask="url(#309e762a-f941-4597-bb38-77755feeed09)"][fill="#23a55a"] {
+[mask][fill="#23a55a"] {
     fill: var(--status-positive);
     background-color: var(--status-positive) !important;
 }
 
 [mask="url(#svg-mask-status-idle)"],
 [mask="url(#svg-mask-status-idle)"] .status-2DiCMd,
-[mask="url(#db336b0c-f0ea-4ccb-9190-c0a2a91a5f1a)"][fill="#f0b232"] {
+[mask][fill="#f0b232"] {
     fill: var(--status-warning);
     background-color: var(--status-warning) !important;
 }
 
 [mask="url(#svg-mask-status-dnd)"],
 [mask="url(#svg-mask-status-dnd)"] .status-2DiCMd,
-[mask="url(#db336b0c-f0ea-4ccb-9190-c0a2a91a5f1a)"][fill="#f23f43"] {
+[mask][fill="#f23f43"] {
     fill: var(--status-danger);
     background-color: var(--status-danger) !important;
 }
 
 [mask="url(#svg-mask-status-offline)"],
 [mask="url(#svg-mask-status-offline)"] .status-2DiCMd,
-[mask="url(#db336b0c-f0ea-4ccb-9190-c0a2a91a5f1a)"][fill="#82858f"] {
+[mask][fill="#82858f"] {
     fill: var(--status-grey);
     background-color: var(--status-grey) !important;
 }
@@ -5841,26 +5840,6 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 .live-1V2D-f[style="background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] {
     background-color: var(--status-danger) !important;
-}
-
-[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
-[fill="#3ba55c"] {
-    fill: var(--status-positive);
-}
-
-[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"],
-[fill="#faa61a"] {
-    fill: var(--status-warning);
-}
-
-[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
-[fill="#ed4245"] {
-    fill: var(--status-danger);
-}
-
-[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
-[fill="#747f8d"] {
-    fill: var(--status-grey);
 }
 
 .container-2RRFHK {
