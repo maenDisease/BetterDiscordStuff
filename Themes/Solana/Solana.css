@@ -1726,16 +1726,10 @@ code {
 }
 
 /* 6.2.2. Embeds */
-.imageWrapper-oMkQl4:not([style^="width: 48px; height: "]) {
-    border-radius: 8px;
-    box-shadow: var(--box-shadow-outer-2);
-}
-
 .wrapper-1FP9YQ.embedWrapper-1MtIDg {
     border: var(--background-primary-border);
     border-radius: 8px;
     overflow: hidden;
-
 }
 
 .attachment-1PZZB2 {
@@ -4896,7 +4890,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 /* 13.22. Image */
 /* Main container */
-.wrapper-2bCXfR {
+.wrapper-rWtXPd {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4939,7 +4933,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 }
 
 /* Bottom Controls */
-.wrapper-2bCXfR>.downloadLink-1OAglv,
+.wrapper-rWtXPd>.downloadLink-3cavAH,
 .operations-3V47CY {
     position: relative;
     display: flex;
@@ -4948,50 +4942,19 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     justify-content: center;
 }
 
-.wrapper-2bCXfR .downloadLink-1OAglv {
+.wrapper-rWtXPd .downloadLink-3cavAH {
     top: unset;
     color: var(--text-normal) !important;
 }
 
 /* Image */
-.wrapper-2bCXfR .imageWrapper-oMkQl4 {
+.wrapper-rWtXPd .imageWrapper-oMkQl4 {
     background: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none"  viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="5" height="5" fill="lightgrey" /><rect x="5" y="5" width="5" height="5" fill="lightgrey" /><rect x="5" y="0" width="5" height="5" fill="white" /><rect x="0" y="5" width="5" height="5" fill="white" /></svg>') 0 0/25% 25%;
     margin: 16px 16px 20px 16px;
 }
 
 .modal-3Crloo :not(.sibling-6vI7Pu)>.imageWrapper-oMkQl4 {
     min-width: unset;
-}
-
-/* Gallery */
-#app-mount .carouselModal-1eUFoq {
-    box-shadow: none;
-    width: fit-content;
-    height: fit-content;
-}
-
-.wrapper-3AqFd3 {
-    position: relative;
-    inset: 0;
-}
-
-/* Gallery nav */
-.nav-2mKdAt {
-    -webkit-transform: translateY(-14px);
-    transform: translateY(-14px);
-    opacity: 0;
-}
-
-.modalCarouselWrapper-YK1MX4:hover .nav-2mKdAt {
-    opacity: 1;
-}
-
-.navPrev-3Oe07S {
-    margin-left: 16px;
-}
-
-.navNext-2Fgwwk {
-    margin-right: 16px;
 }
 
 
