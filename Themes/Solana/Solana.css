@@ -648,7 +648,7 @@ body::after {
 .cursorPointer-3JF56F.title-17SveM,
 .sidebarRegion-1VBisG,
 .closeButton-PCZcma,
-.scroller-nxCRu_ {
+.menu-2TXYjN {
     -webkit-app-region: no-drag;
 }
 
@@ -4962,7 +4962,7 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not(.disabled-1nof
 
 
 /* 14.1. Contextmenu */
-.scroller-nxCRu_ {
+.menu-2TXYjN {
     position: relative;
     background-color: var(--background-floating-80a);
     border-radius: 8px;
@@ -4971,13 +4971,13 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not(.disabled-1nof
     box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
 
-.translate-PeW1wK>.scroller-nxCRu_,
-.didRender-2SiRlm>.scroller-nxCRu_ {
+.translate-PeW1wK>.menu-2TXYjN,
+.didRender-2SiRlm>.menu-2TXYjN {
     background-color: var(--background-floating);
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
-.scroller-nxCRu_::before {
+.menu-2TXYjN::before {
     content: '';
     height: 100%;
     width: 100%;
@@ -5019,7 +5019,7 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not(.disabled-1nof
     display: none;
 }
 
-.scroller-nxCRu_ .button-1zW0-r {
+.menu-2TXYjN .button-1zW0-r {
     width: 26px;
     height: 26px;
     padding: 4px;
@@ -5028,7 +5028,7 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not(.disabled-1nof
     border: 1px solid transparent;
 }
 
-.scroller-nxCRu_ .button-1zW0-r:hover,
+.menu-2TXYjN .button-1zW0-r:hover,
 .keyboard-mode .button-1zW0-r.focused-H4w81f {
     border: var(--background-primary-border);
     background-color: var(--background-modifier-hover);
@@ -5036,7 +5036,7 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not(.disabled-1nof
 
 /* 14.2. Userpopout */
 
-#account.scroller-nxCRu_ {
+#account.menu-2TXYjN {
     background-color: var(--background-floating);
     animation: floatingtranstion 0.5s 0.2s forwards;
     border-radius: 0;
