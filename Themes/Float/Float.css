@@ -706,12 +706,12 @@
     transition: var(--members-transition-calc-entry);
 }
 
-.ChannelDms-channelmembers-header .item-3XjbnG {
+.ChannelDms-channelmembers-header .item-2GWPIy {
     margin: 0 2px;
     transition: margin var(--members-transition-duration) ease;
 }
 
-.ChannelDms-channelmembers-wrap:hover .ChannelDms-channelmembers-header .item-3XjbnG {
+.ChannelDms-channelmembers-wrap:hover .ChannelDms-channelmembers-header .item-2GWPIy {
     margin: 0 8px;
     transition: margin var(--members-transition-duration) var(--members-hover-delay) ease;
 }
@@ -825,7 +825,7 @@ html #MemberCount {
     will-change: unset;
 }
 
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG::before {
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy::before {
     flex-shrink: 0;
 }
 
