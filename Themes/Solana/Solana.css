@@ -648,7 +648,7 @@ body::after {
 .cursorPointer-3JF56F.title-17SveM,
 .sidebarRegion-1VBisG,
 .closeButton-PCZcma,
-[class^="menu-"][role="menu"] {
+[class*="menu-"][role="menu"] {
     -webkit-app-region: no-drag;
 }
 
@@ -4962,7 +4962,7 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not([class*="disab
 
 
 /* 14.1. Contextmenu */
-[class^="menu-"][role="menu"] {
+[class*="menu-"][role="menu"] {
     position: relative;
     background-color: var(--background-floating-80a);
     border-radius: 8px;
@@ -4971,12 +4971,12 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not([class*="disab
     box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
 
-[class*="didRender"]>[class^="menu-"][role="menu"] {
+[class*="didRender"]>[class*="menu-"][role="menu"] {
     background-color: var(--background-floating);
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
-[class^="menu-"][role="menu"]::before {
+[class*="menu-"][role="menu"]::before {
     content: '';
     height: 100%;
     width: 100%;
@@ -4986,39 +4986,39 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not([class*="disab
     border-radius: 8px;
 }
 
-.theme-dark [class^="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="focused-"], [class*="colorDanger-"]),
-.theme-dark [class^="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="focused-"], [class*="colorDanger-"]) [class^="caret-"] {
+.theme-dark [class*="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="focused-"], [class*="colorDanger-"]),
+.theme-dark [class*="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="focused-"], [class*="colorDanger-"]) [class^="caret-"] {
     color: var(--interactive-hover);
 }
 
-.theme-light [class^="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="focused-"], [class*="colorDanger-"], :active),
-.theme-light [class^="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="focused-"], [class*="colorDanger-"]) [class^="caret-"] {
+.theme-light [class*="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="focused-"], [class*="colorDanger-"], :active),
+.theme-light [class*="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="focused-"], [class*="colorDanger-"]) [class^="caret-"] {
     color: var(--text-normal);
 }
 
-[class^="menu-"][role="menu"] [class^="item-"] [class^="caret-"] {
+[class*="menu-"][role="menu"] [class^="item-"] [class^="caret-"] {
     width: 18px;
     color: var(--interactive-hover);
 }
 
-[class^="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="colorDanger-"])[class*="focused-"] [class^="caret-"] {
+[class*="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="colorDanger-"])[class*="focused-"] [class^="caret-"] {
     color: #fff;
 }
 
-[class^="menu-"][role="menu"] [class^="item-"] {
+[class*="menu-"][role="menu"] [class^="item-"] {
     border-radius: 5px;
 }
 
-[class^="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="colorDanger-"])[class*="focused-"] {
+[class*="menu-"][role="menu"] [class^="item-"][class*="colorDefault-"]:not([class*="colorDanger-"])[class*="focused-"] {
     background-color: var(--brand-experiment);
     color: #fff;
 }
 
-[class^="menu-"][role="menu"] [class^="item-"] [class*="hintContainer-"] {
+[class*="menu-"][role="menu"] [class^="item-"] [class*="hintContainer-"] {
     display: none;
 }
 
-[class^="menu-"][role="menu"] .button-1zW0-r {
+[class*="menu-"][role="menu"] .button-1zW0-r {
     width: 26px;
     height: 26px;
     padding: 4px;
@@ -5027,7 +5027,7 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not([class*="disab
     border: 1px solid transparent;
 }
 
-[class^="menu-"][role="menu"] .button-1zW0-r:hover,
+[class*="menu-"][role="menu"] .button-1zW0-r:hover,
 .keyboard-mode .button-1zW0-r.focused-H4w81f {
     border: var(--background-primary-border);
     background-color: var(--background-modifier-hover);
@@ -5035,7 +5035,7 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not([class*="disab
 
 /* 14.2. Userpopout */
 
-#account[class^="menu-"][role="menu"] {
+#account[class*="menu-"][role="menu"] {
     background-color: var(--background-floating);
     animation: floatingtranstion 0.5s 0.2s forwards;
     border-radius: 0;
