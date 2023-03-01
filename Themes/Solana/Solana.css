@@ -648,7 +648,7 @@ body::after {
 .cursorPointer-3JF56F.title-17SveM,
 .sidebarRegion-1VBisG,
 .closeButton-PCZcma,
-.menu-1QACrS {
+.scroller-nxCRu_ {
     -webkit-app-region: no-drag;
 }
 
@@ -4962,7 +4962,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 
 /* 14.1. Contextmenu */
-.menu-1QACrS {
+.scroller-nxCRu_ {
     position: relative;
     background-color: var(--background-floating-80a);
     border-radius: 8px;
@@ -4971,13 +4971,13 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
 
-.translate-PeW1wK>.menu-1QACrS,
-.didRender-2SiRlm>.menu-1QACrS {
+.translate-PeW1wK>.scroller-nxCRu_,
+.didRender-2SiRlm>.scroller-nxCRu_ {
     background-color: var(--background-floating);
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
-.menu-1QACrS::before {
+.scroller-nxCRu_::before {
     content: '';
     height: 100%;
     width: 100%;
@@ -5019,7 +5019,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     display: none;
 }
 
-.menu-1QACrS .button-1zW0-r {
+.scroller-nxCRu_ .button-1zW0-r {
     width: 26px;
     height: 26px;
     padding: 4px;
@@ -5028,7 +5028,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
     border: 1px solid transparent;
 }
 
-.menu-1QACrS .button-1zW0-r:hover,
+.scroller-nxCRu_ .button-1zW0-r:hover,
 .keyboard-mode .button-1zW0-r.focused-H4w81f {
     border: var(--background-primary-border);
     background-color: var(--background-modifier-hover);
@@ -5036,7 +5036,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 /* 14.2. Userpopout */
 
-#account.menu-1QACrS {
+#account.scroller-nxCRu_ {
     background-color: var(--background-floating);
     animation: floatingtranstion 0.5s 0.2s forwards;
     border-radius: 0;
@@ -6082,7 +6082,7 @@ html.app-focused .sidebar-nqHbhN .selected-g-kMVV.item-3XjbnG:not(.disabled-1nof
 
 
 /* 15.9. Tooltips */
-#app-mount .tooltip-14MtrL {
+#app-mount .tooltip-33Jwqe {
     border: var(--background-floating-border);
     border-radius: 6px;
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
