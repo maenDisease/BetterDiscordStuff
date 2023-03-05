@@ -1013,6 +1013,19 @@ html.app-focused .interactiveSelected-29CP8y.selected-26oxtA {
 }
 
 /* 5.4. Account/Voice/GoLive */
+/* Visible VC Text Button */
+#app-mount .openChatIconItem-2kj5qO {
+    display: flex;
+    order: 1;
+    justify-content: center;
+    border-radius: 4px;
+    width: 42px;
+    padding-right: 0;
+}
+
+.openChatIconItem-2kj5qO:hover { background-color: var(--background-modifier-selected); }
+.openChatIconItem-2kj5qO .actionIcon-2sw4Sl { color: var(--channels-default); }
+
 .accountProfilePopoutWrapper-3GskID {
     left: unset;
 }
@@ -6647,4 +6660,9 @@ bd-body .floating-window {
 
 .container-1NXEtd[aria-label^='Server for Disease Control ('] .headerContent-2SNbie {
     color: hsl(var(--background-accent-hue), 2%, 92%);
+}
+
+/* OnlineFriendCount */
+.container-OnlineFriendCount .listItem-1d8GP4 {
+    max-width: 60px;
 }
