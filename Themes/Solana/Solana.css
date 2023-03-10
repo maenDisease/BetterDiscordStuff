@@ -6676,3 +6676,8 @@ bd-body .floating-window {
 .container-OnlineFriendCount .listItem-1d8GP4 {
     max-width: 60px;
 }
+
+/* AppNotifications */
+.qwert-toast {
+    -webkit-app-region: no-drag;
+}
