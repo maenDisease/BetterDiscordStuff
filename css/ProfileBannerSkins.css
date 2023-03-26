@@ -17,6 +17,12 @@
     box-shadow: var(--elevation-medium);
 }
 
+.profileColors-3Y0XaR:not([style]) .wrapper-3Un6-K.avatar-1YsFQ1 {
+    background-color: var(--profile-body-background-color);
+    box-shadow: var(--elevation-medium);
+    padding: 6px;
+}
+
 .profileColors-3Y0XaR:not([style]) .avatarHoverTarget-l77PhT,
 .profileColors-3Y0XaR:not([style]) .avatarHint-2g3Mcd {
     padding: 6px;
@@ -26,8 +32,8 @@
     fill: var(--profile-avatar-border-color);
 }
 
-.wrapper-1VLyxH.avatar-1YsFQ1 circle,
-.wrapper-1VLyxH.avatar-1YsFQ1 rect:not([class]) {
+.wrapper-3Un6-K.avatar-1YsFQ1 circle, .wrapper-1VLyxH.avatar-1YsFQ1 circle,
+.wrapper-3Un6-K.avatar-1YsFQ1 rect:not([class]), .wrapper-1VLyxH.avatar-1YsFQ1 rect:not([class]) {
     fill: none;
 }
 
