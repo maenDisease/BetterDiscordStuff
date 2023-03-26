@@ -46,7 +46,7 @@
     overflow: visible;
 }
 
-.profileColors-3Y0XaR:not([style]) .bannerSVGWrapper-qc0szY foreignObject {
+.bannerSVGWrapper-qc0szY foreignObject:not(:has([style*="/banners/"])) {
     mask: none;
 }
 
@@ -85,4 +85,75 @@
 
 .profileColors-3Y0XaR .messageInputContainer-2rGDH8 {
     border: none;
+}
+
+/* Settings */
+.theme-dark .accountProfileCard-lbN7n- {
+    --profile-body-background-color: rgba(0, 0, 0, 0.45);
+}
+
+.theme-light .accountProfileCard-lbN7n- {
+    --profile-body-background-color: rgba(255, 255, 255, 0.65);
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) {
+    background: none;
+    box-shadow: var(--elevation-medium);
+}
+
+/* banner */
+.accountProfileCard-lbN7n- .bannerSVGWrapper-qc0szY:not(:has([style*="/banners/"])) {
+    z-index: 0;
+    position: absolute;
+}
+
+/* avatar */
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .avatar-3mTjvZ {
+    top: 16px;
+    left: 16px;
+    padding: 6px;
+    background-color: var(--profile-body-background-color);
+    box-shadow: var(--elevation-medium);
+}
+
+/* body */
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .userInfo-regn9W {
+    height: 116px;
+    align-items: flex-end;
+    position: relative;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .profileCardUsernameRow-1bb6fi,
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .badgeList-b3Ajmk.containerWithContent-2_V0PM {
+    background-color: var(--profile-body-background-color);
+    box-shadow: var(--elevation-medium);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 4px;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .userTag-2qPxEZ {
+    margin-bottom: 0;
+    padding-left: 4px;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .profileCardUsernameRow-1bb6fi .overflowMenuButton-1I3Jz1 {
+    height: 24px;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .badgeList-b3Ajmk.containerWithContent-2_V0PM {
+    margin-top: 4px;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .background-3d_SjE {
+    box-shadow: var(--elevation-medium);
+    position: relative;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .fieldList-in8WkP {
+    background: none;
+}
+
+#app-mount .accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .background-3d_SjE {
+    background-color: var(--profile-body-background-color);
 }
