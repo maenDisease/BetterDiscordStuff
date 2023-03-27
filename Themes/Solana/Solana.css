@@ -3288,28 +3288,8 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not([class*="disab
     border: var(--background-secondary-border);
 }
 
-.accountProfileCard-lbN7n- {
-    background-color: var(--background-secondary);
-    border: var(--background-secondary-border);
-    box-shadow: var(--box-shadow-outer-2);
-}
-
-.background-3d_SjE {
-    background-color: var(--background-primary);
-    border: var(--background-primary-border);
-}
-
-.accountProfileCard-lbN7n- .fieldList-in8WkP {
-    background-color: transparent;
-}
-
 .customizationSection-IGy2fS .bioTextArea-dDGOeC {
     border-radius: 6px;
-}
-
-.avatar-3mTjvZ {
-    border: 7px solid var(--background-secondary);
-    background-color: var(--background-secondary);
 }
 
 #app-mount .customColorPicker-C_jddW {
