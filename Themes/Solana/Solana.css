@@ -871,6 +871,10 @@ body::after {
     background-color: var(--text-normal);
 }
 
+.theme-light {
+    --font-weight-semibold-1x-light-theme: 500;
+}
+
 /* 5.1. Guildheader */
 .header-3OsQeK {
     box-shadow: none;
