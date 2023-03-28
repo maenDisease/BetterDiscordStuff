@@ -1,3 +1,8 @@
+/* Remove when :has() reaches stable */
+.profileColors-3Y0XaR:not([style]) .bannerSVGWrapper-qc0szY foreignObject {
+    mask: none;
+}
+
 .profileColors-3Y0XaR {
     position: relative;
 }
