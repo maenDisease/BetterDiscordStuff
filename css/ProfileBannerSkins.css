@@ -55,6 +55,7 @@
 /* Banner */
 .bannerSVGWrapper-qc0szY {
     overflow: visible;
+    contain:none;
 }
 
 .bannerSVGWrapper-qc0szY foreignObject:not(:has([style*="/banners/"])) {
