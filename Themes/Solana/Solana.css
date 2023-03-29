@@ -615,7 +615,7 @@ body::after {
     will-change: opacity;
 }
 
-.layers-OrUESM.layers-1YQhyW {
+#app-mount:not(:-webkit-full-screen) .layers-OrUESM.layers-1YQhyW {
     margin-top: var(--window-margin-px);
     margin-bottom: var(--window-margin-px);
     margin-right: var(--window-margin-px);
@@ -828,7 +828,7 @@ body::after {
     width: 100%;
 }
 
-#app-mount .sidebar-1tnWFu {
+#app-mount:not(:-webkit-full-screen) .sidebar-1tnWFu {
     border-radius: var(--window-border-radius-calc);
     margin-right: 5px;
 }
@@ -1258,7 +1258,7 @@ html.app-focused .interactiveSelected-29CP8y.selected-26oxtA {
 }
 
 /* 6. Chat */
-.chat-2ZfjoI {
+#app-mount:not(:-webkit-full-screen) .chat-2ZfjoI {
     border-radius: var(--window-border-radius-calc);
     background-color: transparent;
     border-left: var(--background-tertiary-border-variable-divider-a);
