@@ -220,11 +220,11 @@
     transition: margin-left var(--sidebar-transition-entry);
 }
 
-.wrapper-1_HaEi:hover+div.base-2jDfDU .wrapper-NhbLHG .content-1gYQeQ>.children-1MGS9G {
+/* .wrapper-1_HaEi:hover+div.base-2jDfDU .wrapper-NhbLHG .content-1gYQeQ>.children-1MGS9G {
     --capped-sidebar-width: min(var(--float-sidebar-width), 96);
     --cap-sidebar-exceeded: calc(min(var(--float-sidebar-width), 97) - var(--capped-sidebar-width));
     margin-left: calc((var(--capped-sidebar-width) / var(--capped-sidebar-width) - var(--cap-sidebar-exceeded)) * 32px);
-}
+} */
 
 #app-mount .app-3xd6d0 .sidebar-1tnWFu {
     position: absolute;
