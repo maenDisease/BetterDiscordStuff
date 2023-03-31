@@ -2224,6 +2224,7 @@ code {
     overflow: hidden;
     background: var(--background-floating-60a);
     border-left: var(--background-tertiary-border);
+    backdrop-filter: blur(var(--background-floating-blur-calc));
 }
 
 .container-3XgAHv.floating-3M3WeH::before {
@@ -2231,7 +2232,6 @@ code {
     height: 100%;
     width: 100%;
     position: absolute;
-    backdrop-filter: blur(var(--background-floating-blur-calc));
     border-radius: 0 var(--window-border-radius-calc) var(--window-border-radius-calc) 0;
 }
 
