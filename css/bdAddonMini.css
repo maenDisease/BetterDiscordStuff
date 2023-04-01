@@ -11,31 +11,31 @@
 .bd-addon-list .bd-addon-card {
     position: relative;
     margin-bottom: 8px;
-    background: 0 0;
+    background: none;
     overflow: visible;
 }
 
 .bd-addon-list .bd-addon-header {
-    background: 0 0;
+    background: none;
     padding-left: 0;
 }
 
-.bd-addon-list .bd-addon-card:hover .bd-addon-header {
+.bd-addon-card:hover .bd-addon-header {
     max-width: calc(100% - 112px);
 }
 
 .bd-addon-list .bd-addon-card>:not(.bd-addon-header),
 .bd-addon-list .bd-addon-header .bd-icon,
 .bd-addon-list .bd-footer .bd-addon-button {
-    display: none
+    display: none;
 }
 
-.bd-addon-list .bd-title {
+.bd-addon-card .bd-title {
     margin-left: 32px;
     z-index: 1;
 }
 
-.bd-addon-list .bd-title .bd-meta {
+.bd-addon-card .bd-title .bd-meta {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -52,19 +52,15 @@
     justify-content: flex-end;
 }
 
-.bd-addon-list .bd-footer>* {
+.bd-addon-card .bd-footer>* {
     z-index: 3;
 }
 
-.bd-addon-list .bd-addon-card:hover .bd-controls {
+.bd-addon-card:hover .bd-controls .bd-addon-button {
     display: flex;
 }
 
-.bd-addon-list .bd-addon-card:hover .bd-controls .bd-addon-button {
-    display: flex;
-}
-
-.bd-addon-list .bd-footer .bd-links {
+.bd-addon-card .bd-footer .bd-links {
     top: 53px;
     position: absolute;
     left: 8px;
@@ -74,47 +70,25 @@
     top: 63px;
 }
 
-.bd-addon-list .bd-footer .bd-link {
-    color: var(--interactive-normal);
-}
-
-.bd-addon-list .bd-footer .bd-link:hover {
-    color: white;
-}
-
 /* controls */
-.bd-addon-list .bd-controls>.bd-addon-button,
-.bd-addon-list .bd-controls>.bd-addon-button:first-of-type {
+#app-mount .bd-addon-card .bd-button {
     border-radius: 4px;
 }
 
-.bd-addon-list .bd-controls>.bd-button:last-of-type {
-    border-radius: 4px;
+.bd-addon-card .bd-button:not(:hover) {
+    background: none;
 }
 
-.bd-addon-list .bd-button:not(:hover) {
-    background: 0 0;
-}
-
-.bd-addon-list .bd-controls>.bd-addon-button svg {
+.bd-addon-card .bd-button:not(:hover) svg {
     fill: var(--interactive-normal);
 }
 
-.bd-addon-list .bd-controls>.bd-addon-button:hover svg {
-    fill: white;
-}
-
-.bd-addon-list .bd-addon-button.bd-button-danger:hover {
-    background: hsl(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%);
-}
-
-.bd-addon-list .bd-addon-button.bd-button-danger svg {
-    fill: hsl(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%);
+.bd-addon-card .bd-addon-button.bd-button-danger svg {
     transform: scale(1.2);
 }
 
-.bd-addon-list .bd-addon-button.bd-button-danger:hover svg {
-    fill: white;
+.bd-addon-card .bd-addon-button.bd-button-danger:not(:hover) svg {
+    fill: var(--info-danger-foreground);
 }
 
 /* description */
@@ -137,8 +111,8 @@
     }
 }
 
-.bd-addon-list .bd-addon-card:hover .bd-description-wrap,
-.bd-addon-list .bd-addon-card:hover .bd-footer .bd-links .bd-addon-button {
+.bd-addon-card:hover .bd-description-wrap,
+.bd-addon-card:hover .bd-footer .bd-links .bd-addon-button {
     display: flex;
     opacity: 0;
     transform: scale(.9);
@@ -147,7 +121,7 @@
     visibility: hidden;
 }
 
-.bd-addon-list .bd-description-wrap {
+.bd-addon-card .bd-description-wrap {
     position: absolute;
     flex: unset;
     padding: unset;
@@ -164,7 +138,7 @@
     margin-top: 58px;
 }
 
-.bd-addon-list .bd-description {
+.bd-addon-card .bd-description {
     margin-bottom: unset;
     padding: calc(8px + 26px) 12px 8px 12px;
     font-size: 14px;
@@ -176,25 +150,54 @@
     padding-top: calc(8px + 26px);
 }
 
+/* banner */
+.bd-addon-card .bd-description-wrap {
+    flex-direction: column;
+}
+
+.bd-addon-card .bd-description-wrap .banner {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px;
+    border-radius: 4px;
+    border-width: 1px;
+    margin: 32px 8px 8px 8px;
+}
+
+.bd-addon-card .banner.banner-danger {
+    border-color: var(--info-danger-foreground);
+    background: var(--info-danger-background);
+    color: var(--info-danger-text);
+}
+
+.bd-addon-card .banner-danger .bd-icon {
+    fill: var(--info-danger-foreground);
+}
+
+.bd-addon-card .banner-danger .bd-icon path[d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"] {
+    d: path("M10 0C4.486 0 0 4.486 0 10C0 15.515 4.486 20 10 20C15.514 20 20 15.515 20 10C20 4.486 15.514 0 10 0ZM9 4H11V11H9V4ZM10 15.25C9.31 15.25 8.75 14.691 8.75 14C8.75 13.31 9.31 12.75 10 12.75C10.69 12.75 11.25 13.31 11.25 14C11.25 14.691 10.69 15.25 10 15.25Z");
+}
+
 /* switch */
-.bd-addon-list .bd-switch {
+.bd-addon-card .bd-switch {
     order: -1;
     position: static;
 }
 
-.bd-addon-list .bd-switch input {
+.bd-addon-card .bd-switch input {
     top: 0;
 }
 
-.bd-addon-list .bd-switch .bd-switch-body {
+.bd-addon-card .bd-switch .bd-switch-body {
     pointer-events: none;
     z-index: 1;
     transform: translateX(16px);
 }
 
-.bd-addon-list .bd-switch.bd-switch-checked::after,
-.bd-addon-list .bd-switch:not(.bd-switch-checked)::after,
-.bd-addon-list .bd-switch:not(.bd-switch-checked)::before {
+.bd-addon-card .bd-switch.bd-switch-checked::after,
+.bd-addon-card .bd-switch:not(.bd-switch-checked)::after,
+.bd-addon-card .bd-switch:not(.bd-switch-checked)::before {
     border-radius: 5px;
     content: '';
     position: absolute;
@@ -257,33 +260,4 @@
 
 #app-mount .bd-addon-list .banner~.bd-description {
     padding-top: 0;
-}
-
-/* banner */
-.bd-addon-list .bd-addon-card:hover .bd-description-wrap {
-    flex-direction: column;
-}
-
-.bd-description-wrap .banner {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    padding: 8px;
-    border-radius: 4px;
-    border-width: 1px;
-    margin: 32px 8px 8px 8px;
-}
-
-.banner.banner-danger {
-    border-color: var(--info-danger-foreground);
-    background: var(--info-danger-background);
-    color: var(--info-danger-text);
-}
-
-.banner-danger .bd-icon {
-    fill: var(--info-danger-foreground);
-}
-
-.banner-danger .bd-icon path[d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"] {
-    d: path("M10 0C4.486 0 0 4.486 0 10C0 15.515 4.486 20 10 20C15.514 20 20 15.515 20 10C20 4.486 15.514 0 10 0ZM9 4H11V11H9V4ZM10 15.25C9.31 15.25 8.75 14.691 8.75 14C8.75 13.31 9.31 12.75 10 12.75C10.69 12.75 11.25 13.31 11.25 14C11.25 14.691 10.69 15.25 10 15.25Z");
 }
