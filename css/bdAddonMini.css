@@ -10,7 +10,6 @@
 
 .bd-addon-list .bd-addon-card {
     position: relative;
-    background: none;
     overflow: visible;
 }
 
@@ -20,6 +19,10 @@
 }
 
 .bd-addon-card:hover .bd-addon-header {
+    max-width: calc(100% - 80px);
+}
+
+.bd-addon-card:hover .bd-addon-header:has(~.bd-footer .bd-controls button:nth-child(3)) {
     max-width: calc(100% - 112px);
 }
 
@@ -31,7 +34,6 @@
 
 .bd-addon-card .bd-title {
     margin-left: 32px;
-    z-index: 1;
 }
 
 .bd-addon-card .bd-title .bd-meta {
@@ -194,69 +196,33 @@
     transform: translateX(16px);
 }
 
-.bd-addon-card .bd-switch.bd-switch-checked::after,
-.bd-addon-card .bd-switch:not(.bd-switch-checked)::after,
-.bd-addon-card .bd-switch:not(.bd-switch-checked)::before {
-    border-radius: 5px;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+/* background */
+.bd-addon-card {
+    background: var(--bdAddonMini-bg-unchecked);
 }
 
-/* checked */
-.bd-addon-list .bd-switch.bd-switch-checked::after {
+.bd-addon-card:has(.bd-switch-checked) {
     background: var(--bdAddonMini-bg-checked);
 }
 
-/* not checked */
-.bd-addon-list .bd-addon-card .bd-switch:not(.bd-switch-checked)::after {
-    background: var(--bdAddonMini-bg-unchecked);
-}
-
-/* not checked hover */
-.bd-addon-list .bd-addon-card:not(.bd-addon-card-disabled):hover .bd-switch:not(.bd-switch-checked)::after {
+.bd-addon-card:not(:has(.bd-switch-checked), .bd-addon-card-disabled):hover {
     background: var(--bdAddonMini-bg-unchecked-hover);
 }
 
-/* not checked hover dim */
-.bd-addon-list .bd-addon-card .bd-switch:not(.bd-switch-checked)::before {
-    z-index: 1;
-    background: var(--bdAddonMini-bg-unchecked);
-    opacity: 0.4;
+.bd-addon-card:not(:has(.bd-switch-checked), :hover) .bd-addon-header {
+    opacity: 0.6;
 }
 
-/* not checked hover dim */
-.bd-addon-list .bd-addon-card-disabled .bd-switch:not(.bd-switch-checked)::before {
-    z-index: 1;
-    background: var(--bdAddonMini-bg-unchecked);
-    opacity: 0.4;
-}
-
-.bd-addon-list .bd-addon-card:hover .bd-switch:not(.bd-switch-checked)::before {
-    display: none;
-}
-
-/* disabled */
-.bd-addon-list .bd-addon-card .bd-switch-disabled {
+.bd-addon-card .bd-switch-disabled {
     opacity: 1;
     filter: none;
 }
 
-.bd-addon-card-disabled .bd-switch-body {
-    opacity: 0.5;
-}
-
-.bd-addon-list .bd-addon-card-disabled .bd-switch::after {
+.bd-addon-card.bd-addon-card-disabled {
+    background: var(--info-danger-background);
     border: 1px solid var(--info-danger-foreground);
 }
 
-.bd-addon-list .bd-addon-card-disabled .bd-switch.bd-switch-disabled::after {
-    background: var(--info-danger-background);
-}
-
-#app-mount .bd-addon-list .banner~.bd-description {
+.bd-addon-card .banner~.bd-description {
     padding-top: 0;
 }
