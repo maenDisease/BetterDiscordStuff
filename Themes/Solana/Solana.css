@@ -1044,24 +1044,24 @@ html.app-focused .interactiveSelected-29CP8y.selected-26oxtA {
     left: unset;
 }
 
-.accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL {
     width: 220px;
 }
 
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz {
     margin: 0;
     background: none;
 }
 
-.accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY> :not(.overlayBackground-1KgwVi),
-.accountProfilePopoutWrapper-3GskID .overlayBackground-1KgwVi> :not(#account),
+.accountProfilePopoutWrapper-3GskID .userPopoutInner-nv9Y92> :not(.overlayBackground-2aa7wt),
+.accountProfilePopoutWrapper-3GskID .overlayBackground-2aa7wt> :not(#account),
 .accountProfilePopoutWrapper-3GskID #account>div>div>#account-divider-1 {
     display: none;
 }
 
 
-.accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ,
-.accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY {
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL,
+.accountProfilePopoutWrapper-3GskID .userPopoutInner-nv9Y92 {
     background: none;
 }
 
