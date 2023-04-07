@@ -5054,13 +5054,13 @@ html.app-focused .sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy:not([class*="disab
     box-shadow: none;
 }
 
-.profileColors-3Y0XaR:not(.userProfileModalOuter-1FYL8T) {
+.profileColors-2AgAV4:not(.userProfileModalOuter-2wdWjU) {
     border: var(--background-floating-border);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
     box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
 
-.profileColors-3Y0XaR textarea.textarea-_59yqs.input-3O04eu {
+.profileColors-2AgAV4 textarea.textarea-_59yqs.input-3O04eu {
     border: none;
     background: none;
 }
