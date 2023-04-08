@@ -58,7 +58,7 @@
 }
 
 .banner-1YaD3N:not([style^="background-image"]),
-.banner-3D8GgT:not([style^="background-image"]) {
+.banner-3D8GgT:not([style*="background-image"]) {
     height: 100vh;
 }
 
