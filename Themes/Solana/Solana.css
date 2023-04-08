@@ -6355,15 +6355,13 @@ bd-body .floating-window {
     border: var(--background-primary-border);
 }
 
-.bd-addon-list .bd-switch:not(.bd-switch-checked)::after,
-.bd-addon-list .bd-switch:not(.bd-switch-checked)::before {
-    border-radius: 6px;
-    border: var(--background-secondary-border);
+.bd-addon-card:has(.bd-switch-checked) {
+    border: var(--background-primary-border);
 }
 
-.bd-addon-list .bd-switch.bd-switch-checked::after {
-    border-radius: 6px;
-    border: var(--background-primary-border);
+.bd-addon-card:not(:has(.bd-switch-checked), .bd-addon-card-disabled) {
+    background: none;
+    border: var(--background-secondary-border);
 }
 
 .bd-addon-list .bd-description-wrap {
