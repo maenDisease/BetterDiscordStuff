@@ -1,5 +1,5 @@
 /* Remove when :has() reaches stable */
-.profileColors-2AgAV4:not(:has([class*="WithBanner"], .bannerPremium-kkSkPv[style*="image"])) .bannerSVGWrapper-2CLfzN foreignObject {
+.userProfileOuterUnthemed-11rPfA .bannerSVGWrapper-2CLfzN foreignObject {
     mask: none;
 }
 
@@ -16,7 +16,7 @@
 }
 
 /* Avatar */
-.profileColors-2AgAV4:not(:has([class*="WithBanner"], .bannerPremium-kkSkPv[style*="image"])) :where(
+.userProfileOuterUnthemed-11rPfA :where(
     .avatarWrapperNormal-ahVUaC,
     .wrapper-3Un6-K.avatar-3QF_VA
 ) {
@@ -24,7 +24,7 @@
     box-shadow: var(--elevation-medium);
 }
 
-.profileColors-2AgAV4:not(:has([class*="WithBanner"], .bannerPremium-kkSkPv[style*="image"])) :where(
+.userProfileOuterUnthemed-11rPfA :where(
     .avatarHoverTarget-1zzfRL,
     .avatarHint-k7pYop,
     .wrapper-3Un6-K.avatar-3QF_VA
@@ -32,7 +32,7 @@
     padding: 6px;
 }
 
-.profileColors-2AgAV4:not(:has([class*="WithBanner"], .bannerPremium-kkSkPv[style*="image"])) .wrapper-3Un6-K circle {
+.userProfileOuterUnthemed-11rPfA .wrapper-3Un6-K circle {
     fill: none;
 }
 
@@ -73,7 +73,7 @@
 }
 
 /* Badges */
-.profileColors-2AgAV4:not(:has([class*="WithBanner"], .bannerPremium-kkSkPv[style*="image"])) .profileBadges-2pItdR {
+.userProfileOuterUnthemed-11rPfA .profileBadges-2pItdR {
     z-index: 1;
 }
 
