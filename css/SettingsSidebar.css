@@ -61,7 +61,7 @@
 .sidebarRegion-1VBisG {
     position: absolute;
     height: 48px;
-    z-index: 10;
+    z-index: 11;
     width: var(--settingsidebar-width);
 }
 
@@ -295,7 +295,7 @@
     height: 48px;
     width: 100%;
     flex-basis: 100% !important;
-    z-index: 10;
+    z-index: 11;
     overflow: hidden;
     border-right: none;
 }
