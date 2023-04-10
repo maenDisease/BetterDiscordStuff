@@ -1,29 +1,26 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 
 :root {
+    --settingsidebar-border-radius: 0 8px 0 0;
+}
+
+.layer-86YKbF~.layer-86YKbF,
+.layer-86YKbF:has(~.layer-86YKbF) {
     --settingsidebar-width: 280px;
-    --settingsidebar-border-top-right-radius: 8px;
+}
+
+/* channelTextArea */
+.layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .scrollableContainer-15eg7h {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .attachWrapper-3slhXI,
+.layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .buttons-uaqb-5 {
+    display: none;
 }
 
 /* base */
-.platform-win .standardSidebarView-E9Pc3j {
-    background: none;
-    border-top-right-radius: var(--settingsidebar-border-top-right-radius);
-    overflow: hidden;
-}
-
-.layer-86YKbF.baseLayer-W6S8cY.stop-animations~.layer-86YKbF {
-    background: none;
-}
-
-.layer-86YKbF.baseLayer-W6S8cY~.layer-86YKbF {
-    width: var(--settingsidebar-width);
-}
-
-.layer-86YKbF.baseLayer-W6S8cY.stop-animations {
-    margin-left: var(--settingsidebar-width);
-}
-
 #app-mount .baseLayer-W6S8cY {
     opacity: 1 !important;
     transform: unset !important;
@@ -41,18 +38,22 @@
     will-change: unset;
 }
 
+.layer-86YKbF.stop-animations {
+    margin-left: var(--settingsidebar-width);
+}
+
+.layer-86YKbF~.layer-86YKbF {
+    background: none;
+    width: var(--settingsidebar-width);
+}
+
+.platform-win .standardSidebarView-E9Pc3j {
+    background: none;
+    overflow: hidden;
+    border-radius: var(--settingsidebar-border-radius);
+}
+
 .sidebarRegion-1VBisG:hover ~ .contentRegion-3HkfJJ {
-    display: none;
-}
-
-/* channelTextArea */
-.layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .scrollableContainer-15eg7h {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
-
-.layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .attachWrapper-3slhXI,
-.layer-86YKbF.stop-animations .channelTextArea-1FufC0:not(.channelTextAreaDisabled-1p2fQv) .buttons-uaqb-5 {
     display: none;
 }
 
