@@ -63,10 +63,31 @@
     height: 48px;
     z-index: 11;
     width: var(--settingsidebar-width);
+    pointer-events: none;
 }
 
-.sidebarRegion-1VBisG:hover {
+.sidebarRegion-1VBisG:hover,
+:has(.toolsContainer-25FL6V + div:active) .sidebarRegion-1VBisG {
     height: 100%;
+    pointer-events: all;
+}
+
+.toolsContainer-25FL6V + div {
+    width: var(--settingsidebar-width);
+    height: 48px !important;
+    top: -48px;
+    left: 0;
+    z-index: 9999;
+    pointer-events: all !important;
+    cursor: pointer;
+}
+
+.toolsContainer-25FL6V + div:active {
+    display: none;
+}
+
+.sidebarRegion-1VBisG:has(.selected-1sf9UK:focus-within) {
+    display: none;
 }
 
 .sidebar-nqHbhN {
@@ -92,10 +113,6 @@
 #app-mount .sidebarRegionScroller-FXiQOh:not(:hover) .side-1lrxIh>div:not(.item-2GWPIy.selected-1sf9UK) {
     display: none;
 }
-
-.sidebarRegion-1VBisG:has(.selected-1sf9UK:focus-within) {
-    display: none;
- }
 
 /* contentregion */
 .contentRegion-3HkfJJ {
