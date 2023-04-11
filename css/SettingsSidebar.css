@@ -93,6 +93,10 @@
     display: none;
 }
 
+.sidebarRegion-1VBisG:has(.selected-1sf9UK:focus-within) {
+    display: none;
+ }
+
 /* contentregion */
 .contentRegion-3HkfJJ {
     margin-top: 48px;
