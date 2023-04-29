@@ -199,6 +199,7 @@
 }
 
 .theme-dark {
+    --background-floating-80a: hsla(var(--background-accent-hue), 4%, calc(15.2% * (1 + var(--floating-background-lightness))), calc((var(--background-floating-opacity) + .8) - var(--enable-floating-transparency)));
     --background-tertiary-border-variable-divider-a: 1px solid hsla(var(--background-accent-hue), 4%, calc(min(1, var(--window-margin)) * var(--background-tertiary-border-l)), var(--window-opacity));
     --background-primary-l: calc(19% * (1 + var(--window-background-lightness)));
     --background-secondary-l: calc(16% * (1 + var(--window-background-lightness)));
