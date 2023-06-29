@@ -17,38 +17,28 @@
     background-color: var(--background-secondary);
 }
 
-.container-2qVG6q {
+.container-3wLKDe {
     border: none;
 }
 
-.container-2qVG6q:hover {
+.container-3wLKDe:hover {
     background-color: var(--background-modifier-hover);
 }
 
-.mainCard-3KBsBI .heading-lg-medium-3gUJeM,
-.mainCard-3KBsBI .heading-lg-normal-1bqh2L {
+.mainCard-3KBsBI h3 {
     font-family: var(--font-display);
     font-size: 16px;
     line-height: 20px;
 }
 
-.sidebarCard-1Gn1ch {
-    background-color: var(--background-secondary);
-    border: none;
-    border-radius: 8px;
-}
-
 /* Form */
-.mainCard-3KBsBI .container-JhuCwn.collapsed-23aTv6 {
-    cursor: unset;
-}
 
 .mainCard-3KBsBI.header-1Uy0p6:hover {
     border-color: transparent;
 }
 
-.mainCard-3KBsBI form .title-1v5ZfI,
-.mainCard-3KBsBI form .title-1v5ZfI::placeholder {
+.mainCard-3KBsBI form textarea,
+.mainCard-3KBsBI form textarea::placeholder {
     font-size: 16px;
     line-height: 26px;
 }
@@ -57,13 +47,12 @@
     background-color: var(--background-tertiary);
 }
 
-.mainCard-3KBsBI .dots-2_b2Mn {
+.mainCard-3KBsBI .dots-3b0kDm {
     border-color: var(--background-secondary);
 }
 
 /* Sidebar */
-.container-3XgAHv .container-27JV1h .heading-xxl-medium-1hl0GL,
-.container-3XgAHv .container-27JV1h .heading-xxl-normal-3zbV4t {
+.container-3XgAHv .container-27JV1h h3 {
     font-family: var(--font-display);
     font-size: 28px;
     line-height: 32px;
