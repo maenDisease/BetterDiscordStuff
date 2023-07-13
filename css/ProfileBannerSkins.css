@@ -121,6 +121,10 @@
     position: relative;
 }
 
+.accountProfileCard-lbN7n-:has([style*="/banners/"]) .userInfo-regn9W {
+    margin-top: 100px;
+}
+
 .accountProfileCard-lbN7n- .profileCardUsernameRow-1bb6fi,
 .accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
     background-color: var(--profile-body-background-color);
