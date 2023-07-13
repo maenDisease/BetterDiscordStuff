@@ -88,25 +88,25 @@
     --profile-body-background-color: rgba(255, 255, 255, 0.65);
 }
 
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) {
+.accountProfileCard-lbN7n- {
     background: none;
     box-shadow: var(--elevation-medium);
 }
 
 /* banner */
-.accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN:not(:has([style*="/banners/"])) {
+.accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN {
     z-index: 0;
     position: absolute;
     contain: none;
     overflow: visible;
 }
 
-.accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN:not(:has([style*="/banners/"])) foreignObject {
+.accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN foreignObject {
     mask: none;
 }
 
 /* avatar */
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .avatar-3mTjvZ {
+.accountProfileCard-lbN7n- .avatar-3mTjvZ {
     top: 16px;
     left: 16px;
     padding: 6px;
@@ -115,14 +115,14 @@
 }
 
 /* body */
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .userInfo-regn9W {
+.accountProfileCard-lbN7n- .userInfo-regn9W {
     height: 116px;
     align-items: flex-end;
     position: relative;
 }
 
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .profileCardUsernameRow-1bb6fi,
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .containerWithContent-2Yws8V {
+.accountProfileCard-lbN7n- .profileCardUsernameRow-1bb6fi,
+.accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
     background-color: var(--profile-body-background-color);
     box-shadow: var(--elevation-medium);
     border-radius: 8px;
@@ -130,29 +130,29 @@
     padding: 4px;
 }
 
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .userTag-2qPxEZ {
+.accountProfileCard-lbN7n- .userTag-2qPxEZ {
     margin-bottom: 0;
     padding-left: 4px;
 }
 
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .profileCardUsernameRow-1bb6fi .overflowMenuButton-1I3Jz1 {
+.accountProfileCard-lbN7n- .profileCardUsernameRow-1bb6fi .overflowMenuButton-1I3Jz1 {
     height: 24px;
 }
 
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .containerWithContent-2Yws8V {
+.accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
     margin-top: 4px;
 }
 
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .background-3d_SjE {
+.accountProfileCard-lbN7n- .background-3d_SjE {
     box-shadow: var(--elevation-medium);
     position: relative;
 }
 
-.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .fieldList-in8WkP {
+.accountProfileCard-lbN7n- .fieldList-in8WkP {
     background: none;
 }
 
-#app-mount .accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .background-3d_SjE {
+#app-mount .accountProfileCard-lbN7n- .background-3d_SjE {
     background-color: var(--profile-body-background-color);
 }
 
