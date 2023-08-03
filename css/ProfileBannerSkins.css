@@ -42,7 +42,7 @@
     mask: none;
 }
 
-.banner-1YaD3N:not([style^="background-image"]),
+.banner-1YaD3N:not(.bannerPremium-kkSkPv),
 .banner-3D8GgT:not([style*="background-image"]) {
     height: 100vh;
 }
