@@ -42,6 +42,10 @@
     text-overflow: ellipsis;
 }
 
+.bd-addon-card .bd-title .bd-meta a {
+    z-index: 2;
+}
+
 /* footer */
 .bd-addon-list .bd-addon-card .bd-footer {
     position: absolute;
