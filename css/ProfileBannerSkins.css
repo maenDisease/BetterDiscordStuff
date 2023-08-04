@@ -37,17 +37,19 @@
   padding-top: 4px;
   padding-bottom: 4px;
 }
-.profileColors-2AgAV4 .containerWithContent-2Yws8V {
+.profileColors-2AgAV4 .messageInputContainer-24qqTx {
+  border: none;
+}
+
+.containerWithContent-2Yws8V {
   box-shadow: var(--elevation-medium);
   z-index: 1;
 }
-.profileColors-2AgAV4 .overlayBackground-2aa7wt {
+
+.overlayBackground-2aa7wt {
   margin: 28px 8px 8px;
   box-shadow: var(--elevation-medium);
   z-index: 1;
-}
-.profileColors-2AgAV4 .messageInputContainer-24qqTx {
-  border: none;
 }
 
 .profileColors-2AgAV4 .wrapper-3Un6-K circle,
