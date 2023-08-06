@@ -68,8 +68,10 @@
   background-color: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
 }
-.accountProfileCard-lbN7n-:not(:has(div[style*=image])) .bannerSVGWrapper-2CLfzN {
-  position: absolute;
+.accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN {
+    position: absolute;
+    min-width: unset !important;
+    width: 100%;
 }
 .accountProfileCard-lbN7n- .userInfo-regn9W {
   height: 116px;
