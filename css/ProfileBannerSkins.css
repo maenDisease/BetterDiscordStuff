@@ -79,7 +79,13 @@
   position: relative;
 }
 .accountProfileCard-lbN7n-:has(div[style*=image]) .userInfo-regn9W {
-  margin-top: 100px;
+  margin-top: 60px;
+}
+.accountProfileCard-lbN7n-:has(div[style*=image]) .avatar-3mTjvZ {
+  top: 22px;
+}
+.accountProfileCard-lbN7n-:has(div[style*=image]) .userInfo-regn9W > button {
+  align-self: center;
 }
 .accountProfileCard-lbN7n- .profileCardUsernameRow-1bb6fi,
 .accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
