@@ -89,11 +89,11 @@
     fill: var(--interactive-normal);
 }
 
-.bd-addon-card .bd-addon-button.bd-button-danger svg {
+.bd-addon-card .bd-addon-button.bd-button-color-red svg {
     transform: scale(1.2);
 }
 
-.bd-addon-card .bd-addon-button.bd-button-danger:not(:hover) svg {
+.bd-addon-card .bd-addon-button.bd-button-color-red:not(:hover) svg {
     fill: var(--info-danger-foreground);
 }
 
