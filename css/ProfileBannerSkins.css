@@ -68,8 +68,10 @@
   background-color: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
 }
-.accountProfileCard-lbN7n-:not(:has(div[style*=image])) .bannerSVGWrapper-2CLfzN {
-  position: absolute;
+.accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN {
+    position: absolute;
+    min-width: unset !important;
+    width: 100%;
 }
 .accountProfileCard-lbN7n- .userInfo-regn9W {
   height: 116px;
@@ -77,7 +79,13 @@
   position: relative;
 }
 .accountProfileCard-lbN7n-:has(div[style*=image]) .userInfo-regn9W {
-  margin-top: 100px;
+  margin-top: 60px;
+}
+.accountProfileCard-lbN7n-:has(div[style*=image]) .avatar-3mTjvZ {
+  top: 22px;
+}
+.accountProfileCard-lbN7n-:has(div[style*=image]) .userInfo-regn9W > button {
+  align-self: center;
 }
 .accountProfileCard-lbN7n- .profileCardUsernameRow-1bb6fi,
 .accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
