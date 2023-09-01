@@ -11,6 +11,7 @@
 .bd-addon-list .bd-addon-card {
     position: relative;
     overflow: visible;
+    margin-bottom: 10px;
 }
 
 .bd-addon-list .bd-addon-header {
