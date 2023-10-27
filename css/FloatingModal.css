@@ -1,4 +1,4 @@
-.layerContainer-2lfOPe:has(.backdrop-2ByYRN.withLayer-2VVmpp) {
+.layerContainer_d5a653:has(.backdrop__7e89b.withLayer__1fe9d) {
     width: fit-content;
     height: fit-content;
     left: unset;
@@ -6,42 +6,42 @@
     margin: auto 0;
 }
 
-.layer-fP3xEz {
+.layer_ad604d {
     padding: 32px;
     position: relative;
 }
 
-.layer-fP3xEz.hidden-cYOXde,
-.layer-fP3xEz:has(+ .layer-fP3xEz) {
+.layer_ad604d.hidden__81460,
+.layer_ad604d:has(+ .layer_ad604d) {
     position: absolute;
 }
 
 /* hidden layer */
-.layer-fP3xEz.hidden-cYOXde {
+.layer_ad604d.hidden__81460 {
     position: absolute;
 }
 
 /* backdrop */
-.backdrop-2ByYRN.withLayer-2VVmpp {
+.backdrop__7e89b.withLayer__1fe9d {
     position: absolute;
     border-radius: 8px;
     cursor: pointer;
 }
 
 /* styling */
-.theme-dark .rootWithShadow-2hdL2J,
-.theme-dark .backdrop-2ByYRN.withLayer-2VVmpp {
+.theme-dark .rootWithShadow__073a7,
+.theme-dark .backdrop__7e89b.withLayer__1fe9d {
     -webkit-box-shadow: var(--dark-elevation-border), var(--elevation-high) !important;
     box-shadow: var(--dark-elevation-border), var(--elevation-high) !important;
 }
 
-.theme-light .rootWithShadow-2hdL2J,
-.theme-light .backdrop-2ByYRN.withLayer-2VVmpp {
+.theme-light .rootWithShadow__073a7,
+.theme-light .backdrop__7e89b.withLayer__1fe9d {
     -webkit-box-shadow: var(--light-elevation-border), var(--elevation-high) !important;
     box-shadow: var(--light-elevation-border), var(--elevation-high) !important;
 }
 
-.root-1CAIjD {
+.root_a28985 {
     border-radius: 8px;
     max-height: 80vh;
 }
@@ -52,12 +52,12 @@
     height: fit-content;
 }
 
-.wrapper-3AqFd3.modalCarouselWrapper-YK1MX4 {
+.wrapper__76d8d.modalCarouselWrapper__3b183 {
     inset: unset;
     position: relative;
 }
 
-.arrowContainer-2wpC4q {
+.arrowContainer__94160 {
     top: unset;
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -67,23 +67,23 @@
     visibility: hidden;
 }
 
-.carouselModal-1eUFoq:hover .arrowContainer-2wpC4q {
+.carouselModal-1eUFoq:hover .arrowContainer__94160 {
     visibility: visible;
 }
 
-.navPrev-3Oe07S {
+.navPrev_d8d242 {
     margin-left: 0;
 }
 
-.navNext-2Fgwwk {
+.navNext_ec1363 {
     margin-right: 0;
 }
 
 /* usermodal */
-.userProfileModalInner-3dx9L9,
+.userProfileModalInner__7c87d,
 /* expanded text file */
-.modalContent-1zPatc,
+.modalContent_fa151c,
 /* auth modal */
-.authorize-2xTTr- {
+.authorize__4ddfc {
     max-height: 80vh;
 }

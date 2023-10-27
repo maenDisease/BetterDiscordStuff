@@ -1,99 +1,99 @@
-.recentMentionsPopout-2bI1ZN .container-iA3Qrz,
-.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+.recentMentionsPopout__826a9 .container__56e52,
+.recentMentionsPopout__826a9 .channel_d48f2d {
     background-color: var(--background-primary);
     border-radius: 8px;
     overflow: hidden;
 }
 
-.recentMentionsPopout-2bI1ZN .container-iA3Qrz {
+.recentMentionsPopout__826a9 .container__56e52 {
     padding-right: unset;
 }
 
-.recentMentionsPopout-2bI1ZN .messagesPopout-eVzQcI {
+.recentMentionsPopout__826a9 .messagesPopout__22763 {
     padding: 16px;
 }
 
-.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+.recentMentionsPopout__826a9 .channel_d48f2d {
     margin: 16px 8px 16px 0;
     padding-bottom: 0;
 }
 
-.recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
+.recentMentionsPopout__826a9 .channelHeader__5d30c {
     background-color: var(--background-primary);
     height: fit-content;
     padding: 6px 16px;
     border-bottom: thin solid var(--background-modifier-accent);
 }
 
-.recentMentionsPopout-2bI1ZN .messageContainer-3VTXBC,
-.recentMentionsPopout-2bI1ZN .messages-23can0 {
+.recentMentionsPopout__826a9 .messageContainer_aa7d14,
+.recentMentionsPopout__826a9 .messages_f7999e {
     margin-left: unset;
     background: none;
     border-radius: unset;
 }
 
 /* header icon */
-.recentMentionsPopout-2bI1ZN .iconSizeMedium-2vzSua {
+.recentMentionsPopout__826a9 .iconSizeMedium_c7d5f7 {
     width: 24px;
     height: 24px;
 }
 
-.recentMentionsPopout-2bI1ZN .iconActiveMedium-27_R5B {
+.recentMentionsPopout__826a9 .iconActiveMedium_d5475f {
     border-radius: 7px;
 }
 
-.recentMentionsPopout-2bI1ZN .dmIcon-1ZeAqq,
-.recentMentionsPopout-2bI1ZN .guildIcon-IklRcj {
+.recentMentionsPopout__826a9 .dmIcon__160f0,
+.recentMentionsPopout__826a9 .guildIcon_cccd03 {
     margin-right: 6px;
 }
 
 /* channel name section */
-.recentMentionsPopout-2bI1ZN .channelName-3APnhp svg path {
+.recentMentionsPopout__826a9 .channelName_c74eea svg path {
     fill: var(--channel-icon);
 }
 
-.recentMentionsPopout-2bI1ZN .channelName-3APnhp svg {
+.recentMentionsPopout__826a9 .channelName_c74eea svg {
     margin: 0 4px;
 }
 
-.recentMentionsPopout-2bI1ZN .channelNameSection-3OgeRa {
+.recentMentionsPopout__826a9 .channelNameSection__6d0ae {
     -webkit-box-orient: unset;
     -ms-flex-direction: unset;
     flex-direction: unset;
 }
 
-.recentMentionsPopout-2bI1ZN .heading-md-medium-2DVCeJ,
-.recentMentionsPopout-2bI1ZN .heading-md-normal-3Ytn6I {
+.recentMentionsPopout__826a9 .heading-md-medium-2DVCeJ,
+.recentMentionsPopout__826a9 .heading-md-normal-3Ytn6I {
     font-size: 16px;
     line-height: 20px;
 }
 
-.recentMentionsPopout-2bI1ZN .subtext-2-lYzF,
-.recentMentionsPopout-2bI1ZN .subtextContainer-1jbEbB {
+.recentMentionsPopout__826a9 .subtext_b4cd50,
+.recentMentionsPopout__826a9 .subtextContainer__2a201 {
     margin-left: 4px;
     line-height: 20px;
     width: fit-content;
 }
 
 /* buttons */
-.recentMentionsPopout-2bI1ZN .container-iA3Qrz .closeButton-3CiW2j {
+.recentMentionsPopout__826a9 .container__56e52 .closeButton_ba6c7d {
     opacity: 0;
 }
 
-.recentMentionsPopout-2bI1ZN .container-iA3Qrz:hover .closeButton-3CiW2j {
+.recentMentionsPopout__826a9 .container__56e52:hover .closeButton_ba6c7d {
     opacity: 1;
 }
 
-.recentMentionsPopout-2bI1ZN .tertiary-1e-lAP:not(.disabled-184-il),
-.recentMentionsPopout-2bI1ZN .tertiary-1e-lAP:hover:not(.disabled-184-il) {
+.recentMentionsPopout__826a9 .tertiary_bc0225:not(.disabled__8e315),
+.recentMentionsPopout__826a9 .tertiary_bc0225:hover:not(.disabled__8e315) {
     background: none;
 }
 
-.recentMentionsPopout-2bI1ZN .collapseButton-39-IRc:hover {
+.recentMentionsPopout__826a9 .collapseButton_b18eab:hover {
     color: var(--interactive-active);
 }
 
-.recentMentionsPopout-2bI1ZN .collapseButton-39-IRc {
+.recentMentionsPopout__826a9 .collapseButton_b18eab {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,6 +105,6 @@
     margin-left: 12px;
 }
 
-.recentMentionsPopout-2bI1ZN .messages-23can0>button:last-of-type {
+.recentMentionsPopout__826a9 .messages_f7999e>button:last-of-type {
     margin-left:auto;
 }

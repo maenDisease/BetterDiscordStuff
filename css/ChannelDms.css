@@ -39,17 +39,17 @@
 }
 
 /* Discord added this :D */
-/* .ChannelDms-channelpopout-popout .embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
-.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg .embedVideo-2ixt5A,
-.ChannelDms-channelpopout-popout .wrapper-1FP9YQ {
+/* .ChannelDms-channelpopout-popout .embedWrapper_c143d9:not(.markup_a7e664, .galleryImage__0b906),
+.ChannelDms-channelpopout-popout .embedWrapper_c143d9 .embedVideo__0c65b,
+.ChannelDms-channelpopout-popout .wrapper__3a7a0 {
     height: auto !important;
     width: unset !important;
     max-width: max-content !important;
     max-height: 300px;
 }
 
-.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg .clickableWrapper-2WTAkL img:not(.embedGalleryImageElement-2VNYIN),
-.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg [data-fullscreen="false"] video {
+.ChannelDms-channelpopout-popout .embedWrapper_c143d9 .clickableWrapper__64072 img:not(.embedGalleryImageElement_e679aa),
+.ChannelDms-channelpopout-popout .embedWrapper_c143d9 [data-fullscreen="false"] video {
     position: relative;
     height: auto !important;
     width: unset !important;
@@ -74,34 +74,34 @@
     opacity: 0
 }
 
-.ChannelDms-channelpopout-popout .button-1yVL_7 {
+.ChannelDms-channelpopout-popout .button__71a0f {
     border-radius: 0;
     width: 100%;
     height: 36px
 }
 
 /* username */
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .contents-2MsGLg .header-2jRmjb {
+.ChannelDms-channelpopout-popout .cozy_f5c119 .contents_f41bb2 .header__39b23 {
     display: flex;
 }
 
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ {
+.ChannelDms-channelpopout-popout .cozy_f5c119 .headerText_f47574 {
     min-width: 0;
     white-space: nowrap;
     display:flex;
 }
 
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ .username-h_Y3Us {
+.ChannelDms-channelpopout-popout .cozy_f5c119 .headerText_f47574 .username_d30d99 {
     display: block;
     text-overflow: ellipsis;
     flex: 1 1;
 }
 
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .timestampInline-_lS3aK {
+.ChannelDms-channelpopout-popout .cozy_f5c119 .timestampInline__470e0 {
     white-space: nowrap;
     margin-top: 1px;
 }
 
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ .PI-indicatorContainer {
+.ChannelDms-channelpopout-popout .cozy_f5c119 .headerText_f47574 .PI-indicatorContainer {
     margin-top: 1px;
 }

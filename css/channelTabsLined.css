@@ -1,10 +1,10 @@
 :root {
     --channelTabs-tab-height: 22px;
 }
-.wordmarkWindows-2dq6rw {
+.wordmarkWindows__05c46 {
     display:none;
 }
-.titleBar-1it3bQ {
+.titleBar__01af6 {
     position:absolute;
     top:0;
     right:0;
@@ -12,7 +12,7 @@
     height: calc(var(--channelTabs-tab-height) + 3px);
 }
 
-.winButton-3UMjdg {
+.winButton__88672 {
     height: 100%;
     
 }
