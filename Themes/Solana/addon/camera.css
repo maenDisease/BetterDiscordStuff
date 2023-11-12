@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-.chat-2ZfjoI,
-.container-2cd8Mz {
+.chat__52833,
+.container__5c7e7 {
     padding: 34px 44px 34px 44px;
 }
 
-.chat-2ZfjoI::after,
-.container-2cd8Mz::after {
+.chat__52833::after,
+.container__5c7e7::after {
     content: "";
     position: absolute;
     margin: 24px;
@@ -21,13 +21,13 @@
     border-image-repeat: round;
 }
 
-.children-3xh0VB {
+.children__32014 {
     position: absolute;
     width: 100%;
     overflow: visible;
 }
 
-.title-17SveM {
+.title__9e2b0 {
     text-transform: uppercase;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 22px;
@@ -35,22 +35,22 @@
     font-weight: 500;
 }
 
-.children-3xh0VB>.iconWrapper-2awDjA {
+.children__32014>.iconWrapper_af9215 {
     display: none;
 }
 
-.title-17SveM::before {
+.title__9e2b0::before {
     content: '00:';
 }
 
-.forumPostTitle-16pN7d {
+.forumPostTitle__43108 {
     font-size: 16px;
 }
-.forumPostTitle-16pN7d::before {
+.forumPostTitle__43108::before {
     content: '01:';
 }
 
-.topic-11NuQZ {
+.topic__16ae3 {
     position: absolute;
     left: 0;
     right: 0;
@@ -63,11 +63,11 @@
     color: var(--header-primary);
 }
 
-.topic-11NuQZ::before {
+.topic__16ae3::before {
     content: '...';
 }
 
-.children-3xh0VB .divider-q3P9HC {
+.children__32014 .divider_c09b64 {
     position: absolute;
     left: 0;
     right: 0;
@@ -79,7 +79,7 @@
     height: 14px;
 }
 
-.toolbar-3_r2xA {
+.toolbar__88c63 {
     position: absolute;
     right: 8px;
 }
