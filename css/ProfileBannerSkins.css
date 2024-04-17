@@ -1,9 +1,9 @@
-.theme-dark .profileColors__2e2f0,
+.theme-dark .userProfileInner__8ff35,
 .theme-dark .accountProfileCard__22589 {
   --profile-body-background-color: rgba(0, 0, 0, 0.45);
 }
 
-.theme-light .profileColors__2e2f0,
+.theme-light .userProfileInner__8ff35,
 .theme-light .accountProfileCard__22589 {
   --profile-body-background-color: rgba(255, 255, 255, 0.65);
 }
@@ -20,24 +20,24 @@
   height: 100vh;
 }
 
-.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarWrapper_f77579 {
+.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatarWrapper_f77579 {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
 }
-.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarHoverTarget__3a360,
-.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarHint__8e5b9 {
+.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatarHoverTarget__3a360,
+.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatarHint__8e5b9 {
   padding: 6px;
 }
-.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatar-3QF_VA {
+.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatar__445f3 {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
   padding: 6px;
 }
-.profileColors__2e2f0 .profileBadges__7a7cb:not(.containerWithContent__7e98f) {
+.userProfileInner__8ff35 .profileBadges__7a7cb:not(.containerWithContent__7e98f) {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-.profileColors__2e2f0 .messageInputContainer__768e6 {
+.userProfileInner__8ff35 .messageInputContainer__768e6 {
   border: none;
 }
 
@@ -52,8 +52,8 @@
   z-index: 1;
 }
 
-.profileColors__2e2f0 .wrapper_edb6e0 circle,
-.profileColors__2e2f0 .wrapper_edb6e0 rect[style] {
+.userProfileInner__8ff35 .wrapper_edb6e0 circle,
+.userProfileInner__8ff35 .wrapper_edb6e0 rect[style] {
   fill: none;
 }
 
