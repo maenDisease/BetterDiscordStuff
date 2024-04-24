@@ -1,31 +1,31 @@
 .theme-dark .userProfileInner__8ff35,
-.theme-dark .accountProfileCard__22589 {
+.theme-dark .accountProfileCard__744d8 {
   --profile-body-background-color: rgba(0, 0, 0, 0.45);
 }
 
 .theme-light .userProfileInner__8ff35,
-.theme-light .accountProfileCard__22589 {
+.theme-light .accountProfileCard__744d8 {
   --profile-body-background-color: rgba(255, 255, 255, 0.65);
 }
 
-.bannerSVGWrapper__3e7b0:not(:has([style*=image])) {
+.bannerSVGWrapper__8a38c:not(:has([style*=image])) {
   overflow: visible;
   contain: none;
 }
-.bannerSVGWrapper__3e7b0:not(:has([style*=image])) foreignObject {
+.bannerSVGWrapper__8a38c:not(:has([style*=image])) foreignObject {
   -webkit-mask: none;
           mask: none;
 }
-.bannerSVGWrapper__3e7b0:not(:has([style*=image])) [style*=background-color] {
+.bannerSVGWrapper__8a38c:not(:has([style*=image])) [style*=background-color] {
   height: 100vh;
 }
 
-.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatarWrapper_f77579 {
+.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatarWrapper__0cd44 {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
 }
-.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatarHoverTarget__3a360,
-.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatarHint__8e5b9 {
+.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatarHoverTarget__9b4a9,
+.userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatarHint__15059 {
   padding: 6px;
 }
 .userProfileInner__8ff35:not(:has(svg div[style*=image])) .avatar__445f3 {
@@ -33,62 +33,62 @@
   box-shadow: var(--elevation-medium);
   padding: 6px;
 }
-.userProfileInner__8ff35 .profileBadges__7a7cb:not(.containerWithContent__7e98f) {
+.userProfileInner__8ff35 .profileBadges__1f2ab:not(.containerWithContent_a67357) {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-.userProfileInner__8ff35 .messageInputContainer__768e6 {
+.userProfileInner__8ff35 .messageInputContainer_a93946 {
   border: none;
 }
 
-.containerWithContent__7e98f {
+.containerWithContent_a67357 {
   box-shadow: var(--elevation-medium);
   z-index: 1;
 }
 
-.overlayBackground__86b78 {
+.overlayBackground__345c9 {
   margin: 28px 8px 8px;
   box-shadow: var(--elevation-medium);
   z-index: 1;
 }
 
-.userProfileInner__8ff35 .wrapper_edb6e0 circle,
-.userProfileInner__8ff35 .wrapper_edb6e0 rect[style] {
+.userProfileInner__8ff35 .wrapper__3ed10 circle,
+.userProfileInner__8ff35 .wrapper__3ed10 rect[style] {
   fill: none;
 }
 
-.accountProfileCard__22589:not(:has(div[style*=image])) {
+.accountProfileCard__744d8:not(:has(div[style*=image])) {
   background: none;
   box-shadow: var(--elevation-medium);
 }
-.accountProfileCard__22589:not(:has(div[style*=image])) .avatar__6c108 {
+.accountProfileCard__744d8:not(:has(div[style*=image])) .avatar__6c108 {
   top: 16px;
   left: 16px;
   padding: 6px;
   background-color: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
 }
-.accountProfileCard__22589 .bannerSVGWrapper__3e7b0 {
+.accountProfileCard__744d8 .bannerSVGWrapper__8a38c {
     position: absolute;
     min-width: unset !important;
     width: 100%;
 }
-.accountProfileCard__22589 .userInfo__8f826 {
+.accountProfileCard__744d8 .userInfo_fb7651 {
   height: 116px;
   align-items: flex-end;
   position: relative;
 }
-.accountProfileCard__22589:has(div[style*=image]) .userInfo__8f826 {
+.accountProfileCard__744d8:has(div[style*=image]) .userInfo_fb7651 {
   margin-top: 60px;
 }
-.accountProfileCard__22589:has(div[style*=image]) .avatar__6c108 {
+.accountProfileCard__744d8:has(div[style*=image]) .avatar__6c108 {
   top: 22px;
 }
-.accountProfileCard__22589:has(div[style*=image]) .userInfo__8f826 > button {
+.accountProfileCard__744d8:has(div[style*=image]) .userInfo_fb7651 > button {
   align-self: center;
 }
-.accountProfileCard__22589 .profileCardUsernameRow__4cbd8,
-.accountProfileCard__22589 .containerWithContent__7e98f {
+.accountProfileCard__744d8 .profileCardUsernameRow_f8853e,
+.accountProfileCard__744d8 .containerWithContent_a67357 {
   background-color: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
   border-radius: 8px;
@@ -96,21 +96,21 @@
   width: fit-content;
   padding: 4px;
 }
-.accountProfileCard__22589 .userTag__4ca14 {
+.accountProfileCard__744d8 .userTag__28f9c {
   margin-bottom: 0;
   padding-left: 4px;
 }
-.accountProfileCard__22589 .profileCardUsernameRow__4cbd8 .overflowMenuButton__70c20 {
+.accountProfileCard__744d8 .profileCardUsernameRow_f8853e .overflowMenuButton__38716 {
   height: 24px;
 }
-.accountProfileCard__22589 .containerWithContent__7e98f {
+.accountProfileCard__744d8 .containerWithContent_a67357 {
   margin-top: 4px;
 }
-.accountProfileCard__22589 .background_b61fcc {
+.accountProfileCard__744d8 .background__4e802 {
   box-shadow: var(--elevation-medium);
   position: relative;
   background-color: var(--profile-body-background-color);
 }
-.accountProfileCard__22589 .fieldList_aab0de {
+.accountProfileCard__744d8 .fieldList__4e6dd {
   background: none;
 }
