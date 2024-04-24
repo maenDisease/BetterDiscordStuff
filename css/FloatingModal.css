@@ -1,4 +1,4 @@
-.layerContainer_d5a653:has(.backdrop__7e89b.withLayer__1fe9d) {
+.layerContainer_a2fcaa:has(.backdrop__1a911.withLayer__29ace) {
     width: fit-content;
     height: fit-content;
     left: unset;
@@ -6,37 +6,37 @@
     margin: auto 0;
 }
 
-.layer_ad604d {
+.layer_c14d31 {
     padding: 32px;
     position: relative;
 }
 
-.layer_ad604d.hidden__81460,
-.layer_ad604d:has(+ .layer_ad604d) {
+.layer_c14d31.hidden__81460,
+.layer_c14d31:has(+ .layer_c14d31) {
     position: absolute;
 }
 
 /* hidden layer */
-.layer_ad604d.hidden__81460 {
+.layer_c14d31.hidden__81460 {
     position: absolute;
 }
 
 /* backdrop */
-.backdrop__7e89b.withLayer__1fe9d {
+.backdrop__1a911.withLayer__29ace {
     position: absolute;
     border-radius: 8px;
     cursor: pointer;
 }
 
 /* styling */
-.theme-dark .rootWithShadow__073a7,
-.theme-dark .backdrop__7e89b.withLayer__1fe9d {
+.theme-dark .rootWithShadow_d20cd6,
+.theme-dark .backdrop__1a911.withLayer__29ace {
     -webkit-box-shadow: var(--dark-elevation-border), var(--elevation-high) !important;
     box-shadow: var(--dark-elevation-border), var(--elevation-high) !important;
 }
 
-.theme-light .rootWithShadow__073a7,
-.theme-light .backdrop__7e89b.withLayer__1fe9d {
+.theme-light .rootWithShadow_d20cd6,
+.theme-light .backdrop__1a911.withLayer__29ace {
     -webkit-box-shadow: var(--light-elevation-border), var(--elevation-high) !important;
     box-shadow: var(--light-elevation-border), var(--elevation-high) !important;
 }
@@ -52,12 +52,12 @@
     height: fit-content;
 }
 
-.wrapper__76d8d.modalCarouselWrapper__3b183 {
+.wrapper_b9936d.modalCarouselWrapper__1858d {
     inset: unset;
     position: relative;
 }
 
-.arrowContainer__94160 {
+.arrowContainer_eb1184 {
     top: unset;
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -67,23 +67,23 @@
     visibility: hidden;
 }
 
-.carouselModal-1eUFoq:hover .arrowContainer__94160 {
+.carouselModal-1eUFoq:hover .arrowContainer_eb1184 {
     visibility: visible;
 }
 
-.navPrev_d8d242 {
+.navPrev__0cddd {
     margin-left: 0;
 }
 
-.navNext_ec1363 {
+.navNext_c164a7 {
     margin-right: 0;
 }
 
 /* usermodal */
-.userProfileModalInner__7c87d,
+.userProfileModalInner__84e47,
 /* expanded text file */
-.modalContent_fa151c,
+.modalContent__04da4,
 /* auth modal */
-.authorize__4ddfc {
+.authorize__9e6f3 {
     max-height: 80vh;
 }
