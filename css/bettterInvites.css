@@ -2,7 +2,7 @@
 
 /*betterInvites*/
 /*background*/
-.wrapper__8a5dd {
+.wrapper_b9fe76 {
   background: var(--background-secondary-alt);
   border-radius: 8px;
   padding: 16px;
@@ -14,8 +14,8 @@
   transition: box-shadow .2s ease-out, transform .2s ease-out, background .2s ease-out, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out
 }
 
-.wrapper__8a5dd:focus,
-.wrapper__8a5dd:hover {
+.wrapper_b9fe76:focus,
+.wrapper_b9fe76:hover {
   background: var(--background-tertiary);
   transform: translateY(-1px);
   -webkit-transform: translateY(-1px);
@@ -23,18 +23,18 @@
   -webkit-box-shadow: var(--elevation-high)
 }
 
-.wrapper__8a5dd .content_a5975d {
+.wrapper_b9fe76 .content_b9fe76 {
   position: relative;
   min-height: 113px;
   z-index: 1
 }
 
-.wrapper__8a5dd .header__4ecb7 {
+.wrapper_b9fe76 .header_b9fe76 {
   position: relative;
   z-index: 2
 }
 
-.wrapper__8a5dd .inviteSplash__0f1df {
+.wrapper_b9fe76 .inviteSplash_b9fe76 {
   position: absolute;
   border-radius: 8px 8px 0 0;
   height: 87px;
@@ -42,11 +42,11 @@
   transition: transform .2s ease-out, -webkit-transform .2s ease-out
 }
 
-.wrapper__8a5dd .inviteSplashImage_f28d23 {
+.wrapper_b9fe76 .inviteSplashImage_b9fe76 {
   transition: transform .2s ease-out, -webkit-transform .2s ease-out
 }
 
-.wrapper__8a5dd:hover .inviteSplashImage_f28d23 {
+.wrapper_b9fe76:hover .inviteSplashImage_b9fe76 {
   transform: scale(1.01) translateZ(0) !important;
   -webkit-transform: scale(1.01) translateZ(0) !important
 }
@@ -69,11 +69,11 @@
   transition: transform .2s ease-out
 }
 
-.wrapper__8a5dd:hover .BetterInvites-guildBanner img {
+.wrapper_b9fe76:hover .BetterInvites-guildBanner img {
   transform: scale(101%)
 }
 
-.guildIcon__85266 {
+.guildIcon_b9fe76 {
   position: absolute;
   top: 17px;
   box-shadow: 0 0 0 4px var(--background-secondary-alt);
@@ -85,31 +85,31 @@
   transition: box-shadow .2s ease-out, background .2s ease-out
 }
 
-.wrapper__8a5dd:hover .guildIcon__85266 {
+.wrapper_b9fe76:hover .guildIcon_b9fe76 {
   box-shadow: 0 0 0 4px var(--background-tertiary)
 }
 
-.wrapper__8a5dd .guildInfo__1b46c {
+.wrapper_b9fe76 .guildInfo_b9fe76 {
   justify-content: initial;
   transform: translate(0, 35px);
   width: 0
 }
 
-.wrapper__8a5dd .statusCounts__50827 {
+.wrapper_b9fe76 .statusCounts_b9fe76 {
   font-weight: 400;
   font-size: 12px
 }
 
-.wrapper__8a5dd .statusOffline__65f09 {
+.wrapper_b9fe76 .statusOffline_b9fe76 {
   background-color: var(--interactive-normal)
 }
 
-.wrapper__8a5dd .BetterInvites-iconWrapper img {
+.wrapper_b9fe76 .BetterInvites-iconWrapper img {
   width: 18px;
   height: 18px !important
 }
 
-.wrapper__8a5dd .BetterInvites-iconWrapper {
+.wrapper_b9fe76 .BetterInvites-iconWrapper {
   position: relative;
   top: 50px;
   height: 18px
@@ -119,7 +119,7 @@
   width: 400px
 }
 
-.BetterInvites-guildDescription .markup_a7e664 {
+.BetterInvites-guildDescription .markup_d6076c {
   margin: 76px 0 0 0 !important;
   color: var(--header-secondary);
   font-size: 14px;
@@ -127,7 +127,7 @@
   position: relative
 }
 
-.wrapper__8a5dd .button_f73214 {
+.wrapper_b9fe76 .button_b9fe76 {
   position: absolute;
   right: 0;
   top: 17px;
@@ -142,22 +142,22 @@
   opacity: 0
 }
 
-.wrapper__8a5dd:hover .button_f73214 {
+.wrapper_b9fe76:hover .button_b9fe76 {
   opacity: 1
 }
 
-.wrapper__8a5dd .button_f73214:hover {
+.wrapper_b9fe76 .button_b9fe76:hover {
   color: var(--interactive-hover);
   filter: brightness(105%)
 }
 
-.wrapper__8a5dd .buttonSize_d3cc45 .contents-3ca1mk {
+.wrapper_b9fe76 .buttonSize_b9fe76 .contents-3ca1mk {
   position: relative;
   text-overflow: unset;
   overflow: visible
 }
 
-.guildIcon__85266::after {
+.guildIcon_b9fe76::after {
   display: block;
   position: relative;
   content: "";
@@ -173,14 +173,14 @@
   transition: background-size .2s ease-out
 }
 
-.wrapper__8a5dd:hover .guildIcon__85266::after {
+.wrapper_b9fe76:hover .guildIcon_b9fe76::after {
   background-size: 101% !important
 }
 
 /* full height banner */
 /* 
-.guildIcon__85266::after,.wrapper__8a5dd .inviteSplash__0f1df{height:100%;-webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,0.2) 0,rgba(0,0,0,1) 60%)}
-.guildIcon__85266::after,.wrapper__8a5dd:hover .guildIcon__85266::after{height:173px;background-size:cover!important;-webkit-transition:transform .2s ease-out;transition:transform .2s ease-out}
-.wrapper__8a5dd:hover .guildIcon__85266::after{transform:scale(1.01) translateZ(0)!important;-webkit-transform:scale(1.01) translateZ(0)!important}
-.guildIcon__85266,.wrapper__8a5dd:hover .guildIcon__85266{box-shadow:none}
+.guildIcon_b9fe76::after,.wrapper_b9fe76 .inviteSplash_b9fe76{height:100%;-webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,0.2) 0,rgba(0,0,0,1) 60%)}
+.guildIcon_b9fe76::after,.wrapper_b9fe76:hover .guildIcon_b9fe76::after{height:173px;background-size:cover!important;-webkit-transition:transform .2s ease-out;transition:transform .2s ease-out}
+.wrapper_b9fe76:hover .guildIcon_b9fe76::after{transform:scale(1.01) translateZ(0)!important;-webkit-transform:scale(1.01) translateZ(0)!important}
+.guildIcon_b9fe76,.wrapper_b9fe76:hover .guildIcon_b9fe76{box-shadow:none}
 */

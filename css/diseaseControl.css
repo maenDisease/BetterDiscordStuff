@@ -1,4 +1,4 @@
-.container__7e23c[aria-label^='Server for Disease Control ('] .button__84b6b.open_a0ea08 {
+.container_ee69e0[aria-label^='Server for Disease Control ('] .button_a79c58.open_a79c58 {
     animation: headerArrow .2s ease-out
 }
 
@@ -13,17 +13,17 @@
 }
 
 /* favorites-banner */
-#app-mount .container__7e23c[aria-label^='Server for Disease Control ('] .header__77c95 {
+#app-mount .container_ee69e0[aria-label^='Server for Disease Control ('] .header_fd6364 {
     box-shadow: none;
     background: 0 0;
     filter: drop-shadow(0 1px 1px hsla(0, 0%, 0%, .8))
 }
 
-.container__7e23c[aria-label^='Server for Disease Control ('] .container_f41675 {
+.container_ee69e0[aria-label^='Server for Disease Control ('] .container_fd6364 {
     margin-bottom: 87px
 }
 
-.container__7e23c[aria-label^='Server for Disease Control ('] .container_f41675::after {
+.container_ee69e0[aria-label^='Server for Disease Control ('] .container_fd6364::after {
     content: '';
     display: block;
     position: absolute;
