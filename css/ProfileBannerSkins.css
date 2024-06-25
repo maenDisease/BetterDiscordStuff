@@ -9,8 +9,25 @@
           background: rgba(0 0 0/.5);
       }
 
-      .body_a45fe8 {
+      .body_a45fe8,
+      .body_d4e7c2 {
           background: rgba(0 0 0/.5);
+      }
+  }
+
+  &.theme-light {
+      --bg-mod-faint: rgba(255 255 255/.2);
+      --border-faint: hsla(0, 0%, 100%, 0.12);
+      --input-background: rgba(255 255 255/.5);
+
+
+      .header_c6e596 .wrapper_c51b4e::before {
+          background: rgba(255 255 255/.5);
+      }
+
+      .body_a45fe8,
+      .body_d4e7c2 {
+          background: rgba(255 255 255/.5);
       }
   }
 
@@ -45,7 +62,8 @@
       display: none;
   }
 
-  .body_a45fe8 {
+  .body_a45fe8,
+  .body_d4e7c2 {
       z-index: 2;
       padding: 4px 12px 8px;
       margin: 0 4px 0;
