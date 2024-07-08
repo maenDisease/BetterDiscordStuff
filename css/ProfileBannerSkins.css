@@ -1,179 +1,176 @@
 .userProfileOuterUnthemed_c69a7b {
-  &.theme-dark {
-      --bg-mod-faint: rgba(0 0 0/.2);
-      --border-faint: hsla(0, 0%, 100%, 0.12);
-      --input-background: rgba(0 0 0/.5);
-
-
-      header .wrapper_c51b4e::before {
-          background: rgba(0 0 0/.5);
-      }
-
-      .body_a45fe8,
-      .body_d4e7c2,
-      .body_c4213b,
-      .body_e9e42f,
-      .container_dc6b97 {
-          background: rgba(0 0 0/.5);
-      }
-  }
-
-  &.theme-light {
-      --bg-mod-faint: rgba(255 255 255/.2);
-      --border-faint: hsla(0, 0%, 100%, 0.12);
-      --input-background: rgba(255 255 255/.5);
-
-
-      header .wrapper_c51b4e::before {
-          background: rgba(255 255 255/.5);
-      }
-
-      .body_a45fe8,
-      .body_d4e7c2,
-      .body_c4213b,
-      .body_e9e42f
-      .container_dc6b97 {
-          background: rgba(255 255 255/.5);
-      }
-  }
-
-  .bannerSVGWrapper_b32cc2 {
-      overflow: visible;
-      contain: none;
-
-      foreignObject {
-          -webkit-mask: none;
-                  mask: none;
+    &.theme-dark {
+        --bg-mod-faint: rgba(0 0 0/.2);
+        --border-faint: hsla(0, 0%, 100%, 0.12);
+        --input-background: rgba(0 0 0/.5);
+  
+  
+        header .wrapper_c51b4e::before {
+            background: rgba(0 0 0/.5);
         }
-
-      [style*=background-color] {
-          height: 100vh;
-      }
-  }
-
-  header .wrapper_c51b4e::before {
-      content: '';
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      display: block;
-      border-radius: 50%;
-      padding: 6px;
-      left: -6px;
-      top: -6px;
-      box-shadow: var(--elevation-low);
-  }
-
-  .divider_c3e427:before {
-      display: none;
-  }
-
-  .body_a45fe8,
-  .body_d4e7c2,
-  .body_c4213b,
-  .body_e9e42f {
-      z-index: 2;
-      padding: 4px 12px 8px;
-      margin: 0 4px 0;
-      border-radius: var(--radius-xs);
-      box-shadow: var(--elevation-low);
-  }
-
-  .footer_d5223c,
-  .footer_a47058 {
-      z-index: 2;
-  }
-
-  .inner_dc0b43 {
-      box-shadow: var(--elevation-low);
-  }
-
-
-  .container_dc6b97 {
-      background: rgba(0 0 0/.5);
-      border-radius: var(--radius-sm);
-      border: 1px solid var(--border-faint);
-
-      .container_c32acf {
-          padding: 16px 16px 0;
-      }
-  }
-
-  .fullSizeOverlayBackground_c69a7b {
-      background: none;
-      border: none;
-  }
-
-  .body_e9e42f {
-      position: relative;
+  
+        .body_b07019,
+        .body_ad5fac,
+        .body_c4213b,
+        .body_e9e42f {
+            background: rgba(0 0 0/.5);
+        }
+    }
+  
+    &.theme-light {
+        --bg-mod-faint: rgba(255 255 255/.2);
+        --border-faint: hsla(0, 0%, 100%, 0.12);
+        --input-background: rgba(255 255 255/.5);
+  
+  
+        header .wrapper_c51b4e::before {
+            background: rgba(255 255 255/.5);
+        }
+  
+        .body_b07019,
+        .body_ad5fac,
+        .body_c4213b,
+        .body_e9e42f {
+            background: rgba(255 255 255/.5);
+        }
+    }
+  
+    .bannerSVGWrapper_b32cc2 {
+        overflow: visible;
+        contain: none;
+  
+        foreignObject {
+            -webkit-mask: none;
+                    mask: none;
+          }
+  
+        [style*=background-color] {
+            height: 100vh;
+        }
+    }
+  
+    header .wrapper_c51b4e::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: block;
+        border-radius: 50%;
+        padding: 6px;
+        left: -6px;
+        top: -6px;
+        box-shadow: var(--elevation-low);
+    }
+  
+    .divider_c3e427:before {
+        display: none;
+    }
+  
+    .body_b07019,
+        .body_ad5fac,
+        .body_c4213b,
+        .body_e9e42f {
+        z-index: 2;
+        padding: 4px 12px 8px;
+        margin: 0 4px 0;
+        border-radius: var(--radius-xs);
+        box-shadow: var(--elevation-low);
+    }
+  
+    .footer_b07019 {
+        z-index: 2;
+    }
+  
+    .inner_dc0b43 {
+        box-shadow: var(--elevation-low);
+    }
+  
+  
+    .body_bc9cc2 {
+        background: rgba(0 0 0/.5);
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--border-faint);
+  
+        .container_c32acf {
+            padding: 16px 16px 0;
+        }
+    }
+  
+    .fullSizeOverlayBackground_c69a7b {
+        background: none;
+        border: none;
+    }
+  
+    .body_e9e42f {
+        position: relative;
+    }
+    
+    .overlayBackground_c69a7b:not(.fullSizeOverlayBackground_c69a7b) {
+        z-index: 2;
+        background: var(--bg-mod-faint);
+    }
+  
+    .collapseBtn_ce1058 {
+        background: var(--bg-mod-faint);
+    }
   }
   
-  .overlayBackground_c69a7b {
-      z-index: 2;
-      background: var(--bg-mod-faint);
+  /*
+  
+  .accountProfileCard_b69b77:not(:has(div[style*=image])) {
+  background: none;
+  box-shadow: var(--elevation-medium);
   }
-
-  .collapseBtn_ce1058 {
-      background: var(--bg-mod-faint);
+  .accountProfileCard_b69b77:not(:has(div[style*=image])) .avatar_b69b77 {
+  top: 16px;
+  left: 16px;
+  padding: 6px;
+  background-color: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
   }
-}
-
-/*
-
-.accountProfileCard_b69b77:not(:has(div[style*=image])) {
-background: none;
-box-shadow: var(--elevation-medium);
-}
-.accountProfileCard_b69b77:not(:has(div[style*=image])) .avatar_b69b77 {
-top: 16px;
-left: 16px;
-padding: 6px;
-background-color: var(--profile-body-background-color);
-box-shadow: var(--elevation-medium);
-}
-.accountProfileCard_b69b77 .bannerSVGWrapper_b32cc2 {
-  position: absolute;
-  min-width: unset !important;
-  width: 100%;
-}
-.accountProfileCard_b69b77 .userInfo_b69b77 {
-height: 116px;
-align-items: flex-end;
-position: relative;
-}
-.accountProfileCard_b69b77:has(div[style*=image]) .userInfo_b69b77 {
-margin-top: 60px;
-}
-.accountProfileCard_b69b77:has(div[style*=image]) .avatar_b69b77 {
-top: 22px;
-}
-.accountProfileCard_b69b77:has(div[style*=image]) .userInfo_b69b77 > button {
-align-self: center;
-}
-.accountProfileCard_b69b77 .profileCardUsernameRow_b69b77,
-.accountProfileCard_b69b77 .containerWithContent_b64375 {
-background-color: var(--profile-body-background-color);
-box-shadow: var(--elevation-medium);
-border-radius: 8px;
-width: -moz-fit-content;
-width: fit-content;
-padding: 4px;
-}
-.accountProfileCard_b69b77 .userTag_b69b77 {
-margin-bottom: 0;
-padding-left: 4px;
-}
-.accountProfileCard_b69b77 .profileCardUsernameRow_b69b77 .overflowMenuButton_b69b77 {
-height: 24px;
-}
-.accountProfileCard_b69b77 .containerWithContent_b64375 {
-margin-top: 4px;
-}
-.accountProfileCard_b69b77 .background_b69b77 {
-box-shadow: var(--elevation-medium);
-position: relative;
-background-color: var(--profile-body-background-color);
-}
-.accountProfileCard_b69b77 .fieldList_b69b77 {
-background: none;
-} */
+  .accountProfileCard_b69b77 .bannerSVGWrapper_b32cc2 {
+    position: absolute;
+    min-width: unset !important;
+    width: 100%;
+  }
+  .accountProfileCard_b69b77 .userInfo_b69b77 {
+  height: 116px;
+  align-items: flex-end;
+  position: relative;
+  }
+  .accountProfileCard_b69b77:has(div[style*=image]) .userInfo_b69b77 {
+  margin-top: 60px;
+  }
+  .accountProfileCard_b69b77:has(div[style*=image]) .avatar_b69b77 {
+  top: 22px;
+  }
+  .accountProfileCard_b69b77:has(div[style*=image]) .userInfo_b69b77 > button {
+  align-self: center;
+  }
+  .accountProfileCard_b69b77 .profileCardUsernameRow_b69b77,
+  .accountProfileCard_b69b77 .containerWithContent_b64375 {
+  background-color: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
+  border-radius: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px;
+  }
+  .accountProfileCard_b69b77 .userTag_b69b77 {
+  margin-bottom: 0;
+  padding-left: 4px;
+  }
+  .accountProfileCard_b69b77 .profileCardUsernameRow_b69b77 .overflowMenuButton_b69b77 {
+  height: 24px;
+  }
+  .accountProfileCard_b69b77 .containerWithContent_b64375 {
+  margin-top: 4px;
+  }
+  .accountProfileCard_b69b77 .background_b69b77 {
+  box-shadow: var(--elevation-medium);
+  position: relative;
+  background-color: var(--profile-body-background-color);
+  }
+  .accountProfileCard_b69b77 .fieldList_b69b77 {
+  background: none;
+  } */
